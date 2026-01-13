@@ -1,5 +1,5 @@
 ---
-title: "Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis"
+title: "Discovery of Bacteria Visible to the Naked Eye"
 authors:
 - me
 #author_notes:
@@ -22,8 +22,8 @@ authors:
 # Summary. An optional shortened abstract.
 #summary: This figure ...
 
-#tags:
-#- Ferroptosis
+tags:
+- My posts
 #featured: false
 
 #hugoblox:
@@ -79,6 +79,7 @@ https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visibl
 
 *Arabic Translation*
 
+<div class="arabic-text">
 هل تخيلت يومًا أن هناك بكتيريا بحجم رمش العين، ويمكن رؤيتها بالعين المجردة؟! 
 
 في دراسة نشرت في مجلة ساينس، اكتشف فريق من الباحثين بكتيريا عملاقة غير مسبوقة، اسمها Candidatus Thiomargarita magnifica. هذه البكتيريا ليست مجهرية كما هي عادة معظم أنواع البكتيريا المعروفة، بل يمكن رؤيتها بالعين المجردة حيث يصل طولها لأكثر من سنتيمتر كامل — وهو حجم مذهل بالنسبة لأي كائن بكتيري!
@@ -97,6 +98,11 @@ https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visibl
 **المصادر:**
 https://www.science.org/doi/10.1126/science.abb3634
 https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
+</div>
 
-**Post on Linkedin:**
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7333528254919659523?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<div style="text-align: center;">
+  <strong>Post on Linkedin:</strong><br>
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7333528254919659523?collapsed=1" 
+          height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post">
+  </iframe>
+</div>

@@ -107,3 +107,8 @@ body.dark .download-btn-outline:hover {
 }
 
 
+.arabic-text {
+    direction: rtl;
+    text-align: right;
+    font-family: Arial, sans-serif; /* اختياري لتحسين الخط العربي */
+}

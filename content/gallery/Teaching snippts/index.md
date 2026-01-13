@@ -72,9 +72,9 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 ## Courses & Workshops
 
-|                              Course                               | Year|
-|------------------------------------------------------------------------|-|
-| Diploma in Analytical Techniques in Purification of Biomolecules - Alison |2024|
-| Title heading for the card.                                            | |
-| Subtitle heading (supports Markdown).                                  | |
-| URL                                                                    | |
+|                              Course                                       |
+|---------------------------------------------------------------------------|
+| Diploma in Analytical Techniques in Purification of Biomolecules - Alison | 
+| Introduction on Nanotechnology - Edraak                                   |
+| Science Communication - Udemy|
+| SPSS Statistics Essential Training - LinkedIn Learning|

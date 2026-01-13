@@ -66,7 +66,7 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 "Every great mind was once a student guided with patience."
 
-{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://scontent.fcai25-1.fna.fbcdn.net/v/t39.30808-6/557600593_2236998356802885_3948111726633460195_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0MVSxipo42AQ7kNvwGl8XLa&_nc_oc=AdlgDeqm90_e5cxh8hqURd7ZO_oxt_wvO_vi0AcoPfjqmzHxW_wHe8E_UlKlp325Djo&_nc_zt=23&_nc_ht=scontent.fcai25-1.fna&_nc_gid=eZwAT7VRnJM142yfs1u4dg&oh=00_AfoX3Y8iQ0tPbgCmDsG4LIf7xZl22VOekETG2hQ_ydCIlg&oe=696C71EF" width="800" height="600" quality="90" >}}
+{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/giant-bacteria/featured_hu_95d3ab0ade0bda2e.webp" width="800" height="600" quality="90" >}}
 
 {{< youtube BVAsf40ujD0 >}}
 

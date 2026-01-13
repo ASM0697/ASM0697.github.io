@@ -1,5 +1,5 @@
 ---
-title: "Ferroptosis mediated dysregulation"
+title: "Inside the Vertebrates Lab"
 authors:
 - me
 #author_notes:
@@ -20,11 +20,11 @@ authors:
 #publication_short: ""
 
 # Summary. An optional shortened abstract.
-summary: This figure ...
+#summary: This figure ...
 
-tags:
-- Ferroptosis
-featured: false
+#tags:
+#- Ferroptosis
+#featured: false
 
 hugoblox:
   ids:
@@ -55,3 +55,4 @@ image:
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
+Extraction of the rat’s brain and spinal cord as a single unit during the vertebrates lab—truly showing how amazing science can be.

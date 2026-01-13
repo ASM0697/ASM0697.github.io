@@ -57,13 +57,3 @@ hugoblox:
     enable: true
   seo:
     enable: true
-  
-  marketing:
-  verification:
-    google: "mMobBN1uJaLTGxG6iVluguNJXUHWaKhwwSpilkon1zw"
-    bing: "your-code"
-    baidu: "your-code"
-    yandex: "your-code"
-    pinterest: "your-code"
----
-<meta name="google-site-verification" content="mMobBN1uJaLTGxG6iVluguNJXUHWaKhwwSpilkon1zw" />   

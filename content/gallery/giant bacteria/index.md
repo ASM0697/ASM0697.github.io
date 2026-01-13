@@ -103,14 +103,15 @@ Think with me… how could this giant bacterium affect the marine environment wh
 2. https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
 
 <br>
-<div style="text-align: left; margin: 20px 0;">
+<br>
+<div style="text-align: center; margin: 20px 0;">
 
   <!-- العنوان -->
   <span style="
       display: inline-block;
       padding: 8px 16px;
       border: 2px solid #3f6d9c;  /* أزرق */
-      border-radius: 12px;
+      border-radius: 10px;
       color: #3f6d9c;              /* كحلي فاتح */
       font-weight: bold;
       font-size: 1.1em;
@@ -121,7 +122,7 @@ Think with me… how could this giant bacterium affect the marine environment wh
 
 
 <!-- responsive iframe wrapper -->
-  <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 133%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
+  <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
       <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7333528254919659523?collapsed=1"
               style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
               allowfullscreen

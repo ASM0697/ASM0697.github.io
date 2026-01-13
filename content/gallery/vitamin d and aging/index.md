@@ -79,7 +79,9 @@ Nevertheless, if future studies confirm these findings, we may be on the verge o
 
 🔗 [https://doi.org/10.1016/j.ajcnut.2025.05.003](https://doi.org/10.1016/j.ajcnut.2025.05.003**)
 
+*Arabic Translation*
 
+<div class="arabic-text">
 هل ممكن كبسولة صغيرة من فيتامين د تبطئ من عمر جسمك البيولوجي أو بمعنى آخر تغير من الطريقة اللي بيشيخ بيها جسمك؟
 
 في دراسة جديدة نُشرت في مجلة The American Journal of Clinical Nutrition، اكتشف باحثون أن تناول ڤيتامين D3 على مدى سنوات ساعد على تباطؤ قِصر التيلوميرات (Telomeres) – وهي أجزاء موجودة في نهايات الكروموسومات داخل خلايا الجسم، ووظيفتها حماية الكروموسومات اللي بتمثل المادة الوراثية من التآكل أو الإندماج مع كروموسومات أخرى، وبيقصر طولها مع التقدم في العمر.
@@ -99,9 +101,35 @@ Nevertheless, if future studies confirm these findings, we may be on the verge o
 الباحثين نفسهم وضحوا إن الدراسة كانت تحليل ثانوي، يعني النتائج مش قاطعة، ولسه محتاجة أبحاث إضافية أوسع وأكبر عشان تدعمها وتأكدها. وكمان العينة مش متنوعة كفاية علشان نعمم النتائج على كل الناس.
 
 ومع كده، لو الدراسات الجاية أكدت النتائج دي، ممكن نكون على أعتاب تحول في نظرتنا للوقاية من الأمراض المرتبطة بالسن.. وممكن نلاقي في ڤيتامين D مفتاح جديد للحفاظ على صحة خلايا الجسم.
+**المصادر:**
+</div>
 
-المصدر:
 🔗 https://doi.org/10.1016/j.ajcnut.2025.05.003
 
-**Post on Linkedin:**
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7338211006248054785?collapsed=1" height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<br>
+<div style="text-align: center; margin: 20px 0;">
+
+  <!-- العنوان -->
+  <span style="
+      display: inline-block;
+      padding: 8px 16px;
+      border: 2px solid #3f6d9c;  /* أزرق */
+      border-radius: 10px;
+      color: #3f6d9c;              /* كحلي فاتح */
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+  ">
+    Post on Linkedin
+  </span>
+<br>
+
+<!-- responsive iframe wrapper -->
+  <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
+      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7338211006248054785?collapsed=1"
+              style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
+              allowfullscreen
+              title="Embedded post">
+      </iframe>
+  </div>

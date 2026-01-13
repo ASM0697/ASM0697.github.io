@@ -72,9 +72,10 @@ Are we beginning to discover new worlds within this microscopic world that we on
 
 Think with me… how could this giant bacterium affect the marine environment where it was found? And could it have an important role in ecological balance or in future scientific and medical applications?
 
-**Sources:** 
-https://www.science.org/doi/10.1126/science.abb3634
-https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
+**Sources:**
+
+1. https://www.science.org/doi/10.1126/science.abb3634
+2. https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
 
 
 *Arabic Translation*
@@ -82,10 +83,10 @@ https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visibl
 <div class="arabic-text">
 هل تخيلت يومًا أن هناك بكتيريا بحجم رمش العين، ويمكن رؤيتها بالعين المجردة؟! 
 
-في دراسة نشرت في مجلة ساينس، اكتشف فريق من الباحثين بكتيريا عملاقة غير مسبوقة، اسمها Candidatus Thiomargarita magnifica. هذه البكتيريا ليست مجهرية كما هي عادة معظم أنواع البكتيريا المعروفة، بل يمكن رؤيتها بالعين المجردة حيث يصل طولها لأكثر من سنتيمتر كامل — وهو حجم مذهل بالنسبة لأي كائن بكتيري!
+في دراسة نشرت في مجلة ساينس، اكتشف فريق من الباحثين بكتيريا عملاقة غير مسبوقة، اسمها  *Thiomargarita magnifica Candidatus*. هذه البكتيريا ليست مجهرية كما هي عادة معظم أنواع البكتيريا المعروفة، بل يمكن رؤيتها بالعين المجردة حيث يصل طولها لأكثر من سنتيمتر كامل — وهو حجم مذهل بالنسبة لأي كائن بكتيري!
 
 لكن ما يميز هذه البكتيريا ليس فقط حجمها، بل طريقة تنظيمها الداخلي الفريدة.
-فعلى عكس معظم البكتيريا التي تحتوي على DNA عائم داخل الخلية، فإن Thiomargarita magnifica تحتوي على عضيات محاطة بأغشية — تشبه تلك الموجودة في خلايا حقيقيات النواة — كالنواة التي يُخزن فيها الـ DNA (المادة الوراثية الخاصة بالكائن).
+فعلى عكس معظم البكتيريا التي تحتوي على DNA عائم داخل الخلية، فإن *Thiomargarita magnifica* تحتوي على عضيات محاطة بأغشية — تشبه تلك الموجودة في خلايا حقيقيات النواة — كالنواة التي يُخزن فيها الـ DNA (المادة الوراثية الخاصة بالكائن).
 
 ليس هذا فقط، بل لديها دورة حياة معقدة تتميز بتقسيم غير متماثل للجينوم بين خلاياها الجديدة، مما يفتح أمامنا تساؤلات كبيرة حول كيفية نمو هذه البكتيريا.
 
@@ -101,16 +102,16 @@ https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visibl
 1. https://www.science.org/doi/10.1126/science.abb3634
 2. https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
 
-
-<div style="text-align: center; margin: 20px 0;">
+<br>
+<div style="text-align: left; margin: 20px 0;">
 
   <!-- العنوان -->
   <span style="
       display: inline-block;
       padding: 8px 16px;
-      border: 2px solid #1a73e8;  /* أزرق */
+      border: 2px solid #3f6d9c;  /* أزرق */
       border-radius: 12px;
-      color: #1a237e;              /* كحلي فاتح */
+      color: #3f6d9c;              /* كحلي فاتح */
       font-weight: bold;
       font-size: 1.1em;
       margin-bottom: 10px;
@@ -118,18 +119,14 @@ https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visibl
     Post on Linkedin
   </span>
 
-  <br><br>
 
-  <!-- iframe -->
-  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7333528254919659523?collapsed=1"
-          height="670" width="504"
-          frameborder="0"
-          allowfullscreen=""
-          title="Embedded post"
-          style="
-              border-radius: 12px;   /* حواف دائرية للiframe */
-              border: 1px solid #ccc; /* اختياري: خط خارجي خفيف */
-          ">
-  </iframe>
+<!-- responsive iframe wrapper -->
+  <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 133%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
+      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7333528254919659523?collapsed=1"
+              style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
+              allowfullscreen
+              title="Embedded post">
+      </iframe>
+  </div>
 
-</div>
+

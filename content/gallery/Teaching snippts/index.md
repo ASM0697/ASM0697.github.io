@@ -70,6 +70,7 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 {{< youtube BVAsf40ujD0 >}}
 
+
 ## Courses & Workshops
 
 |                              Course                                       |
@@ -78,3 +79,15 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 | Introduction on Nanotechnology - Edraak                                   |
 | Science Communication - Udemy|
 | SPSS Statistics Essential Training - LinkedIn Learning|
+| Excel Essential Training (Office365/Microsoft 365) - LinkedIn Learning | 
+| Basic First Aid skills – Edraak                                   |
+| Editing and Proofreading Made Simple - LinkedIn Learning
+|   |
+|   | 
+|                                   |
+|  |
+|  |
+|  | 
+|                                   |
+|  |
+|  |

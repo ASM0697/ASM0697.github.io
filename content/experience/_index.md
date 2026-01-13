@@ -2,7 +2,7 @@
 title: 'Experience'
 date: 2023-10-24
 type: landing
----
+
 design:
   spacing: '5rem'
 
@@ -27,7 +27,7 @@ sections:
     content:
       title: Languages
       username: me
-
+---
 ## Courses & Workshops
 
 |                              Course                                       |

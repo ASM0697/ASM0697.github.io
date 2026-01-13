@@ -15,7 +15,6 @@ sections:
       text: |
        *Feel free to use my scientific illustartions for any academic purpose!* *Enjoy! 💙*
        
-
       filters:
         folders:
           - gallery

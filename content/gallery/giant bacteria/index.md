@@ -96,13 +96,40 @@ https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visibl
 فكر معي... كيف يمكن أن تؤثر هذه البكتيريا العملاقة في البيئة البحرية التي عُثر عليها فيها؟ وهل يمكن أن يكون لها دور مهم في التوازن البيئي أو في تطبيقات علمية وطبية مستقبلية؟
 
 **المصادر:**
-https://www.science.org/doi/10.1126/science.abb3634
-https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
 </div>
 
-<div style="text-align: center;">
-  <strong>Post on Linkedin:</strong><br>
-  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7333528254919659523?collapsed=1" 
-          height="670" width="504" frameborder="0" allowfullscreen="" title="Embedded post">
+1. https://www.science.org/doi/10.1126/science.abb3634
+2. https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
+
+
+<div style="text-align: center; margin: 20px 0;">
+
+  <!-- العنوان -->
+  <span style="
+      display: inline-block;
+      padding: 8px 16px;
+      border: 2px solid #1a73e8;  /* أزرق */
+      border-radius: 12px;
+      color: #1a237e;              /* كحلي فاتح */
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+  ">
+    Post on Linkedin
+  </span>
+
+  <br><br>
+
+  <!-- iframe -->
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7333528254919659523?collapsed=1"
+          height="670" width="504"
+          frameborder="0"
+          allowfullscreen=""
+          title="Embedded post"
+          style="
+              border-radius: 12px;   /* حواف دائرية للiframe */
+              border: 1px solid #ccc; /* اختياري: خط خارجي خفيف */
+          ">
   </iframe>
+
 </div>

@@ -1,5 +1,5 @@
 ---
-title: 'contact'
+title: 'Contact'
 date: 2023-10-24
 type: landing
 sections:

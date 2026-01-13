@@ -5,5 +5,5 @@ build:
 cascade:
   build:
     render: never
-    list: never
+    list: always
 ---

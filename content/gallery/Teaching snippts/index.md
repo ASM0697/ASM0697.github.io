@@ -1,5 +1,5 @@
 ---
-title: "Mentoring in the Lab: Where Theory Meets Practice"
+title: "LAB Snippets: Teaching & Students' Work"
 toc: true
 authors:
 - me
@@ -66,15 +66,15 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 "Every great mind was once a student guided with patience."
 
-{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://docs.hugoblox.com/go-pro.png=80&w=800&h=600&auto=format&fit=crop" width="800" height="600" quality="90" >}}
+{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/giant-bacteria/featured_hu_95d3ab0ade0bda2e.webp=80&w=800&h=600&auto=format&fit=crop" width="800" height="600" quality="90" >}}
 
-{{< youtube D2vj0WcvH5c >}}
+{{< youtube BVAsf40ujD0 >}}
 
 ## Courses & Workshops
 
-|                              Description                               |
-|------------------------------------------------------------------------|
-| Name of the icon. Defaults to [Hero Icon Pack](https://heroicons.com/) |
-| Title heading for the card.                                            |
-| Subtitle heading (supports Markdown).                                  |
-| URL                                                                    |
+|                              Course                               | Year|
+|------------------------------------------------------------------------|-|
+| Diploma in Analytical Techniques in Purification of Biomolecules - Alison |2024|
+| Title heading for the card.                                            | |
+| Subtitle heading (supports Markdown).                                  | |
+| URL                                                                    | |

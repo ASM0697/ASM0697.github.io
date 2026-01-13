@@ -21,7 +21,7 @@ sections:
           - gallery
     design:
       view: article-grid
-      columns: 4
+      columns: 3
       fill_image: true
       show_date: false
       show_read_time: false

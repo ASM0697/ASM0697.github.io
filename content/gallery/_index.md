@@ -19,6 +19,7 @@ sections:
       filters:
         folders:
           - gallery
+      limit: 0
     design:
       view: article-grid
       columns: 3

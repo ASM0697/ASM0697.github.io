@@ -69,3 +69,49 @@ I created this simple Excel file to make the process practical and straightforwa
 4. Most importantly, you can run virtual simulations for future courses and see how achieving certain grades would affect your cGPA and where it would end up.
 
 🔗 Online sheet with the option to download for offline use: http://bit.ly/4ln3Ssy
+
+*Arabic Translation*
+
+<div class="arabic-text">
+
+لما كنت في الكلية، كنت دايمًا بحتاج أتابع الـ GPA بتاعي بعد كل فصل دراسي، وأخطط للفصل اللي بعده. كنت بحب أعمل محاكاة —يعني أفترض إني جبت تقديرات معينة في مواد معينة— وأشوف وقتها الـ cGPA هيوصل لفين. الطريقة دي ساعدتني جدًا في إني أوجه نفسي، وأقلل من الضغط الدراسي عنها، خاصة في الفصول اللي كانت فيها مواد محتواها العلمي تقيل.
+
+ملف الـ Excel البسيط ده عملته بحيث يساعد في الموضوع بشكل عملي وبسيط، وهو شامل طريقة تقييم إن الـ A+ = 4 والـ A = 4.
+
+✅ الفايل ده تقدر تستخدمه من على التليفون أو اللابتوب -سواء كانت سنين دارستك ٤ سنوات أو ٥ سنوات- لحساب:
+
+1. الـ GPA بتاع كل فصل دراسي وكذلك عدد ساعاته.
+2. الـ cGPA الخاص بكل سنة دراسية منفصلة وكذلك عدد ساعاتها.
+3. الـ cGPA بتاع كل السنين الدراسية مجتمعة وكذلك عدد ساعاتها.
+4. ودي مهمة، تعمل محاكاة افتراضية لمواد السنين اللي جاية وتشوف لو جبت تقدير معين فيها هيأثر على الـ cGPA إزاي وهيوصل لفين!
+
+🔗 رابط الشيت أونلاين مع إمكانية تحميله أوفلاين: http://bit.ly/4ln3Ssy
+
+</div>
+
+<br>
+<div style="text-align: center; margin: 20px 0;">
+
+  <!-- العنوان -->
+  <span style="
+      display: inline-block;
+      padding: 8px 16px;
+      border: 2px solid #3f6d9c;  /* أزرق */
+      border-radius: 10px;
+      color: #3f6d9c;              /* كحلي فاتح */
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+  ">
+    Post on Linkedin
+  </span>
+<br>
+
+<!-- responsive iframe wrapper -->
+  <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
+      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7348262802588864512?collapsed=1"
+              style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
+              allowfullscreen
+              title="Embedded post">
+      </iframe>
+  </div>

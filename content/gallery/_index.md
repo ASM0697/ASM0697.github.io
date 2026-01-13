@@ -20,7 +20,7 @@ sections:
         folders:
           - gallery
     design:
-      view: article-grid
+      view: card
       columns: 3
       fill_image: true
       show_date: false

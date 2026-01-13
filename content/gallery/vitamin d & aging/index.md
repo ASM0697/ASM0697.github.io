@@ -1,5 +1,5 @@
 ---
-title: "Vitamin D may delay the onset of aging"
+title: "Vitamin D May Delay The Onset of Aging"
 authors:
 - me
 #author_notes:

@@ -1,12 +1,16 @@
 ---
-title: "An example journal article"
+title: "Harnessing Adipose Ferroptosis: A Promising Novel Pathway for Obesity Treatment"
 authors:
+- Mohammed Zayed
 - me
-- Robert Ford
+- Fatma Hassan
+- Enas Elwakeel
+- Yusuf Mahmoud
+- Byung-Hoon Jeong
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2025-10-25T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -14,47 +18,31 @@ publishDate: "2017-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["Review article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*Current Obesity Reports, 14*(74)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This review summarizes the potential of targeting ferroptosis-iron-dependent lipid peroxidation-as a novel strategy for treating obesity and its metabolic complications through mechanisms different from traditional interventions.
 
 tags:
-- Source Themes
-featured: false
+- Ferroptosis
+featured: true
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
 
 links:
-  - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: ""
-  - type: video
-    url: ""
+  - type: DOI
+    url: https://doi.org/10.1007/s13679-025-00669-1
+
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Image credit: [**Springer Nature**](https://link.springer.com/article/10.1007/s13679-025-00669-1)'
   focal_point: ""
   preview_only: false
 
@@ -73,10 +61,7 @@ projects: []
 slides: ""
 ---
 
-> [!NOTE]
-> Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+> [!Abstract]
+> This review summarizes the potential of targeting ferroptosis-iron-dependent lipid peroxidation-as a novel strategy for treating obesity and its metabolic complications through mechanisms different from traditional interventions. Recent preclinical studies show that selectively inducing ferroptosis in lipid-rich adipocytes and obese mice can effectively decrease fat mass and enhance metabolic health. These ferroptosis-based methods target the fundamental cellular processes of adipocyte dysfunction, affecting lipid metabolism and reducing oxidative stress. The strategy appears promising in addressing major metabolic issues such as insulin resistance and hepatic steatosis. In addition, the ability to customize ferroptosis inducers based on individual metabolic profiles offers a pathway to highly personalized obesity treatments. Ferroptosis agonists offer a revolutionary therapeutic approach for obesity treatment by directly reducing fat mass and targeting key metabolic issues. However, applying these findings in clinical settings requires careful evaluation of the long-term safety and effects of pharmacological ferroptosis induction. This review highlights important gaps in current knowledge and suggests future research directions crucial for developing these innovative therapies.
 
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Cite this article: *Zayed, M., **Massoud, A.**, Hassan, F. et al. Harnessing Adipose Ferroptosis: A Promising Novel Pathway for Obesity Treatment. Curr Obes Rep 14, 74 (2025). https://doi.org/10.1007/s13679-025-00669-1*

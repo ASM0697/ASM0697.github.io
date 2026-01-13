@@ -8,23 +8,9 @@ tags:
   - Hugo
   - Hugo Blox
   - Markdown
-cover:
-  image: "https://images.unsplash.com/photo-1557682250-33bd709cbe85?q=80&w=2560"
-  position:
-    x: 50
-    y: 40
-  overlay:
-    enabled: true
-    type: "gradient"
-    opacity: 0.4
-    gradient: "bottom"
-  fade:
-    enabled: true
-    height: "80px"
-  icon:
-    name: "✨"
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+cover: []
+image: []
+draft: true
 ---
 
 Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.

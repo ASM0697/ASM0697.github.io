@@ -74,22 +74,4 @@ During the session, I addressed practical aspects of scientific research, includ
 
 The lecture was designed to help participants overcome common research challenges and improve the quality and efficiency of their academic writing.
 
-<br>
-<div style="text-align: center; margin: 20px 0;">
-
-  <!-- العنوان -->
-  <span style="
-      display: inline-block;
-      padding: 8px 16px;
-      border: 2px solid #3f6d9c;  /* أزرق */
-      border-radius: 10px;
-      color: #3f6d9c;              /* كحلي فاتح */
-      font-weight: bold;
-      font-size: 1.1em;
-      margin-bottom: 10px;
-  ">
-    Lecture Recording
-  </span>
-<br>
-
 {{< youtube D2vj0WcvH5c >}}

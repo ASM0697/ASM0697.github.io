@@ -68,7 +68,7 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 ## Courses & Workshops
 
-{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/Teaching-snippts/featured.jpg" width="800" height="600" quality="90" >}}
+{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/teaching-snippts/featured.jpg" width="800" height="600" quality="90" >}}
 
 {{< youtube BVAsf40ujD0 >}}
 

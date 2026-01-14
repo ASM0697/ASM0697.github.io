@@ -64,7 +64,7 @@ image:
 ---
 In the lab, it's more than just science — it's about nurturing curiosity and guiding every small step toward discovery.
 
-"Every great mind was once a student guided with patience."
+#<mark>"Every great mind was once a student guided with patience." text</mark>
 
 ## Molecular Biotechnology Lab
 
@@ -81,7 +81,6 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" title="Bacterial Transformation" description="Successful transformation of *E. coli* with a kanamycin-resistant plasmid." image="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" width="800" height="800" quality="90" >}}
 
 
-{{< youtube BVAsf40ujD0 >}}
 
 
 

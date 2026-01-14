@@ -1,5 +1,5 @@
 ---
-title: "LAB Snippets: Teaching & My Students' Work"
+title: "LAB Snippets: Teaching & Students' Work"
 toc: true
 authors:
 - me
@@ -40,7 +40,7 @@ Draft: true
 image:
   caption: 'Image credit: [**Ahmed Massoud**](https://asm0697.github.io)'
   focal_point: ""
-  preview_only: true
+  preview_only: false
   
 
 # Associated Projects (optional).
@@ -66,11 +66,28 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 "Every great mind was once a student guided with patience."
 
-## Courses & Workshops
-
-{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/Teaching-snippts/featured.jpg" width="800" height="600" quality="90" >}}
+{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/giant-bacteria/featured_hu_95d3ab0ade0bda2e.webp" width="800" height="600" quality="90" >}}
 
 {{< youtube BVAsf40ujD0 >}}
 
 
+## Courses & Workshops
 
+|                              Course                                       |
+|---------------------------------------------------------------------------|
+| Diploma in Analytical Techniques in Purification of Biomolecules - Alison | 
+| Introduction on Nanotechnology - Edraak                                   |
+| Science Communication - Udemy|
+| SPSS Statistics Essential Training - LinkedIn Learning|
+| Excel Essential Training (Office365/Microsoft 365) - LinkedIn Learning | 
+| Basic First Aid skills – Edraak                                   |
+| Editing and Proofreading Made Simple - LinkedIn Learning
+|   |
+|   | 
+|                                   |
+|  |
+|  |
+|  | 
+|                                   |
+|  |
+|  |

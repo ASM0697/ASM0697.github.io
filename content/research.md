@@ -24,8 +24,8 @@ sections:
       title: Under Review
       text: ''
       filters:
-        files:
-          - pubunderreview/pur.md
+        folders:
+          - pubunderreview
         exclude_featured: false
     design:
       view: citation

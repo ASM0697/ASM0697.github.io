@@ -65,7 +65,7 @@ image:
 In the lab, it's more than just science — it's about nurturing curiosity and guiding every small step toward discovery.
 "Every great mind was once a student guided with patience."
 
-## Molecular Biotechnology Lab
+## Molecular Biotechnology Labs
 
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" title="DNA Extraction" description="Hands-on DNA extraction from strawberry by my students using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="800" quality="90" >}}
 

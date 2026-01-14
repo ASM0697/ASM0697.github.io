@@ -72,7 +72,7 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" title="DNA Extraction" description="Hands-on DNA extraction from strawberry by my students using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" width="800" height="800" quality="90" >}}
 
-{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/electrophoresis.jpg" title="Agarose Gel Electrophoresis" description="My students having hands-on experience with Agarose electrophoresis." image="https://asm0697.github.io/gallery/teaching-snippts/electrophoresis" width="800" height="800" quality="90" >}}
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/electrophoresis.jpg" title="Agarose Gel Electrophoresis" description="My students having hands-on experience with Agarose electrophoresis." image="https://asm0697.github.io/gallery/teaching-snippts/electrophoresis.jpg" width="800" height="800" quality="90" >}}
 
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/elisa.jpg" title="ELISA" description="My students having hands-on experience with ELISA." image="https://asm0697.github.io/gallery/teaching-snippts/elisa.jpg" width="800" height="800" quality="90" >}}
 

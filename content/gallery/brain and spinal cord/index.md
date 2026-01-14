@@ -57,6 +57,6 @@ image:
 ---
 Extraction of the rat’s brain and spinal cord as a single unit during the vertebrates lab—truly showing how amazing science can be. 
 
-###Spinal Cord Extraction
+#### Spinal Cord Extraction
 
 {{< embed url="https://asm0697.github.io/gallery/brain-and-spinal-cord/sc-extraction.jpg" title="" description="Spinal cord isolation by hydraulic extrusion." image="https://asm0697.github.io/gallery/brain-and-spinal-cord/sc-extraction.jpg" width="800" height="800" quality="90" >}}

@@ -25,7 +25,7 @@ sections:
       text: ''
       filters:
         folders:
-          - pubunderreview
+          - pubunderreview/pur.md
         exclude_featured: false
     design:
       view: citation

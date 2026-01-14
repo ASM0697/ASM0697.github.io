@@ -23,7 +23,7 @@ authors:
 #summary: This figure ...
 
 tags:
-- Illustrations
+- My Illustrations
 #featured: false
 
 #hugoblox:

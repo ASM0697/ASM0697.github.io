@@ -14,7 +14,7 @@ sections:
       title: My Gallery
       text: |
        *Feel free to use my scientific illustartions for any academic purpose!* *Enjoy! 💙*
-       <br>
+       <br><br>
       filters:
         folders:
           - gallery

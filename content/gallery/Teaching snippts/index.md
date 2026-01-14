@@ -66,17 +66,20 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 "Every great mind was once a student guided with patience."
 
-## Molecular Biology I
+## Molecular Biotechnology Lab
 
-{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" title="DNA Extraction" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="800" quality="90" >}}
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" title="DNA Extraction" description="Hands-on DNA extraction from strawberry by my students using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="800" quality="90" >}}
 
-{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" title="DNA Extraction" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" width="800" height="800" quality="90" >}}
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" title="DNA Extraction" description="Hands-on DNA extraction from strawberry by my students using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" width="800" height="800" quality="90" >}}
 
-## Molecular Biology II
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/gel-electrophoresis1.jpg" title="Agarose Gel Electrophoresis" description="My students having hands-on experience with Agarose electrophoresis." image="https://asm0697.github.io/gallery/teaching-snippts/gel-electrophoresis1" width="800" height="800" quality="90" >}}
 
-{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" title="DNA Extraction" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="800" quality="90" >}}
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/elisa.jpg" title="ELISA" description="My students having hands-on experience with ELISA." image="https://asm0697.github.io/gallery/teaching-snippts/elisa.jpg" width="800" height="800" quality="90" >}}
 
-{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" title="DNA Extraction" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" width="800" height="800" quality="90" >}}
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/elisa1.jpg" title="ELISA" description="My students having hands-on experience with ELISA." image="https://asm0697.github.io/gallery/teaching-snippts/elisa1.jpg" width="800" height="800" quality="90" >}}
+
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" title="Bacterial Transformation" description="Successful transformation of *E. coli* with a kanamycin-resistant plasmid." image="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" width="800" height="800" quality="90" >}}
+
 
 {{< youtube BVAsf40ujD0 >}}
 

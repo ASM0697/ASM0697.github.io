@@ -93,30 +93,3 @@ The lecture was designed to help participants overcome common research challenge
 <br>
 
 {{< youtube D2vj0WcvH5c >}}
-
-<br>
-<div style="text-align: center; margin: 20px 0;">
-
-  <!-- العنوان -->
-  <span style="
-      display: inline-block;
-      padding: 8px 16px;
-      border: 2px solid #3f6d9c;  /* أزرق */
-      border-radius: 10px;
-      color: #3f6d9c;              /* كحلي فاتح */
-      font-weight: bold;
-      font-size: 1.1em;
-      margin-bottom: 10px;
-  ">
-    Post on Facebook
-  </span>
-<br>
-
-<!-- responsive iframe wrapper -->
-  <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
-      <iframe src=""
-              style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
-              allowfullscreen
-              title="Embedded post">
-      </iframe>
-  </div>

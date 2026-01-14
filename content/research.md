@@ -7,12 +7,6 @@ design:
   spacing: '5rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
-banner:
-  caption: 'ASM'
-  image: ''
-
 sections:
   - block: collection
     content:
@@ -40,7 +34,7 @@ sections:
     content:
       title: Poster Presentation
       text: |
-          * Participated in the design and presentation of a scientific poster titled **‘C.A.S.E. Study: Engineered Stem Cells Combating Cancer’**, focusing on the therapeutic potential of reprogramming patient-derived stem cells to targetcancer at The City of Scientific Research and Technological Applications (SRTA City) in July 2019.
+          * Participated in the design and presentation of a scientific poster titled **‘C.A.S.E. Study: Engineered Stem Cells Combating Cancer’**, focusing on the therapeutic potential of reprogramming patient-derived stem cells to targetcancer at the [City of Scientific Research and Technological Applications](https://srtacity.sci.eg/) (SRTA City) in July 2019.
       
       #filters:
        # folders:

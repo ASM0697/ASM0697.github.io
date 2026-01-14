@@ -59,7 +59,7 @@ image:
 ---
 *Have you ever imagined that there is a bacterium the size of an eyelash, and that it can be seen with the naked eye?!*
 
-In a study published in Science magazine, a team of researchers discovered an unprecedented giant bacterium named Candidatus Thiomargarita magnifica. This bacterium is not microscopic like most known bacteria; it can be seen with the naked eye, reaching a length of over a full centimeter — an astonishing size for any bacterial organism!
+In a study published in Science magazine, a team of researchers discovered an unprecedented giant bacterium named *Candidatus Thiomargarita magnifica*. This bacterium is not microscopic like most known bacteria; it can be seen with the naked eye, reaching a length of over a full centimeter — an astonishing size for any bacterial organism!
 
 But what makes this bacterium remarkable is not just its size, but its unique internal organization.
 Unlike most bacteria, which contain floating DNA inside the cell, *Thiomargarita magnifica* contains membrane-bound organelles — similar to those found in eukaryotic cells — such as a nucleus where the DNA (the organism’s genetic material) is stored.
@@ -83,7 +83,7 @@ Think with me… how could this giant bacterium affect the marine environment wh
 <div class="arabic-text">
 هل تخيلت يومًا أن هناك بكتيريا بحجم رمش العين، ويمكن رؤيتها بالعين المجردة؟! 
 
-في دراسة نشرت في مجلة ساينس، اكتشف فريق من الباحثين بكتيريا عملاقة غير مسبوقة، اسمها  *Thiomargarita magnifica Candidatus*. هذه البكتيريا ليست مجهرية كما هي عادة معظم أنواع البكتيريا المعروفة، بل يمكن رؤيتها بالعين المجردة حيث يصل طولها لأكثر من سنتيمتر كامل — وهو حجم مذهل بالنسبة لأي كائن بكتيري!
+في دراسة نشرت في مجلة ساينس، اكتشف فريق من الباحثين بكتيريا عملاقة غير مسبوقة، اسمها  *Candidatus Thiomargarita magnifica*. هذه البكتيريا ليست مجهرية كما هي عادة معظم أنواع البكتيريا المعروفة، بل يمكن رؤيتها بالعين المجردة حيث يصل طولها لأكثر من سنتيمتر كامل — وهو حجم مذهل بالنسبة لأي كائن بكتيري!
 
 لكن ما يميز هذه البكتيريا ليس فقط حجمها، بل طريقة تنظيمها الداخلي الفريدة.
 فعلى عكس معظم البكتيريا التي تحتوي على DNA عائم داخل الخلية، فإن *Thiomargarita magnifica* تحتوي على عضيات محاطة بأغشية — تشبه تلك الموجودة في خلايا حقيقيات النواة — كالنواة التي يُخزن فيها الـ DNA (المادة الوراثية الخاصة بالكائن).

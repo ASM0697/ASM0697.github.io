@@ -68,9 +68,9 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 ## Molecular Biology I
 
-{{< title="**DNA Extraction**" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="600" quality="90" >}}
+{{< title="DNA Extraction" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="800" quality="90" >}}
 
-{{< title="**DNA Extraction**" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" width="800" height="600" quality="90" >}}
+{{< title="DNA Extraction" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" width="800" height="800" quality="90" >}}
 
 ## Molecular Biology II
 

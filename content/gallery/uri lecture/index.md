@@ -114,9 +114,34 @@ The lecture was designed to help participants overcome common research challenge
 
 <!-- responsive iframe wrapper -->
   <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
-      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02Z3oMGYjg7fc3a72Jk29HVwta68dxJPa38G4DwzWFqztjH4A33Ezo8w5JkFobPdMtl%26id%3D61561787096246&show_text=true&width=500"
+      <iframe src=""
               style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
               allowfullscreen
               title="Embedded post">
       </iframe>
   </div>
+
+  {{< spoiler text="For Arabic Translation" >}}
+<div class="arabic-text">
+هل تخيلت يومًا أن هناك بكتيريا بحجم رمش العين، ويمكن رؤيتها بالعين المجردة؟! 
+
+في دراسة نشرت في مجلة ساينس، اكتشف فريق من الباحثين بكتيريا عملاقة غير مسبوقة، اسمها  *Candidatus Thiomargarita magnifica*. هذه البكتيريا ليست مجهرية كما هي عادة معظم أنواع البكتيريا المعروفة، بل يمكن رؤيتها بالعين المجردة حيث يصل طولها لأكثر من سنتيمتر كامل — وهو حجم مذهل بالنسبة لأي كائن بكتيري!
+
+لكن ما يميز هذه البكتيريا ليس فقط حجمها، بل طريقة تنظيمها الداخلي الفريدة.
+فعلى عكس معظم البكتيريا التي تحتوي على DNA عائم داخل الخلية، فإن *Thiomargarita magnifica* تحتوي على عضيات محاطة بأغشية — تشبه تلك الموجودة في خلايا حقيقيات النواة — كالنواة التي يُخزن فيها الـ DNA (المادة الوراثية الخاصة بالكائن).
+
+ليس هذا فقط، بل لديها دورة حياة معقدة تتميز بتقسيم غير متماثل للجينوم بين خلاياها الجديدة، مما يفتح أمامنا تساؤلات كبيرة حول كيفية نمو هذه البكتيريا.
+
+هذا الاكتشاف يغير مفهومنا التقليدي للبكتيريا ككائنات بسيطة محدودة الحجم وصغيرة جدًا، ويؤكد أن هناك الكثير مما لا نزال نجهله في عالمنا.
+
+هل بدأنا نكتشف عوالم جديدة داخل هذا العالم المجهري الذي كنا نظنه بسيطًا؟
+
+فكر معي... كيف يمكن أن تؤثر هذه البكتيريا العملاقة في البيئة البحرية التي عُثر عليها فيها؟ وهل يمكن أن يكون لها دور مهم في التوازن البيئي أو في تطبيقات علمية وطبية مستقبلية؟
+
+**المصادر:**
+</div>
+
+1. https://www.science.org/doi/10.1126/science.abb3634
+2. https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
+
+{{< /spoiler >}}

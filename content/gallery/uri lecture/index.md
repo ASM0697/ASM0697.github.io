@@ -1,5 +1,5 @@
 ---
-title: "Scientific Lecture at Sci. Green Camp, Alexandria University"
+title: "Vitamin D May Delay the Onset of Aging"
 authors:
 - me
 #author_notes:
@@ -23,7 +23,7 @@ authors:
 # summary: This figure ...
 
 tags:
-- Lectures
+- My posts
 featured: false
 
 hugoblox:
@@ -55,23 +55,81 @@ image:
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
+*Could a small vitamin D capsule slow down your biological age—or, in other words, change the way your body ages?*
 
-As part of ongoing efforts to promote research skills among undergraduate students and researchers, I had the privilege of delivering an online scientific lecture entitled:
+In a new study published in **The American Journal of Clinical Nutrition**, researchers found that long-term supplementation with **vitamin D3** helped slow **telomere shortening**. Telomeres are structures located at the ends of chromosomes inside body cells, and their role is to protect chromosomes—which carry genetic material—from deterioration or fusion with other chromosomes. Telomere length naturally decreases with age.
 
-**“Searching for Reliable Resources, Reading Research Papers Effectively, and Using Reference Management Tools.”**
+The study was based on data from a large clinical trial known as **VITAL**, which included more than **1,000 participants over the age of 50** and followed them for **four years**.
 
-The lecture was part of the Sci. Green Camp activities, organized by the Undergraduate Researchers Initiative (URI) at Alexandria University. The event focused on supporting students at the early stages of their academic journey by developing essential research competencies.
+What’s remarkable? Participants who took **vitamin D3** showed a significantly slower rate of telomere shortening in **white blood cells** compared to those who received a placebo. This effect may correspond to a reduction equivalent to **approximately three years of biological aging**.
 
-**Lecture Highlights**
+The results also indicated that the beneficial effect of vitamin D was more pronounced in **non-obese individuals**, those **not taking cholesterol-lowering medications**, and **non-White participants**.
 
-During the session, I addressed practical aspects of scientific research, including:
+**So how does vitamin D work?**
 
-- How to search for reliable scientific sources using academic databases such as Google Scholar and PubMed.
+The researchers hypothesized that vitamin D may activate enzymes such as **telomerase**, which helps maintain telomere length, or protect DNA from **oxidative stress and damage**.
 
-- Effective strategies for reading and understanding research papers, with guidance on critically approaching different sections.
+**However, before getting too excited…**
 
-- An introduction to reference management tools, including EndNote and Mendeley, with a detailed demonstration on Mendeley to streamline citation and literature organization.
+The researchers themselves emphasized that this was a **secondary analysis**, meaning the findings are not definitive and require **larger, more comprehensive studies** for confirmation. In addition, the study population was not sufficiently diverse to allow broad generalization of the results.
 
-The lecture was designed to help participants overcome common research challenges and improve the quality and efficiency of their academic writing.
+Nevertheless, if future studies confirm these findings, we may be on the verge of a shift in how we approach the prevention of age-related diseases—and vitamin D could emerge as a new key to maintaining cellular health.
 
-{{< youtube D2vj0WcvH5c >}}
+**Source:**  
+
+🔗 [https://doi.org/10.1016/j.ajcnut.2025.05.003](https://doi.org/10.1016/j.ajcnut.2025.05.003**)
+
+*Arabic Translation*
+
+<div class="arabic-text">
+هل ممكن كبسولة صغيرة من فيتامين د تبطئ من عمر جسمك البيولوجي أو بمعنى آخر تغير من الطريقة اللي بيشيخ بيها جسمك؟
+
+في دراسة جديدة نُشرت في مجلة The American Journal of Clinical Nutrition، اكتشف باحثون أن تناول ڤيتامين D3 على مدى سنوات ساعد على تباطؤ قِصر التيلوميرات (Telomeres) – وهي أجزاء موجودة في نهايات الكروموسومات داخل خلايا الجسم، ووظيفتها حماية الكروموسومات اللي بتمثل المادة الوراثية من التآكل أو الإندماج مع كروموسومات أخرى، وبيقصر طولها مع التقدم في العمر.
+
+الدراسة اعتمدت على بيانات من تجربة كبيرة اسمها VITAL، شملت أكثر من 1000 شخص فوق سن الخمسين، وتم متابعتهم على مدار أربع سنوات.
+
+المذهل؟ إن المشاركين اللي كانوا بياخدوا ڤيتامين D3 حصل عندهم تباطؤ ملحوظ في قِصر التيلوميرات في كرات الدم البيضاء مقارنة باللي أخذوا دواء وهمي، وده قد يعني تقليل ما يعادل 3 سنوات من التقدم البيولوجي في العمر.
+
+وأظهرت النتائج إن التأثير الإيجابي لڤيتامين د كان أوضح عند الأشخاص غير المصابين بالسمنة، واللي مش بياخدوا أدوية للكوليسترول، وكمان بين المشاركين غير البيض.
+
+طيب إزاي بيشتغل فيتامين D؟
+
+فرضية الباحثين إنه بيفعّل إنزيمات زي التيلوميريز (Telomerase) اللي بيحافظ على طول التيلوميرات، أو بيحمي الـ DNA من الأكسدة والتلف.
+
+لكن، وقبل ما نتحمس زيادة...
+
+الباحثين نفسهم وضحوا إن الدراسة كانت تحليل ثانوي، يعني النتائج مش قاطعة، ولسه محتاجة أبحاث إضافية أوسع وأكبر عشان تدعمها وتأكدها. وكمان العينة مش متنوعة كفاية علشان نعمم النتائج على كل الناس.
+
+ومع كده، لو الدراسات الجاية أكدت النتائج دي، ممكن نكون على أعتاب تحول في نظرتنا للوقاية من الأمراض المرتبطة بالسن.. وممكن نلاقي في ڤيتامين D مفتاح جديد للحفاظ على صحة خلايا الجسم.
+**المصادر:**
+</div>
+
+🔗 https://doi.org/10.1016/j.ajcnut.2025.05.003
+
+
+<br>
+<div style="text-align: center; margin: 20px 0;">
+
+  <!-- العنوان -->
+  <span style="
+      display: inline-block;
+      padding: 8px 16px;
+      border: 2px solid #3f6d9c;  /* أزرق */
+      border-radius: 10px;
+      color: #3f6d9c;              /* كحلي فاتح */
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+  ">
+    Post on Linkedin
+  </span>
+<br>
+
+<!-- responsive iframe wrapper -->
+  <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
+      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7338211006248054785?collapsed=1"
+              style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
+              allowfullscreen
+              title="Embedded post">
+      </iframe>
+  </div>

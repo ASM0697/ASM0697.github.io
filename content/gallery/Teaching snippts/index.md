@@ -66,9 +66,13 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 "Every great mind was once a student guided with patience."
 
-## Courses & Workshops
+## Molecular Biology I
 
-{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/teaching-snippts/featured.jpg" width="800" height="600" quality="90" >}}
+{{< title="**DNA Extraction**" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="600" quality="90" >}}
+
+{{< title="**DNA Extraction**" description="Hands-on DNA extraction from strawberry using lab-prepared reagents." image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry1.jpg" width="800" height="600" quality="90" >}}
+
+## Molecular Biology II
 
 {{< youtube BVAsf40ujD0 >}}
 

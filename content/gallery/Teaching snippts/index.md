@@ -63,7 +63,6 @@ image:
 
 ---
 In the lab, it's more than just science — it's about nurturing curiosity and guiding every small step toward discovery.
-
 "Every great mind was once a student guided with patience."
 
 ## Molecular Biotechnology Lab

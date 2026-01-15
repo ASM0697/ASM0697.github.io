@@ -52,11 +52,11 @@ sections:
    #   columns: '1'
   
   - block: portfolio
-    id: papers
+    id: projects
     content:
-      title: Featured Publications
-      text: "A selection of my recent work"
-      count: 0
+      title: Featured Work
+      subtitle: "A selection of my recent work"
+      count: 2
       filters:
         folders:
           - publications
@@ -73,7 +73,6 @@ sections:
           tag: Illustrations
       default_button_index: 0  
     design:
-      view: article-grid
       columns: 3
       spacing:
         padding: ["4rem", "0", "4rem", "0"]

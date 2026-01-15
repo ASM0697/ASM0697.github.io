@@ -6,7 +6,7 @@ authors:
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2025-9-25T00:00:00Z"
+# date: "2025-10-25T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -80,13 +80,10 @@ During the session, I addressed practical aspects of scientific research, includ
 
 The lecture was designed to help participants overcome common research challenges and improve the quality and efficiency of their academic writing.
 
-<br>
 <div style="text-align: center; margin: 20px 0;">
 
   <!-- العنوان -->
-  <a href="https://www.youtube.com/watch?v=BVAsf40ujD0"
-     target="_blank"
-     style="
+  <span style="
       display: inline-block;
       padding: 3px 10px;
       border: 1.5px solid #9c3f44;  /* أزرق */
@@ -97,7 +94,7 @@ The lecture was designed to help participants overcome common research challenge
       margin-bottom: 10px;
   ">
     Lecture Recording
-  </a>
+  </span>
 <br>
 
 {{< youtube BVAsf40ujD0 >}}

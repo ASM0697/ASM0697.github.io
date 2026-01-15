@@ -72,7 +72,7 @@ sections:
           tag: Featured Lecture
         - name: Posts
           tag: Featured Post
-      default_button_index: 0  
+      default_button_index: 1  
             # Archive link auto-shown if more projects exist than 'count' above
       archive:
         enable: false # Set to false to explicitly hide

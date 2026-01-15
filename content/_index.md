@@ -56,20 +56,20 @@ sections:
     content:
       title: "Professional Highlights"
       subtitle: "A selection of my recent activities"
-      count: 0
+      count: 3
       filters:
         folders:
           - publications
           - gallery
       buttons:
         - name: All
-          tag: 'Featured'
+          tag: '*'
         - name: Publications
-          tag: Featured Article 
+          tag: Publications 
         - name: Illustrations
-          tag: Featured Illustration        
+          tag: Illustrations       
         - name: Lectures
-          tag: Featured Lecture
+          tag: Lectures
        # - name: Posts
        #   tag: Featured Post
       default_button_index: 0  
@@ -80,9 +80,9 @@ sections:
        # link: "https://asm0697.github.io/gallery/"  # Custom URL
     design:
       columns: 3
-      view: showcase
+     # view: showcase
       spacing:
-        padding: ["4rem", "auto", "4rem", "auto"]
+        padding: ["4rem", "0", "4rem", "0"]
   #- block: collection
    # id: papers
    # content:

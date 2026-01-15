@@ -54,7 +54,7 @@ sections:
   - block: portfolio
     #id: projects
     content:
-      title: Featured Work
+      title: "Featured Work"
       subtitle: "A selection of my recent work"
       count: 0
       filters:

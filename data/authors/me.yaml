@@ -52,6 +52,7 @@ education:
   - degree: "MSc in Molecular Biology"
     institution: "Alexandria University"
     start: "2022-08-24"
+    end: ""
     summary: "My master's focused on investigating the analgesic and anti-inflammatory effects of a natural extract, focusing on the epigenetic regulation of inflammatory pain pathways by microRNAs, specifically miR-107 and miR-145.\n"
     button:
       text: "Master`s Paper"

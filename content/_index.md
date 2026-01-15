@@ -58,11 +58,11 @@ sections:
       subtitle: "A selection of my recent work"
       count: 0
       filters:
+        features:
+          - featured
         folders:
           - publications
           - gallery
-        params:
-        featured: true  
       buttons:
         - name: All
           tag: '*'

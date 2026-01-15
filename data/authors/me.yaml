@@ -33,9 +33,6 @@ links:
   - icon: "academicons/researchgate"
     url: "https://www.researchgate.net/profile/Ahmed-Massoud-16"
     label: "ResearchGate"
-  - icon: "academicons/scopus"
-    url: "https://www.scopus.com/authid/detail.uri?authorId=60154251400
-    label: "Scopus"
 interests:
   - "Molecular Biology"
   - "RNA Biology"

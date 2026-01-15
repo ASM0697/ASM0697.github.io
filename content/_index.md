@@ -61,8 +61,8 @@ sections:
       #  folders:
        #   - publications
         #  - gallery
-        features:
-          - featured  
+      features:
+         - featured  
       buttons:
         - name: All
           tag: '*'

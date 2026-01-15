@@ -61,7 +61,8 @@ sections:
         folders:
           - publications
           - gallery
-      featured_only: true
+        params:
+        featured: true  
       buttons:
         - name: All
           tag: '*'
@@ -72,8 +73,11 @@ sections:
         - name: Illustrations
           tag: Illustrations
       default_button_index: 0  
+            # Archive link auto-shown if more projects exist than 'count' above
       archive:
-        enable: false
+        enable: false # Set to false to explicitly hide
+      #   text: "Browse All"  # Customize text
+      #   link: "/work/"  # Custom URL
     design:
       columns: 3
       spacing:

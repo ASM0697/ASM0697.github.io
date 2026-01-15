@@ -72,6 +72,8 @@ sections:
         - name: Illustrations
           tag: Illustrations
       default_button_index: 0  
+      archive:
+        enable: false
     design:
       columns: 3
       spacing:

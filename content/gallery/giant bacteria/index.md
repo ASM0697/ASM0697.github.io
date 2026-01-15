@@ -23,8 +23,10 @@ date: "2025-05-28T00:00:00Z"
 #summary: This figure ...
 
 tags:
+- Featured
 - Posts
-featured: true
+
+#featured: true
 
 #hugoblox:
  # ids:

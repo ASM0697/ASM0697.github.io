@@ -61,23 +61,21 @@ sections:
         folders:
           - publications
           - gallery
-        frontmatter:
-          featured: true 
       buttons:
         - name: All
           tag: '*'
         - name: Publications
-          tag: Publications
+          tag: Featured
         - name: Posts
-          tag: Posts
+          tag: Featured
         - name: Illustrations
-          tag: Illustrations
+          tag: Featured
       default_button_index: 0  
             # Archive link auto-shown if more projects exist than 'count' above
       archive:
         enable: false # Set to false to explicitly hide
         text: "Browse more!"  # Customize text
-        link: "/gallery/"  # Custom URL
+        link: "https://asm0697.github.io/gallery/"  # Custom URL
     design:
       columns: 3
       spacing:

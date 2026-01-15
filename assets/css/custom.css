@@ -112,3 +112,42 @@ body.dark .download-btn-outline:hover {
     text-align: right;
 }
 
+/* توسيط الحاوية الكبرى للقسم */
+#projects, .section-portfolio {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+/* توسيط العناوين والأزرار */
+#projects .container, 
+#projects .section-heading,
+#projects .nav-pills {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/* منع الزوم في الصور وإظهارها كاملة */
+#projects .card-image, 
+#projects .featured-image,
+#projects img {
+  object-fit: contain !important; /* يمنع القص والزوم */
+  background-color: #1a1a1a !important; /* لون خلفية اختياري للمساحات الفارغة */
+  height: 250px !important; /* يمكنك تغيير الارتفاع حسب رغبتك */
+  width: 100% !important;
+}
+
+/* توسيط شبكة عرض المشاريع */
+.isotope {
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: center !important;
+}

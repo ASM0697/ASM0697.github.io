@@ -55,7 +55,7 @@ sections:
     #id: projects
     content:
       title: "Professional Highlights"
-      subtitle: "A selection of my recent work"
+      subtitle: "A selection of my recent Activities"
       count: 0
       filters:
         folders:
@@ -68,8 +68,8 @@ sections:
           tag: Featured Article 
         - name: Illustrations
           tag: Featured Illustration        
-        - name: Lectures
-          tag: Featured Lecture
+       # - name: Lectures
+        #  tag: Featured Lecture
         - name: Posts
           tag: Featured Post
       default_button_index: 0  
@@ -79,8 +79,8 @@ sections:
       #  text: "Browse more!"  # Customize text
        # link: "https://asm0697.github.io/gallery/"  # Custom URL
     design:
-      columns: 4
-      view: article-grid
+      columns: 3
+      view: showcase
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   #- block: collection

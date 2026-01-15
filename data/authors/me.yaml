@@ -26,13 +26,16 @@ links:
     url: "https://wa.me/+201068190724"
   - icon: "brands/linkedin"
     url: "https://www.linkedin.com/in/ahmedelsayed97/"
-  - icon: "academicons/google-scholar"
-    url: "https://scholar.google.com/citations?hl=ar&user=BhBALjEAAAAJ"
   - icon: "academicons/orcid"
     url: "https://orcid.org/my-orcid?orcid=0000-0001-6004-6797"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?hl=ar&user=BhBALjEAAAAJ"
   - icon: "academicons/researchgate"
     url: "https://www.researchgate.net/profile/Ahmed-Massoud-16"
     label: "ResearchGate"
+  - icon: "academicons/scopus"
+    url: "https://www.scopus.com/authid/detail.uri?authorId=60154251400
+    label: "Scopus"
 interests:
   - "Molecular Biology"
   - "RNA Biology"

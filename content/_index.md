@@ -56,7 +56,7 @@ sections:
     content:
       title: "Professional Highlights"
       subtitle: "A selection of my recent work"
-      count: 3
+      count: 0
       filters:
         folders:
           - publications
@@ -72,7 +72,7 @@ sections:
           tag: Featured Lecture
         - name: Posts
           tag: Featured Post
-      default_button_index: 1  
+      default_button_index: 0  
             # Archive link auto-shown if more projects exist than 'count' above
       archive:
         enable: false # Set to false to explicitly hide
@@ -80,6 +80,7 @@ sections:
        # link: "https://asm0697.github.io/gallery/"  # Custom URL
     design:
       columns: 3
+      view: card
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   #- block: collection

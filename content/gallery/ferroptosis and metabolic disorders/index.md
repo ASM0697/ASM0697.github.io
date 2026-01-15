@@ -58,7 +58,6 @@ image:
 #This work is driven by the results.......
 ---
 This figure illustrates the interconnected relationship between metabolic disorders, autonomic immune dysfunction, and ferroptosis.
-
 <br>
 
 <div class="download-wrapper">

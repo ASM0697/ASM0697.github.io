@@ -56,12 +56,12 @@ sections:
     content:
       title: Featured Work
       subtitle: "A selection of my recent work"
-      count: 2
+      count: 0
       filters:
         folders:
           - publications
           - gallery
-        featured: true
+      featured_only: true
       buttons:
         - name: All
           tag: '*'

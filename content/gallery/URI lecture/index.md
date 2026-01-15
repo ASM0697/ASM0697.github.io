@@ -83,26 +83,6 @@ The lecture was designed to help participants overcome common research challenge
 <br>
 <div style="text-align: center; margin: 20px 0;">
 
-  <!-- العنوان -->
-  <span style="
-      display: inline-block;
-      padding: 3px 10px;
-      border: 1.5px solid #9c3f44;  /* أزرق */
-      border-radius: 10px;
-      color: #9c3f44;              /* كحلي فاتح */
-      font-weight: bold;
-      font-size: 1.1em;
-      margin-bottom: 10px;
-  ">
-    Lecture Recording
-  </span>
-<br>
-
-{{< youtube BVAsf40ujD0 >}}
-
-<br>
-<div style="text-align: center; margin: 20px 0;">
-
   <a href="https://www.youtube.com/watch?v=BVAsf40ujD0"
      target="_blank"
      style="
@@ -119,3 +99,28 @@ The lecture was designed to help participants overcome common research challenge
   </a>
 
 </div>
+<br>
+
+{{< youtube BVAsf40ujD0 >}}
+
+<br>
+<div style="text-align: center; margin: 20px 0;">
+
+  <a href="https://www.youtube.com/watch?v=BVAsf40ujD0"
+     target="_blank"
+     style="
+        display: inline-block;
+        padding: 3px 10px;
+        border: 1.5px solid #3f6d9c
+        border-radius: 10px;
+        color: #3f6d9c
+        font-weight: bold;
+        font-size: 1.1em;
+        text-decoration: none;
+     ">
+    Post on URI Facebook Page
+  </a>
+
+</div>
+<br>
+

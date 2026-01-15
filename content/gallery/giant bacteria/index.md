@@ -24,7 +24,7 @@ date: "2025-05-28T00:00:00Z"
 
 tags:
 - Posts
-#featured: false
+featured: true
 
 #hugoblox:
  # ids:

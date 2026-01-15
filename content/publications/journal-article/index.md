@@ -37,6 +37,7 @@ hugoblox:
 links:
   - type: DOI
     url: https://doi.org/10.1007/s13679-025-00669-1
+    label: DOI
 
 
 # Featured image

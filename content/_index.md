@@ -62,8 +62,8 @@ sections:
           - publications
           - gallery
       buttons:
-        - name: All
-          tag: 'Featured'
+       # - name: All
+        #  tag: 'Featured'
         - name: Publications
           tag: Featured Article 
         - name: Illustrations

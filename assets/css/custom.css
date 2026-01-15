@@ -112,13 +112,20 @@ body.dark .download-btn-outline:hover {
     text-align: right;
 }
 
+/* لازم نخلي html و body ياخدوا ارتفاع كامل */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 /* البلوك اللي فيه كل العناصر */
 .portfolio-items {
     display: flex;
-    justify-content: center; /* يحط العناصر أفقيًا في النص */
-    align-items: center;     /* يحط العناصر رأسيًا في النص */
-    flex-wrap: wrap;         /* يخليهم يلتفوا لو فيه أكثر من عنصر */
-    min-height: 100vh;       /* يخلي البلوك ياخد ارتفاع الصفحة كامل */
+    justify-content: center; /* أفقيًا في النص */
+    align-items: center;     /* رأسيًا في النص */
+    flex-wrap: wrap;
+    height: 100vh;           /* ارتفاع كامل للصفحة */
+    box-sizing: border-box;
 }
 
 /* العنصر الواحد */

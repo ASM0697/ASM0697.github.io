@@ -103,24 +103,19 @@ The lecture was designed to help participants overcome common research challenge
 <br>
 <div style="text-align: center; margin: 20px 0;">
 
-  <!-- العنوان -->
-  <span style="
-      display: inline-block;
-      padding: 3px 10px;
-      border: 1.5px solid #3f6d9c;  /* أزرق */
-      border-radius: 10px;
-      color: #3f6d9c;              /* كحلي فاتح */
-      font-weight: bold;
-      font-size: 1.1em;
-      margin-bottom: 10px;
-  ">
-    Post on Facebook
-  </span>
+  <a href="https://www.youtube.com/watch?v=BVAsf40ujD0"
+     target="_blank"
+     style="
+        display: inline-block;
+        padding: 3px 10px;
+        border: 1.5px solid #9c3f44;
+        border-radius: 10px;
+        color: #9c3f44;
+        font-weight: bold;
+        font-size: 1.1em;
+        text-decoration: none;
+     ">
+    Lecture Recording
+  </a>
 
-  <div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
-      <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02Z3oMGYjg7fc3a72Jk29HVwta68dxJPa38G4DwzWFqztjH4A33Ezo8w5JkFobPdMtl%26id%3D61561787096246&show_text=true&width=500"
-              style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
-              allowfullscreen
-              title="Embedded post">
-      </iframe>
-  </div>
+</div>

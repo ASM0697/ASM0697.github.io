@@ -66,16 +66,18 @@ sections:
           tag: '*'
         - name: Publications
           tag: Featured
-        - name: Posts
-          tag: Featured
         - name: Illustrations
+          tag: Featured          
+        - name: Lectures
+          tag: Featured
+        - name: Posts
           tag: Featured
       default_button_index: 0  
             # Archive link auto-shown if more projects exist than 'count' above
       archive:
         enable: false # Set to false to explicitly hide
-        text: "Browse more!"  # Customize text
-        link: "https://asm0697.github.io/gallery/"  # Custom URL
+      #  text: "Browse more!"  # Customize text
+       # link: "https://asm0697.github.io/gallery/"  # Custom URL
     design:
       columns: 3
       spacing:

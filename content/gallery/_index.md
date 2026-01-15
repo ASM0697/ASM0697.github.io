@@ -9,20 +9,20 @@ design:
 
 # Page sections
 sections:
-  - block: portfolio
+  - block: collection
     content:
       title: My Gallery
-      subtitle: |
+      text: |
        *Feel free to use my scientific illustartions for any academic purpose!* *Enjoy! 💙*
        <br><br>
       filters:
         folders:
           - gallery
-      count: 9
+      count: 0
     design:
-      view: cards
+      view: article-grid
       columns: 3
-      fill_image: false
+      fill_image: true
       show_date: false
       show_read_time: false
       show_read_more: false

@@ -22,7 +22,7 @@ sections:
     design:
       view: cards
       columns: 3
-      fill_image: true
+      fill_image: false
       show_date: false
       show_read_time: false
       show_read_more: false

@@ -112,33 +112,3 @@ body.dark .download-btn-outline:hover {
     text-align: right;
 }
 
-/* 1. توسيط العناوين (Title & Subtitle) */
-#projects .section-heading {
-  text-align: center !important;
-  margin: 0 auto 3rem auto !important;
-}
-
-/* 2. توسيط أزرار الفلترة */
-#projects .nav-pills {
-  justify-content: center !important;
-  margin-bottom: 2rem;
-}
-
-/* 3. توسيط شبكة الكروت (Isotope Grid) */
-#projects .isotope {
-  margin: 0 auto !important;
-  display: flex !important;
-  justify-content: center !important;
-  flex-wrap: wrap;
-}
-
-/* 4. ضبط حجم ومكان الكارت الواحد ليكون متناسقاً */
-#projects .project-showcase {
-  margin: 0 10px 20px 10px !important; /* مسافات متساوية حول الكارت */
-  float: none !important; /* إلغاء خاصية العوم لضمان التوسيط */
-}
-
-#projects .card-image.fixed-height {
-  object-fit: contain !important; /* لعرض الصورة كاملة دون قص */
-  background-color: #000; /* اختيار لون خلفية إذا كانت الصورة أصغر من الكارت */
-}

@@ -1,6 +1,6 @@
 ---
-title: "LAB Snippets: Teaching & Students' Work"
-toc: true
+title: "Scientific Lecture at Sci. Green Camp, Alexandria University"
+toc: false
 authors:
 - me
 #author_notes:
@@ -34,7 +34,7 @@ authors:
  # - type: DOI
   #  url: https://doi.org/10.1007/s13679-025-00669-1
 
-Draft: true
+Draft: false
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
@@ -62,10 +62,22 @@ image:
 #<mark>Highlighted text</mark>
 
 ---
-In the lab, it's more than just science — it's about nurturing curiosity and guiding every small step toward discovery.
+As part of ongoing efforts to promote research skills among undergraduate students and researchers, I had the privilege of delivering an online scientific lecture entitled:
 
-"Every great mind was once a student guided with patience."
+**“Searching for Reliable Resources, Reading Research Papers Effectively, and Using Reference Management Tools.”**
 
-{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/giant-bacteria/featured_hu_95d3ab0ade0bda2e.webp" width="800" height="600" quality="90" >}}
+The lecture was part of the Sci. Green Camp activities, organized by the Undergraduate Researchers Initiative (URI) at Alexandria University. The event focused on supporting students at the early stages of their academic journey by developing essential research competencies.
+
+**Lecture Highlights**
+
+During the session, I addressed practical aspects of scientific research, including:
+
+- How to search for reliable scientific sources using academic databases such as Google Scholar and PubMed.
+
+- Effective strategies for reading and understanding research papers, with guidance on critically approaching different sections.
+
+- An introduction to reference management tools, including EndNote and Mendeley, with a detailed demonstration on Mendeley to streamline citation and literature organization.
+
+The lecture was designed to help participants overcome common research challenges and improve the quality and efficiency of their academic writing.
 
 {{< youtube BVAsf40ujD0 >}}

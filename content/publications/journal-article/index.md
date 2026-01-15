@@ -28,6 +28,7 @@ publication_short: ""
 summary: This review summarizes the potential of targeting ferroptosis-iron-dependent lipid peroxidation-as a novel strategy for treating obesity and its metabolic complications through mechanisms different from traditional interventions.
 
 tags:
+- Featured
 - Featured Article
 - Ferroptosis
 

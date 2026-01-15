@@ -65,13 +65,13 @@ sections:
         - name: All
           tag: '*'
         - name: Publications
-          tag: Featured
+          tag: Featured Article 
         - name: Illustrations
-          tag: Featured          
+          tag: Featured Illustration        
         - name: Lectures
-          tag: Featured
+          tag: Featured Lecture
         - name: Posts
-          tag: Featured
+          tag: Featured Post
       default_button_index: 0  
             # Archive link auto-shown if more projects exist than 'count' above
       archive:

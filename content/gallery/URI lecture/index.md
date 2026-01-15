@@ -104,7 +104,7 @@ The lecture was designed to help participants overcome common research challenge
 <br>
 <div style="text-align: center; margin: 20px 0;">
 
-  <a href="https://www.youtube.com/watch?v=BVAsf40ujD0"
+  <a href="https://www.facebook.com/permalink.php?story_fbid=pfbid02Z3oMGYjg7fc3a72Jk29HVwta68dxJPa38G4DwzWFqztjH4A33Ezo8w5JkFobPdMtl&id=61561787096246"
      target="_blank"
      style="
         display: inline-block;

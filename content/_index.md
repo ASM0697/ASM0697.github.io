@@ -50,17 +50,44 @@ sections:
         #Please reach out to collaborate 😃
     #design:
    #   columns: '1'
-  - block: collection
+  
+  - block: portfolio
     id: papers
     content:
       title: Featured Publications
+      text: "A selection of my recent work"
+      count: 0
       filters:
         folders:
           - publications
+          - gallery
         featured_only: true
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Publications
+          tag: Publications
+        - name: Posts
+          tag: Posts
+        - name: Illustrations
+          tag: Illustrations
+      default_button_index: 0  
     design:
-      view: card
-      columns: 0
+      view: article-grid
+      columns: 3
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+  #- block: collection
+   # id: papers
+   # content:
+    #  title: Featured Publications
+     # filters:
+     #   folders:
+      #    - publications
+      #  featured_only: true
+   # design:
+    #  view: card
+     # columns: 0
    # Contact Section
   - block: contact-info
     id: contact

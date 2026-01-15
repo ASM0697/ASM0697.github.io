@@ -61,26 +61,41 @@ sections:
     design:
       view: card
       columns: 0
-      
-  - block: hero
+   # Contact Section
+  - block: contact-info
     id: contact
     content:
-      title: "Get in Touch!"
-      text: "Science advances by collaboration, so I am always open to it!"
-      primary_action:
-        text: "Contact Via E-mail"
-        url: "mailto:amasoud@aiu.edu.eg"
-        icon: ""
-      secondary_action:
-        text: "Or Whatsapp"
-        url: "https://wa.me/+201068190724"
-
+      title: Get in Touch!
+      subtitle: "Let's build knowledge together"
+      text: |-
+        Science advances through collaboration, so I am always open to it!
+        Whether you're looking to collaborate or simply want to say hello, feel free to reach out!
+      email: amasoud@aiu.edu.eg
+      autolink: true
     design:
-      background:
-        color: ""
-        gradient_start: "#4f46e5"
-        gradient_end: "#7c3aed"
-        text_color_light: false
+      columns: '1'
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+
+  #- block: hero
+   # id: contact
+   # content:
+    #  title: "Get in Touch!"
+     # text: "Science advances by collaboration, so I am always open to it!"
+     # primary_action:
+      #  text: "Contact Via E-mail"
+       # url: "mailto:amasoud@aiu.edu.eg"
+       # icon: ""
+     # secondary_action:
+      #  text: "Or Whatsapp"
+       # url: "https://wa.me/+201068190724"
+
+   # design:
+    #  background:
+     #   color: ""
+      #  gradient_start: "#4f46e5"
+       # gradient_end: "#7c3aed"
+       # text_color_light: false
 #- block: collection
    # content:
     #  title: Recent Publications

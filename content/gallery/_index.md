@@ -12,7 +12,7 @@ sections:
   - block: portfolio
     content:
       title: My Gallery
-      text: |
+      subtitle: |
        *Feel free to use my scientific illustartions for any academic purpose!* *Enjoy! 💙*
        <br><br>
       filters:
@@ -20,7 +20,7 @@ sections:
           - gallery
       count: 0
     design:
-      view: article-grid
+      view: cards
       columns: 3
       fill_image: true
       show_date: false

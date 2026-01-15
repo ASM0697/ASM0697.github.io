@@ -121,7 +121,7 @@ The lecture was designed to help participants overcome common research challenge
   </a>
 <br>
 </div>
-<div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */">
+<div style="position: relative; width: 100%; max-width: 504px; padding-bottom: 100%; /* نسبة الارتفاع الأصلية */ border-radius: 12px; overflow: hidden; margin: 0 auto; border: 1px solid #ccc;">
       <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02Z3oMGYjg7fc3a72Jk29HVwta68dxJPa38G4DwzWFqztjH4A33Ezo8w5JkFobPdMtl%26id%3D61561787096246&show_text=true&width=500"
               style="position: absolute; top:0; left:0; width:100%; height:100%; border:0; border-radius: 12px;"
               allowfullscreen

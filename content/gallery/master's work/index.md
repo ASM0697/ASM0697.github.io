@@ -34,7 +34,7 @@ date: "2022-08-24T00:00:00Z"
  # - type: DOI
   #  url: https://doi.org/10.1007/s13679-025-00669-1
 
-Draft: false
+Draft: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
@@ -66,4 +66,3 @@ As part of ongoing efforts to promote research skills among undergraduate studen
 
 **“Searching for Reliable Resources, Reading Research Papers Effectively, and Using Reference Management Tools.”**
 
-image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="800" quality="90"

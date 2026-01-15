@@ -18,7 +18,7 @@ sections:
       filters:
         folders:
           - gallery
-      count: 0
+      count: 9
     design:
       view: cards
       columns: 3

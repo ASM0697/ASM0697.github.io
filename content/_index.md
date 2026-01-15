@@ -55,7 +55,7 @@ sections:
     #id: projects
     content:
       title: "Professional Highlights"
-      subtitle: "A selection of my recent Activities"
+      subtitle: "A selection of my recent activities"
       count: 0
       filters:
         folders:
@@ -68,10 +68,10 @@ sections:
           tag: Featured Article 
         - name: Illustrations
           tag: Featured Illustration        
-       # - name: Lectures
-        #  tag: Featured Lecture
-        - name: Posts
-          tag: Featured Post
+        - name: Lectures
+          tag: Featured Lecture
+       # - name: Posts
+       #   tag: Featured Post
       default_button_index: 0  
             # Archive link auto-shown if more projects exist than 'count' above
       archive:
@@ -82,7 +82,7 @@ sections:
       columns: 3
       view: showcase
       spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+        padding: ["4rem", "auto", "4rem", "auto"]
   #- block: collection
    # id: papers
    # content:

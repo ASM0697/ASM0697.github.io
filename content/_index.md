@@ -79,7 +79,7 @@ sections:
       #  text: "Browse more!"  # Customize text
        # link: "https://asm0697.github.io/gallery/"  # Custom URL
     design:
-      columns: 1
+      columns: 3
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   #- block: collection

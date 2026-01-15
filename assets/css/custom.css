@@ -112,23 +112,37 @@ body.dark .download-btn-outline:hover {
     text-align: right;
 }
 
-/* لازم نخلي html و body ياخدوا ارتفاع كامل */
-html, body {
-    height: 100%;
-    margin: 0;
+/* Center the Filter Buttons */
+.nav-pills.filter-menu {
+  justify-content: center !important;
+  display: flex;
 }
 
-/* البلوك اللي فيه كل العناصر */
-.portfolio-items {
-    display: flex;
-    justify-content: center; /* أفقيًا في النص */
-    align-items: center;     /* رأسيًا في النص */
-    flex-wrap: wrap;
-    height: 100vh;           /* ارتفاع كامل للصفحة */
-    box-sizing: border-box;
+/* Center the Portfolio Grid Items */
+.isotope {
+  margin: 0 auto !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* العنصر الواحد */
-.portfolio-item {
-    margin: 1rem; /* مسافة بين العناصر */
+/* Ensure the card container itself is centered */
+.project-showcase {
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+}
+
+/* Prevent portfolio images from being zoomed/cropped */
+.article-widget.view-card .featured-image,
+.project-card-image {
+  object-fit: contain !important; /* Shows the full image without cropping */
+  background-color: transparent !important; /* Optional: adds a clean background if the image ratio differs */
+  height: 200px; /* Adjust this height to match your desired card size */
+  width: 100%;
+}
+
+/* Ensure the image container doesn't force a crop */
+.img-responsive {
+  object-wrap: contain !important;
 }

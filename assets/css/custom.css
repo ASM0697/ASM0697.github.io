@@ -112,3 +112,14 @@ body.dark .download-btn-outline:hover {
     text-align: right;
 }
 
+/* للبلوك اللي فيه العناصر */
+.portfolio-items {
+    display: flex;
+    justify-content: center; /* يحط العناصر في المنتصف */
+    flex-wrap: wrap;         /* يخليهم يلتفوا لو فيه أكثر من عنصر */
+}
+
+/* لو عايز العنصر الواحد يكون متوسط */
+.portfolio-item {
+    margin: 1rem; /* مسافة بين العناصر */
+}

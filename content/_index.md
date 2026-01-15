@@ -59,9 +59,8 @@ sections:
       count: 0
       filters:
         folders:
-          - features/featured/ 
-       #   - publications
-        #  - gallery
+          - publications
+          - gallery
         features:
           - featured  
       buttons:

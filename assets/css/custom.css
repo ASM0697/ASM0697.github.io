@@ -115,7 +115,7 @@ body.dark .download-btn-outline:hover {
 /* للبلوك اللي فيه العناصر */
 .portfolio-items {
     display: flex;
-    justify-content: center; /* يحط العناصر في المنتصف */
+    justify-content: center; align-items: center;/* يحط العناصر في المنتصف */
     flex-wrap: wrap;         /* يخليهم يلتفوا لو فيه أكثر من عنصر */
 }
 

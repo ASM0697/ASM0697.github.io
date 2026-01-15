@@ -9,7 +9,7 @@ design:
 
 # Page sections
 sections:
-  - block: collection
+  - block: portfolio
     content:
       title: My Gallery
       text: |

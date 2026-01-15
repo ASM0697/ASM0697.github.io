@@ -52,7 +52,7 @@ sections:
    #   columns: '1'
   
   - block: portfolio
-    id: projects
+    #id: projects
     content:
       title: Featured Work
       subtitle: "A selection of my recent work"
@@ -61,7 +61,7 @@ sections:
         folders:
           - publications
           - gallery
-        featured_only: true
+        featured: true
       buttons:
         - name: All
           tag: '*'

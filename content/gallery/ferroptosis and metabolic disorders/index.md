@@ -24,7 +24,7 @@ date: "2025-09-18T00:00:00Z"
 
 tags:
 - Illustrations
-#featured: false
+featured: true
 
 #hugoblox:
  # ids:

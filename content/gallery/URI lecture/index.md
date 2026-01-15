@@ -79,7 +79,7 @@ During the session, I addressed practical aspects of scientific research, includ
 - An introduction to reference management tools, including EndNote and Mendeley, with a detailed demonstration of Mendeley to streamline citation and literature organization, drawing on my role as a Mendeley Advisor.
 
 The lecture was designed to help participants overcome common research challenges and improve the quality and efficiency of their academic writing.
-
+<br>
 <div style="text-align: center; margin: 20px 0;">
 
   <!-- العنوان -->
@@ -123,3 +123,4 @@ The lecture was designed to help participants overcome common research challenge
               title="Embedded post">
       </iframe>
   </div>
+  <br>

@@ -61,8 +61,8 @@ sections:
         folders:
           - publications
           - gallery
-        features:
-          - featured  
+        frontmatter:
+          featured: true 
       buttons:
         - name: All
           tag: '*'
@@ -76,8 +76,8 @@ sections:
             # Archive link auto-shown if more projects exist than 'count' above
       archive:
         enable: false # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
+        text: "Browse more!"  # Customize text
+        link: "/gallery/"  # Custom URL
     design:
       columns: 3
       spacing:

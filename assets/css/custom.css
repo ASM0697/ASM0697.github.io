@@ -111,3 +111,9 @@ body.dark .download-btn-outline:hover {
     direction: rtl;
     text-align: right;
 }
+
+/* GLOBAL: reduce vertical space between home sections */
+.home-section {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}

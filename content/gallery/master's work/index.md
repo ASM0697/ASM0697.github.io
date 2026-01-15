@@ -66,4 +66,4 @@ As part of ongoing efforts to promote research skills among undergraduate studen
 
 **“Searching for Reliable Resources, Reading Research Papers Effectively, and Using Reference Management Tools.”**
 
-{{< image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="800" quality="90" >}}
+image="https://asm0697.github.io/gallery/teaching-snippts/dna-strawberry.jpg" width="800" height="800" quality="90"

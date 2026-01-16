@@ -79,7 +79,9 @@ Nevertheless, if future studies confirm these findings, we may be on the verge o
 
 🔗 [https://doi.org/10.1016/j.ajcnut.2025.05.003](https://doi.org/10.1016/j.ajcnut.2025.05.003**)
 
-*Arabic Translation*
+
+<br>
+{{< spoiler text="Click for Arabic Translation - النص بالعربية" >}}
 
 <div class="arabic-text">
 هل ممكن كبسولة صغيرة من فيتامين د تبطئ من عمر جسمك البيولوجي أو بمعنى آخر تغير من الطريقة اللي بيشيخ بيها جسمك؟
@@ -101,11 +103,14 @@ Nevertheless, if future studies confirm these findings, we may be on the verge o
 الباحثين نفسهم وضحوا إن الدراسة كانت تحليل ثانوي، يعني النتائج مش قاطعة، ولسه محتاجة أبحاث إضافية أوسع وأكبر عشان تدعمها وتأكدها. وكمان العينة مش متنوعة كفاية علشان نعمم النتائج على كل الناس.
 
 ومع كده، لو الدراسات الجاية أكدت النتائج دي، ممكن نكون على أعتاب تحول في نظرتنا للوقاية من الأمراض المرتبطة بالسن.. وممكن نلاقي في ڤيتامين D مفتاح جديد للحفاظ على صحة خلايا الجسم.
-**المصادر:**
+
+<strong>المصادر:</strong>
+<ol>
+  <li><a href="https://doi.org/10.1016/j.ajcnut.2025.05.003" target="_blank">https://doi.org/10.1016/j.ajcnut.2025.05.003</a></li>
+</ol>
 </div>
 
-🔗 https://doi.org/10.1016/j.ajcnut.2025.05.003
-
+{{< /spoiler >}}
 
 <br>
 <div style="text-align: center; margin: 20px 0;">

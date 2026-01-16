@@ -77,7 +77,7 @@ Nevertheless, if future studies confirm these findings, we may be on the verge o
 
 **Source:**  
 
-🔗 [https://doi.org/10.1016/j.ajcnut.2025.05.003](https://doi.org/10.1016/j.ajcnut.2025.05.003**)
+🔗 <a href="https://doi.org/10.1016/j.ajcnut.2025.05.003" target="_blank">https://doi.org/10.1016/j.ajcnut.2025.05.003</a>
 
 
 <br>

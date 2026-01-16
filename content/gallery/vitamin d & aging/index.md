@@ -7,6 +7,7 @@ authors:
 #- "Equal contribution"
 date: "2025-06-10T00:00:00Z"
 
+toc: false
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
 
@@ -55,7 +56,7 @@ image:
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
-*Could a small vitamin D capsule slow down your biological age—or, in other words, change the way your body ages?*
+#### *Could a small vitamin D capsule slow down your biological age—or, in other words, change the way your body ages?*
 
 In a new study published in **The American Journal of Clinical Nutrition**, researchers found that long-term supplementation with **vitamin D3** helped slow **telomere shortening**. Telomeres are structures located at the ends of chromosomes inside body cells, and their role is to protect chromosomes—which carry genetic material—from deterioration or fusion with other chromosomes. Telomere length naturally decreases with age.
 

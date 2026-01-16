@@ -80,8 +80,8 @@ Think with me… how could this giant bacterium affect the marine environment wh
 1. https://www.science.org/doi/10.1126/science.abb3634
 2. https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
 
-
-{{< spoiler text="Click for Arabic Translation (italic)" >}}
+<br>
+{{< spoiler text="Click for Arabic Translation" >}}
 
 <div class="arabic-text">
 هل تخيلت يومًا أن هناك بكتيريا بحجم رمش العين، ويمكن رؤيتها بالعين المجردة؟! 

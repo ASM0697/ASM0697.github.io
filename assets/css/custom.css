@@ -112,3 +112,6 @@ body.dark .download-btn-outline:hover {
     text-align: right;
 }
 
+.spoiler summary {
+  font-style: italic;
+}

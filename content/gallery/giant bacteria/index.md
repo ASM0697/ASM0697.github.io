@@ -88,8 +88,7 @@ Think with me… how could this giant bacterium affect the marine environment wh
 <div class="arabic-text">
 هل تخيلت يومًا أن هناك بكتيريا بحجم رمش العين، ويمكن رؤيتها بالعين المجردة؟! 
 
-في دراسة نشرت في مجلة ساينس، اكتشف فريق من الباحثين بكتيريا عملاقة غير مسبوقة، اسمها  
-*Candidatus Thiomargarita magnifica*. هذه البكتيريا ليست مجهرية كما هي عادة معظم أنواع
+في دراسة نشرت في مجلة ساينس، اكتشف فريق من الباحثين بكتيريا عملاقة غير مسبوقة، اسمها *Candidatus Thiomargarita magnifica*. هذه البكتيريا ليست مجهرية كما هي عادة معظم أنواع
 البكتيريا المعروفة، بل يمكن رؤيتها بالعين المجردة حيث يصل طولها لأكثر من سنتيمتر كامل —
 وهو حجم مذهل بالنسبة لأي كائن بكتيري!
 
@@ -111,7 +110,7 @@ Think with me… how could this giant bacterium affect the marine environment wh
 
 <strong>المصادر:</strong>
 <ol>
-  <li><a href="https://www.science.org/doi/10.1126/science.abb3634" target="_blank"></a></li>
+  <li><a href="https://www.science.org/doi/10.1126/science.abb3634"></a></li>
   <li><a href="https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html" target="_blank"></a></li>
 </ol>
 </div>

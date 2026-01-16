@@ -70,10 +70,11 @@ I created this simple Excel file to make the process practical and straightforwa
 
 🔗 Online sheet with the option to download for offline use: http://bit.ly/4ln3Ssy
 
-*Arabic Translation*
+
+<br>
+{{< spoiler text="Click for Arabic Translation - النص بالعربية" >}}
 
 <div class="arabic-text">
-
 لما كنت في الكلية، كنت دايمًا بحتاج أتابع الـ GPA بتاعي بعد كل فصل دراسي، وأخطط للفصل اللي بعده. كنت بحب أعمل محاكاة —يعني أفترض إني جبت تقديرات معينة في مواد معينة— وأشوف وقتها الـ cGPA هيوصل لفين. الطريقة دي ساعدتني جدًا في إني أوجه نفسي، وأقلل من الضغط الدراسي عنها، خاصة في الفصول اللي كانت فيها مواد محتواها العلمي تقيل.
 
 ملف الـ Excel البسيط ده عملته بحيث يساعد في الموضوع بشكل عملي وبسيط، وهو شامل طريقة تقييم إن الـ A+ = 4 والـ A = 4.
@@ -88,6 +89,8 @@ I created this simple Excel file to make the process practical and straightforwa
 🔗 رابط الشيت أونلاين مع إمكانية تحميله أوفلاين: http://bit.ly/4ln3Ssy
 
 </div>
+
+{{< /spoiler >}}
 
 <br>
 <div style="text-align: center; margin: 20px 0;">

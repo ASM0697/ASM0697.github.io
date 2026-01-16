@@ -60,7 +60,7 @@ image:
 #slides: ""
 #This work is driven by the results.......
 ---
-### *Have you ever imagined that there is a bacterium the size of an eyelash, and that it can be seen with the naked eye?!*
+#### *Have you ever imagined that there is a bacterium the size of an eyelash, and that it can be seen with the naked eye?!*
 
 In a study published in Science magazine, a team of researchers discovered an unprecedented giant bacterium named *Candidatus Thiomargarita magnifica*. This bacterium is not microscopic like most known bacteria; it can be seen with the naked eye, reaching a length of over a full centimeter — an astonishing size for any bacterial organism!
 

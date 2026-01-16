@@ -5,7 +5,7 @@
 
 ## About This Website
 
-This website is built using the open-source HugoBlox theme, and it showcases my research, activities, and academic work.
+This website is built using the open-source HugoBlox framework, and it showcases my research, activities, and academic work.
 
 ## Licensing
 

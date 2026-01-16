@@ -77,8 +77,8 @@ Think with me… how could this giant bacterium affect the marine environment wh
 
 **Sources:**
 
-1. https://www.science.org/doi/10.1126/science.abb3634
-2. https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html
+1. <a href="https://www.science.org/doi/10.1126/science.abb3634" target="_blank">Science</a>
+2. <a href="https://www.nhm.ac.uk/discover/news/2022/june/worlds-largest-bacteria-are-visible-naked-eye.html" target="_blank">Natural History Museum</a>
 
 <br>
 {{< spoiler text="Click for Arabic Translation - النص بالعربية" >}}

@@ -2,8 +2,8 @@
 title: "Pharmacological modulation of ferroptosis: Preclinical promise, clinical facts, and translational challenges"
 authors:
 - me
-#author_notes:
-#- "Equal contribution"
+author_notes:
+- "Equal contribution"
 #- "Equal contribution"
 ##date: "2025-10-25T00:00:00Z"
 

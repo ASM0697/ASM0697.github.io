@@ -23,13 +23,13 @@ publication_types: ["Original article"]
 #summary: This review summarizes the potential of targeting ferroptosis-iron-dependent lipid peroxidation-as a novel strategy for treating obesity and its metabolic complications through mechanisms different from traditional interventions.
 
 tags:
-- Inflammatory Pain
-- miRNA-targeted therapy
+- Moringa Oleifera
 - Molecular docking
 - Neuroinflammation
 
 featured: flase
 
+draft: true
 hugoblox:
   ids:
 

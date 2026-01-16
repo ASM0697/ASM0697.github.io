@@ -58,7 +58,7 @@ sections:
     content:
       title: Internships
       text: |
-          * I completed two research internships for one month at [SRTA City](https://srtacity.sci.eg/)in Egypt, where I gained hands-on experience with molecular and tissue culture techniques.
+          * I completed two research internships for one month at [SRTA City](https://srtacity.sci.eg/) in Egypt, where I gained hands-on experience with molecular and tissue culture techniques.
           
           * I completed a research internship for over three months at [Egypt Scholars Labs](https://egyptscholars.org/es-labs2/), where I learned the practical application of research skills, including producing and publishing scientific articles.
       

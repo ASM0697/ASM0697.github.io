@@ -54,5 +54,18 @@ sections:
         #exclude_featured: false
     #design:
       #view: citation
-
+  - block: markdown
+    content:
+      title: Internships
+      text: |
+          * I completed two research internships for 1 month at the City of Scientific Research (SRTA) in Egypt, where I gained hands-on experience with molecular and tissue culture techniques.
+          
+          * I completed a research internship for over 3 months at Egypt Scholars Labs, where I learned the practical application of research skills, including producing and publishing scientific articles.
+      
+      #filters:
+       # folders:
+        #  - ???
+        #exclude_featured: false
+    #design:
+     # view: citation
 ---

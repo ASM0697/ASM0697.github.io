@@ -62,11 +62,10 @@ image:
 #<mark>Highlighted text</mark>
 
 ---
-##### Every course I’ve explored, every workshop I’ve attended, and every conference I’ve joined has been a stepping stone in my journey of lifelong learning and scientific curiosity.
+**Every course I’ve explored, every workshop I’ve attended, and every conference I’ve joined has been a stepping stone in my journey of lifelong learning and scientific curiosity.**
 
-## Courses
-
-|                              Course                                       |
+## A. Courses
+||
 |---------------------------------------------------------------------------|
 | Diploma in Analytical Techniques in Purification of Biomolecules - Alison 2024| 
 | Introduction on Nanotechnology - Edraak 2023|
@@ -83,11 +82,9 @@ image:
 | Basics of Scientific Research – Egypt Scholars Inc. 2019| 
 |  Computer basics and MS Office - Alexandria University 2018|
 
-<br>
 
-## Workshops
-
-|                              Workshop                                      |
+## B. Workshops
+||
 |---------------------------------------------------------------------------|
 | Western Blot Practical Techniques, Achieving Reliable and Reproducible Results Workshop – By Agitech & Bio-Rad at SRTA City 2024|
 | Finding Funding and Writing a Winning Proposal: Structure and Tips for Writing – TICO AIU 2023|
@@ -108,12 +105,11 @@ image:
 |Soft Skills Workshop - European Association of Geoscientists and Engineers 2016|
 |Leadership skills - Tamdeen for Training and Management Consulting 2015|
 
-<br>
 
-## Conferences
+## C. Conferences
 
-|Conference |
------------
+| |
+|-----------|
 |3rd Scientific Conference: Emerging Technologies and Their Relationship to SustainableDevelopment - City of Scientific Research and Technological Applications, Borg Al-Arab City 2025|
 |Annual Arab Asian Biotechnology Conference (AABC 2025): Desert Biotechnology and Sustaining Life in Arid Regions - Bibliotheca Alexandrina, Egypt 2025|
 |12ᵗʰ STUDENT & 5ᵗʰ POST-GRADUATE Conference for Research & Innovation - Faculty ofScience, Alexandria University 2025|

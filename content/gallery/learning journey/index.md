@@ -1,12 +1,12 @@
 ---
-title: "From MOOCs to Conferences: My Learning Path"
+title: "From MOOCs to Conferences: My Self-Learning Path"
 toc: true
 authors:
 - me
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-# date: "2025-8-15T00:00:00Z"
+date: "2022-1-15T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"

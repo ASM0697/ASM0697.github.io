@@ -64,7 +64,7 @@ image:
 ---
 **Every course I’ve explored, every workshop I’ve attended, and every conference I’ve joined has been a stepping stone in my journey of lifelong learning and scientific curiosity.**
 
-## A. Courses
+## 1. Courses
 ||
 |---------------------------------------------------------------------------|
 | Diploma in Analytical Techniques in Purification of Biomolecules - Alison 2024| 
@@ -83,7 +83,7 @@ image:
 |  Computer basics and MS Office - Alexandria University 2018|
 
 
-## B. Workshops
+## 2. Workshops
 ||
 |---------------------------------------------------------------------------|
 | Western Blot Practical Techniques, Achieving Reliable and Reproducible Results Workshop – By Agitech & Bio-Rad at SRTA City 2024|
@@ -106,7 +106,7 @@ image:
 |Leadership skills - Tamdeen for Training and Management Consulting 2015|
 
 
-## C. Conferences
+## 3. Conferences
 
 | |
 |-----------|

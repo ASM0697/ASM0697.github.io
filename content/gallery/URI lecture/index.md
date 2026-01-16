@@ -24,8 +24,8 @@ date: "2025-09-08T00:00:00Z"
 #summary: This figure ...
 
 tags:
-- Featured
-- Featured Lecture
+#- Featured
+#- Featured Lecture
 - Lectures
 #featured: false
 

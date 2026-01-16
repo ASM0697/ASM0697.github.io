@@ -24,7 +24,7 @@ date: "2025-05-28T00:00:00Z"
 
 tags:
 #- Featured
-- Featured Post
+# - Featured Post
 - Posts
 
 #featured: true

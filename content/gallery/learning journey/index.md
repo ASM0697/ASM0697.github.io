@@ -1,12 +1,12 @@
 ---
-title: "LAB Snippets: Teaching & Students' Work"
+title: "From MOOCs to Conferences: My Learning Path"
 toc: true
 authors:
 - me
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-# date: "2025-10-25T00:00:00Z"
+# date: "2025-8-15T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -34,13 +34,13 @@ authors:
  # - type: DOI
   #  url: https://doi.org/10.1007/s13679-025-00669-1
 
-Draft: true
+Draft: false
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'Image credit: [**Ahmed Massoud**](https://asm0697.github.io)'
   focal_point: ""
-  preview_only: false
+  preview_only: true
   
 
 # Associated Projects (optional).
@@ -62,14 +62,6 @@ image:
 #<mark>Highlighted text</mark>
 
 ---
-In the lab, it's more than just science — it's about nurturing curiosity and guiding every small step toward discovery.
-
-"Every great mind was once a student guided with patience."
-
-{{< embed url="#https://example.com" title="Histology Lab" description="Beautiful data visualization workspace" image="https://asm0697.github.io/gallery/giant-bacteria/featured_hu_95d3ab0ade0bda2e.webp" width="800" height="600" quality="90" >}}
-
-{{< youtube BVAsf40ujD0 >}}
-
 ##### Every course I’ve explored, every workshop I’ve attended, and every conference I’ve joined has been a stepping stone in my journey of lifelong learning and scientific curiosity.
 
 ## Courses

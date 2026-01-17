@@ -79,38 +79,34 @@ image:
 
 <div style="
   display: inline-flex;
-  align-items: center;
   justify-content: center;
-  gap: 22px;
+  align-items: center;
+  gap: 20px;
   padding: 14px 18px;
   margin: 20px auto;
+  border: 1px solid #ccc;
   border-radius: 999px;
-  border: 1.5px solid rgba(255,255,255,0.4);
-  background: rgba(0,0,0,0.25);
 ">
 
-  <!-- Website -->
   <a href="https://scholar-jobs.blogspot.com/" target="_blank"
-     style="font-size: 1.5rem; text-decoration: none; color: #ffffff;">
+     style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
     🌐
   </a>
 
-  <!-- LinkedIn -->
   <a href="https://www.linkedin.com/company/scholarjobs" target="_blank"
-     style="font-size: 1.5rem; text-decoration: none; color: #ffffff;">
+     style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
     {{< icon name="brands/linkedin" >}}
   </a>
 
-  <!-- Telegram -->
   <a href="https://t.me/scholarjobs1" target="_blank"
-     style="font-size: 1.5rem; text-decoration: none; color: #ffffff;">
+     style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
     {{< icon name="brands/telegram" >}}
   </a>
 
-  <!-- Facebook -->
   <a href="https://www.facebook.com/scholarjobs1" target="_blank"
-     style="font-size: 1.5rem; text-decoration: none; color: #ffffff;">
+     style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
     {{< icon name="brands/facebook" >}}
   </a>
 
 </div>
+

@@ -83,3 +83,7 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 </a>
 
 {{< icon name="brands/whatsapp" >}} WhatsApp
+
+<a href="https://wa.me/201234567890" target="_blank" style="text-decoration:none;">
+  {{< icon name="brands/whatsapp" >}} WhatsApp
+</a>

@@ -77,7 +77,7 @@ I then began the practical phase of my research, implementing the proposed study
 
 <figure style="text-align:center;">
   <img src="paw.jpg" width="100%">
-  <figcaption>Paw Thickness Measurement to Assess Peripheral Inflammation</figcaption>
+  <figcaption>Paw Assessment</figcaption>
 </figure>
 
 <figure style="text-align:center;">

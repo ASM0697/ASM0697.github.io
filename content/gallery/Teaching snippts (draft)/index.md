@@ -34,7 +34,7 @@ authors:
  # - type: DOI
   #  url: https://doi.org/10.1007/s13679-025-00669-1
 
-Draft: false
+Draft: True
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
@@ -74,3 +74,5 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 
 {{< icon name="telegram" >}} telegram
+
+<img src="/URI lecture/featured.jpg" width="24">

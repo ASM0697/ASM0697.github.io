@@ -6,7 +6,7 @@ authors:
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-# date: "2025-8-15T00:00:00Z"
+date: "2022-02-10T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -62,7 +62,7 @@ image:
 #<mark>Highlighted text</mark>
 
 ---
-##### Founded and led by me in 2022 as a volunteer-driven initiative, SCHOLARJOBS emerged from a personal understanding of the challenges faced by fresh graduates and job seekers. Initially created to share job opportunities and scholarship-related content, the platform has grown to reach over 70,000 followers, helping thousands find opportunities and navigate the early stages of their careers.
+##### Founded and led by me in 2022 as a volunteer-driven initiative, SCHOLARJOBS emerged from a personal understanding of the challenges faced by fresh graduates and job seekers. As it have been  initially created to share job opportunities and scholarship-related content, the platform has grown to reach over 70,000 followers, helping thousands find opportunities and navigate the early stages of their careers.
 
 ![Scholarjobs](about.jpg) 
 
@@ -77,3 +77,41 @@ image:
 - {{< icon name="brands/facebook" >}} &nbsp; <a href="https://wwww.facebook.com/scholarjobs1" target="_blank" style="text-decoration:none;">  *Facebook – Community engagement and shared opportunities* </a>
 
 
+<div style="
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 504px;
+  padding: 10px 7px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+">
+
+  <!-- Website -->
+  <a href="https://scholar-jobs.blogspot.com/" target="_blank"
+     style="font-size: 1.6rem; text-decoration: none;">
+    🌐
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/company/scholarjobs" target="_blank"
+     style="font-size: 1.6rem; text-decoration: none;">
+    {{< icon name="brands/linkedin" >}}
+  </a>
+
+  <!-- Telegram -->
+  <a href="https://t.me/scholarjobs1" target="_blank"
+     style="font-size: 1.6rem; text-decoration: none;">
+    {{< icon name="brands/telegram" >}}
+  </a>
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/scholarjobs1" target="_blank"
+     style="font-size: 1.6rem; text-decoration: none;">
+    {{< icon name="brands/facebook" >}}
+  </a>
+
+</div>

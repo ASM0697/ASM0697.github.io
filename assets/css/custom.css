@@ -115,3 +115,18 @@ body.dark .download-btn-outline:hover {
 .spoiler summary {
   font-style: italic;
 }
+
+/* Hide "Powered by Hugo Blox" inside HugoBlox search modal */
+[x-data="searchModal()"] a[href*="hugoblox"],
+[x-data="searchModal()"] a[href*="hugo-blox"],
+[x-data="searchModal()"] a[href*="hugoblox.com"],
+[x-data="searchModal()"] a[href*="hugoblox.net"] {
+  display: none !important;
+}
+
+/* If it's wrapped in a footer-like container, hide it too */
+[x-data="searchModal()"] .pagefind-ui__search-footer,
+[x-data="searchModal()"] .search-footer,
+[x-data="searchModal()"] footer {
+  display: none !important;
+}

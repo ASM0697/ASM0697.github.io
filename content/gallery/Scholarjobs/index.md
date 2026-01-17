@@ -76,7 +76,7 @@ image:
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 1px 18px;
+    padding: 0px 18px;
     border: 1px solid #ccc;
     border-radius: 999px;
     line-height: 1;
@@ -106,15 +106,64 @@ image:
 
 </div>
 
+<br>
 
-- <a href="https://scholar-jobs.blogspot.com/" target="_blank" style="text-decoration:none;">  *Website – Explore opportunities and curated resources* </a>
+<a href="https://scholar-jobs.blogspot.com/" target="_blank" style="text-decoration:none;">  *Website – Explore opportunities and curated resources* </a>
 
-- <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *LinkedIn – Professional updates and career-focused content* </a>
+<a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *LinkedIn – Professional updates and career-focused content* </a>
 
-- <a href="https://t.me/scholarjobs1" target="_blank" style="text-decoration:none;">  *Telegram – Real-time job postings and announcements* </a>
+<a href="https://t.me/scholarjobs1" target="_blank" style="text-decoration:none;">  *Telegram – Real-time job postings and announcements* </a>
 
-- <a href="https://wwww.facebook.com/scholarjobs1" target="_blank" style="text-decoration:none;">  *Facebook – Community engagement and shared opportunities* </a>
-
-
+<a href="https://wwww.facebook.com/scholarjobs1" target="_blank" style="text-decoration:none;">  *Facebook – Community engagement and shared opportunities* </a>
 
 
+
+
+<div style="text-align: center; margin: 24px 0;">
+
+  <div style="
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 1px 18px;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    line-height: 1;
+  ">
+
+  <!-- Website -->
+  <a href="https://scholar-jobs.blogspot.com/" target="_blank"
+       style="font-size: 1.6rem; text-decoration: none; transition: transform 0.25s ease;"
+       onmouseover="this.style.transform='scale(1.2)'"
+       onmouseout="this.style.transform='scale(1)'">
+      🌐
+    </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/company/scholarjobs" target="_blank"
+       style="font-size: 1.6rem; text-decoration: none; transition: transform 0.25s ease;"
+       onmouseover="this.style.transform='scale(1.2)'"
+       onmouseout="this.style.transform='scale(1)'">
+      {{< icon name="brands/linkedin" >}}
+    </a>
+
+  <!-- Telegram -->
+  <a href="https://t.me/scholarjobs1" target="_blank"
+       style="font-size: 1.6rem; text-decoration: none; transition: transform 0.25s ease;"
+       onmouseover="this.style.transform='scale(1.2)'"
+       onmouseout="this.style.transform='scale(1)'">
+      {{< icon name="brands/telegram" >}}
+    </a>
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/scholarjobs1" target="_blank"
+       style="font-size: 1.6rem; text-decoration: none; transition: transform 0.25s ease;"
+       onmouseover="this.style.transform='scale(1.2)'"
+       onmouseout="this.style.transform='scale(1)'">
+      {{< icon name="brands/facebook" >}}
+    </a>
+
+  </div>
+
+</div>

@@ -116,22 +116,21 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-/* Hide HugoBlox branding in search modal — FORCE */
-.search-modal * {
-  --hugoblox-display: none;
-}
+/* === FORCE hide "Powered by Hugo Blox" in search modal === */
 
-.search-modal a[href*="hugoblox"],
-.search-modal a[href*="hugoblox.com"],
-.search-modal a[href*="hugoblox.net"],
-.search-modal a[href*="hugo-blox"],
-.search-modal a[href*="hugoblox.org"] {
+/* Hide any branding text or link inside search */
+#search,
+#search * a[href*="hugo"],
+#search * a[href*="blox"],
+#search * a[href*="hugoblox"],
+#search * span:has-text("Powered"),
+#search * div:has-text("Powered") {
   display: none !important;
 }
 
-/* Fallback: hide last row in search modal */
-.search-modal footer,
-.search-modal .search-footer,
-.search-modal div:last-child {
+/* Hide bottom bar of search modal completely */
+#search .search-footer,
+#search footer,
+#search > div:last-child {
   display: none !important;
 }

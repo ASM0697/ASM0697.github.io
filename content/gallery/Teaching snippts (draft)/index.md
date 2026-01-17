@@ -34,7 +34,7 @@ authors:
  # - type: DOI
   #  url: https://doi.org/10.1007/s13679-025-00669-1
 
-Draft: false
+Draft: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
@@ -61,6 +61,13 @@ image:
 #{{< youtube D2vj0WcvH5c >}}
 #<mark>Highlighted text</mark>
 # ![Image description](featured.jpeg) # The image should be in the same page folder!
+
+#{{< image src="featured.jpeg" caption="وصف الصورة" >}}
+
+#<figure style="text-align:center;">
+#  <img src="featured.jpeg" width="100%">
+#  <figcaption>وصف الصورة هنا</figcaption>
+#</figure>
 ---
 In the lab, it's more than just science — it's about nurturing curiosity and guiding every small step toward discovery.
 
@@ -79,4 +86,3 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 ![Image description](featured.jpeg) 
 
-![My photo](/content/gallery/master's-work/featured.jpg)

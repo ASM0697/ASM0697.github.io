@@ -79,3 +79,10 @@ I then began the practical phase of my research, implementing the proposed study
   <img src="paw.jpg" width="100%">
   <figcaption>Paw Thickness Measurement to Assess Peripheral Inflammation</figcaption>
 </figure>
+
+<figure style="text-align:center;">
+  <img src="paw2.jpg" width="100%">
+  <figcaption>Paw Thickness Measurement to Assess Peripheral Inflammation</figcaption>
+</figure>
+
+At the end of this journey, and with all praise to Allah, I would like to sincerely acknowledge everyone who supported me throughout this journey—my family, my supervisors, and my colleagues.

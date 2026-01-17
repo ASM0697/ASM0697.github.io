@@ -134,3 +134,22 @@ body.dark .download-btn-outline:hover {
 #search > div:last-child {
   display: none !important;
 }
+
+/* Hide "Powered by Hugo Blox" inside the search modal (HugoBlox/Pagefind) */
+.pagefind-ui__search-footer,
+.pagefind-ui__search-footer * {
+  display: none !important;
+}
+
+/* Extra safety: hide any Hugoblox link inside search UI */
+.pagefind-ui a[href*="hugoblox"],
+.pagefind-ui a[href*="hugo-blox"],
+.pagefind-ui a[href*="hugo"] {
+  display: none !important;
+}
+
+/* Fallbacks for older/newer classnames */
+.search-modal .pagefind-ui__search-footer,
+.search-modal a[href*="hugoblox"] {
+  display: none !important;
+}

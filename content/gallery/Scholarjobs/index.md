@@ -66,20 +66,15 @@ image:
 
 <br>
 
-Follow SCHOLARJOBS and stay connected through our official platforms:
+### Follow SCHOLARJOBS and stay connected through our official platforms:
 
-🌐 Website – Explore opportunities and curated resources
+- 🌐 <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *Website – Explore opportunities and curated resources* </a>
 
-- <a href="https://scholar-jobs.blogspot.com" target="_blank" style="text-decoration:none;">
-  {{< icon name="brands/website" >}}
-</a>
+- {{< icon name="brands/linkedin" >}} <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *LinkedIn – Professional updates and career-focused content* </a>
 
- {{< icon name="brands/linkedin" >}} 
+- {{< icon name="brands/telegram" >}}  <a href="https://t.me/scholarjobs1" target="_blank" style="text-decoration:none;">  *Telegram – Real-time job postings and announcements* </a>
 
-- {{< icon name="brands/linkedin" >}} <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;"> WLinkedIn – Professional updates and career-focused content </a>
+- {{< icon name="brands/facebook" >}}  <a href="https://wwww.facebook.com/scholarjobs1" target="_blank" style="text-decoration:none;">  *Facebook – Community engagement and shared opportunities* </a>
 
-  
 
-✈️ Telegram – Real-time job postings and announcements
-
-📘 Facebook – Community engagement and shared opportunities
+![Scholarjobs](about.jpg) 

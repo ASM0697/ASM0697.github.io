@@ -69,6 +69,7 @@ image:
 #### Follow SCHOLARJOBS and stay connected through our official platforms:
 
 
+
 <div style="
   display: flex;
   justify-content: center;
@@ -76,39 +77,41 @@ image:
   min-height: 100vh;
 ">
 
-  <!-- البوكس بتاعك -->
+  <!-- Social icons box -->
   <div style="
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 5px 18px;
+    padding: 3px 18px;
     border: 1px solid #ccc;
     border-radius: 999px;
     line-height: 1;
   ">
 
   <a href="https://scholar-jobs.blogspot.com/" target="_blank"
-     style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
-    🌐
-  </a>
+       style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
+      🌐
+    </a>
 
   <a href="https://www.linkedin.com/company/scholarjobs" target="_blank"
-     style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
-    {{< icon name="brands/linkedin" >}}
-  </a>
+       style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
+      {{< icon name="brands/linkedin" >}}
+    </a>
 
   <a href="https://t.me/scholarjobs1" target="_blank"
-     style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
-    {{< icon name="brands/telegram" >}}
-  </a>
+       style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
+      {{< icon name="brands/telegram" >}}
+    </a>
 
   <a href="https://www.facebook.com/scholarjobs1" target="_blank"
-     style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
-    {{< icon name="brands/facebook" >}}
-  </a>
+       style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
+      {{< icon name="brands/facebook" >}}
+    </a>
 
+  </div>
 </div>
+
 
 - <a href="https://scholar-jobs.blogspot.com/" target="_blank" style="text-decoration:none;">  *Website – Explore opportunities and curated resources* </a>
 

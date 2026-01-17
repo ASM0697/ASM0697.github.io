@@ -74,11 +74,11 @@ Follow SCHOLARJOBS and stay connected through our official platforms:
   {{< icon name="brands/website" >}}
 </a>
 
-💼 LinkedIn – Professional updates and career-focused content
+ {{< icon name="brands/linkedin" >}} 
 
-- <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">
-  {{< icon name="brands/linkedin" >}}
-</a>
+- {{< icon name="brands/linkedin" >}} <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;"> WLinkedIn – Professional updates and career-focused content </a>
+
+  
 
 ✈️ Telegram – Real-time job postings and announcements
 

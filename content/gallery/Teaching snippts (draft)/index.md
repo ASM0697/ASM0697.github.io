@@ -73,10 +73,13 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 ##### Every course I’ve explored, every workshop I’ve attended, and every conference I’ve joined has been a stepping stone in my journey of lifelong learning and scientific curiosity.
 
 
-{{< icon name="telegram" >}} telegram
-
-<img src="/URI-lecture/featured.jpg" width="24">
-
-<a href="https://wa.me/201234567890" target="_blank">
-  {{< icon name="whatsapp" >}}
+<a href="https://wa.me/201234567890" target="_blank"
+   style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
+  
+  <img src="/icons/whatsapp.svg" alt="WhatsApp"
+       style="width: 20px; height: 20px;">
+  
+  <span>WhatsApp</span>
 </a>
+
+{{< icon pack="fab" name="whatsapp" >}} WhatsApp

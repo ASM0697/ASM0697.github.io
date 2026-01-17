@@ -62,13 +62,13 @@ image:
 #<mark>Highlighted text</mark>
 
 ---
-**Throughout my master’s journey, I have been fortunate to grow academically and professionally, and this page shares selected moments that shaped this experience.**
+**Throughout my master’s journey, I have been fortunate to grow academically and professionally. This page shares selected moments that shaped this experience.**
 
 During the pre-master’s year, I completed 10 courses (30 credit hours) and contributed to curriculum preparation and presentations delivered to my colleagues.
 
 By the end of the year, I registered and presented my research proposal on the regulatory roles of miRNAs mediating the analgesic effects of betanin on inflammatory pain.
 
 <figure style="text-align:center;">
-  <img src="featured.jpg" width="100%">
+  <img src="proposal.jpg" width="100%">
   <figcaption>Research Proposal Seminar</figcaption>
 </figure>

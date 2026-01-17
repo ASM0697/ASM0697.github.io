@@ -75,7 +75,7 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
 
 {{< icon name="telegram" >}} telegram
 
-<img src="/URI lecture/featured.jpg" width="24">
+<img src="/URI-lecture/featured.jpg" width="24">
 
 <a href="https://wa.me/201234567890" target="_blank">
   {{< icon name="whatsapp" >}}

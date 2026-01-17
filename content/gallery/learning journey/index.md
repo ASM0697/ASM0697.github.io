@@ -88,22 +88,22 @@ image:
 |---------------------------------------------------------------------------|
 | Western Blot Practical Techniques, Achieving Reliable and Reproducible Results Workshop – By Agitech & Bio-Rad at SRTA City – 2024|
 | Finding Funding and Writing a Winning Proposal: Structure and Tips for Writing – TICO AIU – 2023|
-| How to Deliver Inspiring Presentations - CABI 2022|
-| How to Craft Captivating Slides - CABI 2022|
-| How to Plan Thoughtful Oral Presentations - CABI 2022|
+| How to Deliver Inspiring Presentations - CABI – 2022|
+| How to Craft Captivating Slides - CABI – 2022|
+| How to Plan Thoughtful Oral Presentations - CABI – 2022|
 | Structuring your article correctly - Researcher Academy, Elsevier - 2022|
 | How to find the protocols and methods you need for your research – Springer Nature - 2022 |
 | Common Mistakes in Manuscript Writing - IET - 2022|
 | How to Write Professional Response to Reviewers - CABI - 2022|
-| How to Write Professional Review Report - CABI 2022|
+| How to Write Professional Review Report - CABI – 2022|
 | How to review your manuscript before submission - CABI - 2022|
 | How to write Conclusions, Abstract, Title & References - CABI - 2022|
-|How to write Results and Discussions - CABI 2022|
+|How to write Results and Discussions - CABI – 2022|
 |How to write the Introduction and Materials & Methods - CABI - 2022|
-|Entrepreneurship Workshop in the City of Scientific Research and Technological Applications 2019|
-|Scientific Research Workshop - Industrial Microbiology and Applied Chemistry Volunteers - 2017|
-|Soft Skills Workshop - European Association of Geoscientists and Engineers - 2016|
-|Leadership skills - Tamdeen for Training and Management Consulting - 2015|
+|Entrepreneurship Workshop in the City of Scientific Research and Technological Applications – 2019|
+|Scientific Research Workshop - Industrial Microbiology and Applied Chemistry Volunteers – 2017|
+|Soft Skills Workshop - European Association of Geoscientists and Engineers – 2016|
+|Leadership skills - Tamdeen for Training and Management Consulting – 2015|
 
 
 ## 3. Conferences

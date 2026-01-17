@@ -57,7 +57,3 @@ hugoblox:
     enable: true
   seo:
     enable: true
-
-  head:
-  custom: |
-    <meta name="google-site-verification" content="mMobBN1uJaLTGxG6iVluguNJXUHWaKhwwSpilkon1zw" />

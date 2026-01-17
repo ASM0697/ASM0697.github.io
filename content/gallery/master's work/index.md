@@ -34,7 +34,7 @@ date: "2022-08-24T00:00:00Z"
  # - type: DOI
   #  url: https://doi.org/10.1007/s13679-025-00669-1
 
-Draft: true
+Draft: false
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
@@ -68,4 +68,4 @@ During the pre-master’s year, I completed 10 courses (30 credit hours) and con
 
 By the end of the year, I registered and presented my research proposal on the regulatory roles of miRNAs mediating the analgesic effects of betanin on inflammatory pain.
 
-{{< image src="featured.jpeg" caption="Research Point Seminar" >}}
+{{< image src="featured.jpg" caption="Research Point Seminar" >}}

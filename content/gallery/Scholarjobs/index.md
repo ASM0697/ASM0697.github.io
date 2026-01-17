@@ -68,21 +68,12 @@ image:
 
 #### Follow SCHOLARJOBS and stay connected through our official platforms:
 
-- 🌐 <a href="https://scholar-jobs.blogspot.com/" target="_blank" style="text-decoration:none;">  *Website – Explore opportunities and curated resources* </a>
-
-- {{< icon name="brands/linkedin" >}} &nbsp; <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *LinkedIn – Professional updates and career-focused content* </a>
-
-- {{< icon name="brands/telegram" >}}  &nbsp; <a href="https://t.me/scholarjobs1" target="_blank" style="text-decoration:none;">  *Telegram – Real-time job postings and announcements* </a>
-
-- {{< icon name="brands/facebook" >}} &nbsp; <a href="https://wwww.facebook.com/scholarjobs1" target="_blank" style="text-decoration:none;">  *Facebook – Community engagement and shared opportunities* </a>
-
-
 <div style="
   display: inline-flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 10px 18px;
+  padding: 7px 18px;
   margin: 30px auto;
   border: 1px solid #ccc;
   border-radius: 999px;
@@ -110,4 +101,15 @@ image:
   </a>
 
 </div>
+
+- <a href="https://scholar-jobs.blogspot.com/" target="_blank" style="text-decoration:none;">  *Website – Explore opportunities and curated resources* </a>
+
+- <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *LinkedIn – Professional updates and career-focused content* </a>
+
+- <a href="https://t.me/scholarjobs1" target="_blank" style="text-decoration:none;">  *Telegram – Real-time job postings and announcements* </a>
+
+- <a href="https://wwww.facebook.com/scholarjobs1" target="_blank" style="text-decoration:none;">  *Facebook – Community engagement and shared opportunities* </a>
+
+
+
 

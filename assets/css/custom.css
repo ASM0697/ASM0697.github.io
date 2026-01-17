@@ -116,3 +116,8 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
+/* Hide "Powered by Hugo Blox" in search modal */
+.search-modal .powered-by,
+.search-modal [class*="powered"] {
+  display: none !important;
+}

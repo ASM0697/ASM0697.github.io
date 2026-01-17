@@ -110,7 +110,7 @@ image:
 
 | |
 |-----------|
-|3rd Scientific Conference: Emerging Technologies and Their Relationship to SustainableDevelopment - City of Scientific Research and Technological Applications, Borg Al-Arab City – 2025|
+|3rd Scientific Conference: Emerging Technologies and Their Relationship to Sustainable Development - City of Scientific Research and Technological Applications, Borg Al-Arab City – 2025|
 |Annual Arab Asian Biotechnology Conference (AABC 2025): Desert Biotechnology and Sustaining Life in Arid Regions - Bibliotheca Alexandrina, Egypt – 2025|
 |12ᵗʰ STUDENT & 5ᵗʰ POST-GRADUATE Conference for Research & Innovation - Faculty of Science, Alexandria University – 2025|
 |The 9ᵗʰ Alexandria SBS Bowel Diseases: The Art and Science in Clinic and Research - Faculty of Medicine, Alexandria University – 2024|

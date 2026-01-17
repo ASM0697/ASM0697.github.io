@@ -116,12 +116,22 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-/* Hide "Powered by Hugo Blox" in search modal */
-.search-modal .powered-by,
-.search-modal [class*="powered"] {
+/* Hide HugoBlox branding in search modal — FORCE */
+.search-modal * {
+  --hugoblox-display: none;
+}
+
+.search-modal a[href*="hugoblox"],
+.search-modal a[href*="hugoblox.com"],
+.search-modal a[href*="hugoblox.net"],
+.search-modal a[href*="hugo-blox"],
+.search-modal a[href*="hugoblox.org"] {
   display: none !important;
 }
 
-.search-modal a[href*="hugoblox"] {
+/* Fallback: hide last row in search modal */
+.search-modal footer,
+.search-modal .search-footer,
+.search-modal div:last-child {
   display: none !important;
 }

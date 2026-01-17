@@ -69,21 +69,14 @@ image:
 #### Follow SCHOLARJOBS and stay connected through our official platforms:
 
 
-
-<div style="
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-">
-
-  <!-- Social icons box -->
+<div style="text-align: center; margin: 24px 0;">
+  
   <div style="
     display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 3px 18px;
+    padding: 1px 18px;
     border: 1px solid #ccc;
     border-radius: 999px;
     line-height: 1;
@@ -102,7 +95,7 @@ image:
   <a href="https://t.me/scholarjobs1" target="_blank"
        style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
       {{< icon name="brands/telegram" >}}
-    </a>
+  </a>
 
   <a href="https://www.facebook.com/scholarjobs1" target="_blank"
        style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">
@@ -110,6 +103,7 @@ image:
     </a>
 
   </div>
+
 </div>
 
 

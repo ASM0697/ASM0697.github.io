@@ -64,17 +64,16 @@ image:
 ---
 ##### Founded and led by me in 2022 as a volunteer-driven initiative, SCHOLARJOBS emerged from a personal understanding of the challenges faced by fresh graduates and job seekers. Initially created to share job opportunities and scholarship-related content, the platform has grown to reach over 70,000 followers, helping thousands find opportunities and navigate the early stages of their careers.
 
-<br>
+![Scholarjobs](about.jpg) 
 
-### Follow SCHOLARJOBS and stay connected through our official platforms:
+#### Follow SCHOLARJOBS and stay connected through our official platforms:
 
 - 🌐 <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *Website – Explore opportunities and curated resources* </a>
 
-- {{< icon name="brands/linkedin" >}} <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *LinkedIn – Professional updates and career-focused content* </a>
+- {{< icon name="brands/linkedin" >}}  <a href="https://www.linkedin.com/company/scholarjobs" target="_blank" style="text-decoration:none;">  *LinkedIn – Professional updates and career-focused content* </a>
 
 - {{< icon name="brands/telegram" >}}  <a href="https://t.me/scholarjobs1" target="_blank" style="text-decoration:none;">  *Telegram – Real-time job postings and announcements* </a>
 
 - {{< icon name="brands/facebook" >}}  <a href="https://wwww.facebook.com/scholarjobs1" target="_blank" style="text-decoration:none;">  *Facebook – Community engagement and shared opportunities* </a>
 
 
-![Scholarjobs](about.jpg) 

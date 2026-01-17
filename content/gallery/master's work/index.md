@@ -40,7 +40,7 @@ Draft: false
 image:
   caption: 'Image credit: [**Ahmed Massoud**](https://asm0697.github.io)'
   focal_point: ""
-  preview_only: false
+  preview_only: true
   
 
 # Associated Projects (optional).

@@ -130,3 +130,5 @@ body.dark .download-btn-outline:hover {
 [x-data="searchModal()"] footer {
   display: none !important;
 }
+
+[x-data="searchModal()"] { outline: 3px solid red !important; }

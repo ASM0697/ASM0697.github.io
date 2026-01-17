@@ -82,10 +82,11 @@ image:
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 14px 18px;
-  margin: 20px auto;
+  padding: 10px 18px;
+  margin: 30px auto;
   border: 1px solid #ccc;
   border-radius: 999px;
+  line-height: 1;
 ">
 
   <a href="https://scholar-jobs.blogspot.com/" target="_blank"

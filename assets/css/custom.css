@@ -121,3 +121,7 @@ body.dark .download-btn-outline:hover {
 .search-modal [class*="powered"] {
   display: none !important;
 }
+
+.search-modal a[href*="hugoblox"] {
+  display: none !important;
+}

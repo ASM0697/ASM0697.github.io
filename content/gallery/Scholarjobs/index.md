@@ -68,17 +68,25 @@ image:
 
 #### Follow SCHOLARJOBS and stay connected through our official platforms:
 
+
 <div style="
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  padding: 7px 18px;
-  margin: 30px auto;
-  border: 1px solid #ccc;
-  border-radius: 999px;
-  line-height: 1;
+  min-height: 100vh;
 ">
+
+  <!-- البوكس بتاعك -->
+  <div style="
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 5px 18px;
+    border: 1px solid #ccc;
+    border-radius: 999px;
+    line-height: 1;
+  ">
 
   <a href="https://scholar-jobs.blogspot.com/" target="_blank"
      style="font-size: 1.6rem; text-decoration: none; transition: transform 0.2s ease;">

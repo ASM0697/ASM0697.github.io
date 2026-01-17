@@ -131,4 +131,3 @@ body.dark .download-btn-outline:hover {
   display: none !important;
 }
 
-[x-data="searchModal()"] { outline: 3px solid red !important; }

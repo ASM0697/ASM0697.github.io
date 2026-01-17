@@ -60,7 +60,7 @@ image:
 #{{< audio src="ambient-piano.mp3" >}}
 #{{< youtube D2vj0WcvH5c >}}
 #<mark>Highlighted text</mark>
-
+# ![Image description](featured.jpeg) # The image should be in the same page folder!
 ---
 In the lab, it's more than just science — it's about nurturing curiosity and guiding every small step toward discovery.
 
@@ -77,4 +77,6 @@ In the lab, it's more than just science — it's about nurturing curiosity and g
   {{< icon name="brands/whatsapp" >}} WhatsApp
 </a>
 
-![Image description](featured.jpeg)
+![Image description](featured.jpeg) 
+
+![My photo](/content/gallery/master's-work/featured.jpg)

@@ -1,6 +1,6 @@
 ---
 title: "SCHOLARJOBS: A Platform Made for Graduates and Job Seekers"
-toc: true
+toc: false
 authors:
 - me
 #author_notes:
@@ -40,7 +40,7 @@ Draft: false
 image:
   caption: 'Image credit: [**Ahmed Massoud**](https://asm0697.github.io)'
   focal_point: ""
-  preview_only: true
+  preview_only: false
   
 
 # Associated Projects (optional).

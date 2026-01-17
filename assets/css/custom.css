@@ -116,11 +116,3 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-.social-pill a {
-  transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
-.social-pill a:hover {
-  transform: scale(1.2);
-  opacity: 0.85;
-}

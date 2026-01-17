@@ -66,9 +66,16 @@ image:
 
 During the pre-master’s year, I completed 10 courses (30 credit hours) and contributed to curriculum preparation and presentations delivered to my colleagues.
 
-By the end of the year, I registered and presented my research proposal on the regulatory roles of miRNAs mediating the analgesic effects of betanin on inflammatory pain.
+By the end of the year, I registered and presented my research proposal on the regulatory roles of miRNAs mediating the analgesic effects of betanin on murine inflammatory pain model.
 
 <figure style="text-align:center;">
   <img src="proposal.jpg" width="100%">
   <figcaption>Research Proposal Seminar</figcaption>
+</figure>
+
+I then began the practical phase of my research, implementing the proposed study design. This phase included animal purchase and acclimatization, induction of the pain model, treatment administration, behavioral assessments, sacrifice and dissection, sample collection, and subsequent biochemical, molecular, and ultrastructural analyses, along with *in silico* simulations.
+
+<figure style="text-align:center;">
+  <img src="paw.jpg" width="100%">
+  <figcaption>Paw Thickness Measurement to Assess Peripheral Inflammation</figcaption>
 </figure>

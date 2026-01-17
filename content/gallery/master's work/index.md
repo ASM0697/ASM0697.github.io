@@ -68,7 +68,7 @@ During the pre-master’s year, I completed 10 courses (30 credit hours) and con
 
 By the end of the year, I registered and presented my research proposal on the regulatory roles of miRNAs mediating the analgesic effects of betanin on inflammatory pain.
 
-#<figure style="text-align:center;">
-#  <img src="featured.jpg" width="100%">
-#  <figcaption>Research Proposal Seminar</figcaption>
-#</figure>
+<figure style="text-align:center;">
+  <img src="featured.jpg" width="100%">
+  <figcaption>Research Proposal Seminar</figcaption>
+</figure>

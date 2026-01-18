@@ -6,7 +6,7 @@ authors:
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2022-08-24T00:00:00Z"
+date: "2025-12-13T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -110,7 +110,7 @@ I then began the practical phase of my research, implementing the proposed study
 
 - ### Molecular & Biochemical Analysis
 
-  #### Molecular
+- #### *Molecular*
 
 <figure style="text-align:center;">
   <img src="tissuelysis.jpg" width="100%">
@@ -142,7 +142,7 @@ I then began the practical phase of my research, implementing the proposed study
   <figcaption>qRT-PCR Using Qiagen Rotor-gene Q</figcaption>
 </figure>
 
-  #### Biochemical
+- #### *Biochemical*
 
 <figure style="text-align:center;">
   <img src="elisa.jpg" width="100%">

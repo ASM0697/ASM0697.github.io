@@ -56,7 +56,7 @@ sections:
     content:
       title: "Professional Highlights"
       subtitle: "A selection of my recent activities"
-      count: 3
+      count: 4
       filters:
         folders:
           - publications
@@ -70,6 +70,8 @@ sections:
           tag: Illustrations       
         - name: Lectures
           tag: Lectures
+        - name: Stories
+          tag: stories  
        # - name: Posts
        #   tag: Featured Post
       default_button_index: 0  

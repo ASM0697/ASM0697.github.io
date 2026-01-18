@@ -65,7 +65,7 @@ image:
 
 
 ---
-**Throughout my master’s journey, I have been fortunate to grow academically and professionally. This page shares selected moments that shaped this experience.**
+### Throughout my master’s journey, I have been fortunate to grow academically and professionally. This page shares selected moments that shaped this experience.
 
 During the pre-master’s year, I completed 10 courses (30 credit hours) and contributed to curriculum preparation and presentations delivered to my colleagues.
 
@@ -76,9 +76,9 @@ By the end of the year, I registered my research point and presented my research
   <figcaption>Research Proposal Seminar</figcaption>
 </figure>
 
-I then began the practical phase of my research, implementing the proposed study design. This phase included animal purchase and acclimatization, induction of the pain model, treatment administration, behavioral assessments, sacrifice and dissection, sample collection, and subsequent biochemical, molecular, and ultrastructural analyses, along with *in silico* simulations.
+I then began the practical phase of my research, implementing the proposed study design. This phase included animal purchase and acclimatization, induction of the pain model, treatment administration, behavioral assessments, sacrifice and dissection, sample collection, and subsequent molecular, biochemical and ultrastructural analyses, along with *in silico* simulations.
 
-### Induction of Pain and Peripheral Inflammation Assessment
+- ### Induction of Pain and Peripheral Inflammation Assessment
 
 <figure style="text-align:center;">
   <img src="paw.jpg" width="100%">
@@ -89,7 +89,7 @@ I then began the practical phase of my research, implementing the proposed study
   <figcaption>Paw Thickness Measurement to Assess Peripheral Inflammation</figcaption>
 </figure>
 
-### Treatment Preparation
+- ### Treatment Preparation
 
 <figure style="text-align:center;">
   <img src="treatment.jpg" width="100%">
@@ -100,6 +100,38 @@ I then began the practical phase of my research, implementing the proposed study
   <img src="treatment1.jpg" width="100%">
   <figcaption>Treatment Doses Preparation</figcaption>
 </figure>
+
+- ### Dissection and Sample Collection
+
+<figure style="text-align:center;">
+  <img src="sample.jpg" width="100%">
+  <figcaption>Sample Collection Day</figcaption>
+</figure>
+
+- ### Biochemical & Molecular Analysis
+
+<figure style="text-align:center;">
+  <img src="tissue-lysis.jpg" width="100%">
+  <figcaption>Tissue Lysis Using Qiagen TissueLizer LT</figcaption>
+</figure>
+
+<figure style="text-align:center;">
+  <img src="mirna-kit.jpg" width="100%">
+  <figcaption>miRNeasy Kit for miRNA Extraction Purchased from Qiagen</figcaption>
+</figure>
+
+<figure style="text-align:center;">
+  <img src="mirna-kit.jpg" width="100%">
+  <figcaption>miRNeasy Kit for miRNA Extraction Purchased from Qiagen</figcaption>
+</figure>
+
+<figure style="text-align:center;">
+  <img src="molecular-lab.jpg" width="100%">
+  <figcaption>Inside the Molecular Biology Lab</figcaption>
+</figure>
+
+- ### *in silico* Simulations
+
 
 
 At the end of this journey, and with all praise to Allah, I would like to sincerely acknowledge everyone who supported me throughout this journey—my family, my supervisors, and my colleagues.

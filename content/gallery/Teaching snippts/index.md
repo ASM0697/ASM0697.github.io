@@ -78,7 +78,7 @@ Snippets from the lab, capturing the learning journey and the outcomes of my stu
 
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/elisa1.jpg" title="ELISA" description="My students having hands-on experience with ELISA." image="https://asm0697.github.io/gallery/teaching-snippts/elisa1.jpg" width="800" height="800" quality="90" >}}
 
-{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" title="Bacterial Transformation" description="Successful transformation of <em>E. coli</em> with a kanamycin-resistant plasmid." image="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" width="800" height="800" quality="90" >}}
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" title="Bacterial Transformation" description="Successful transformation of <i>E. coli</i> with a kanamycin-resistant plasmid." image="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" width="800" height="800" quality="90" >}}
 
 ## Histology & Physiology Labs
 

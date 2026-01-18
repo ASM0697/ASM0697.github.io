@@ -110,7 +110,7 @@ I then began the practical phase of my research, implementing the proposed study
 
 - ### Molecular & Biochemical Analysis
 
-#### Molecular
+- #### Molecular
 
 <figure style="text-align:center;">
   <img src="tissuelysis.jpg" width="100%">
@@ -128,14 +128,47 @@ I then began the practical phase of my research, implementing the proposed study
 </figure>
 
 <figure style="text-align:center;">
-  <img src="mirneasykit.jpg" width="100%">
+  <img src="nandrop.jpg" width="100%">
   <figcaption>Purity Assment and Concentration Determination Using NanoDrop2000</figcaption>
 </figure>
 
-#### Biochemical
+<figure style="text-align:center;">
+  <img src="rt.jpg" width="100%">
+  <figcaption>Reverse Transcription Using SimpliAmp Thermal Cycler</figcaption>
+</figure>
+
+<figure style="text-align:center;">
+  <img src="qpcr.jpg" width="100%">
+  <figcaption>qRT PCR Using Qiagen RotorQgene</figcaption>
+</figure>
+
+- #### Biochemical
+
+<figure style="text-align:center;">
+  <img src="elisa.jpg" width="100%">
+  <figcaption>ELISA for Pro and Anti-Inflammatory Markers</figcaption>
+</figure>
+
+<figure style="text-align:center;">
+  <img src="elisa1.jpg" width="100%">
+  <figcaption>While I Was Waiting in the Incubation Periods of ELISA! 🫠</figcaption>
+</figure>
+
+<figure style="text-align:center;">
+  <img src="os.jpg" width="100%">
+  <figcaption>Colorimetric Lipid Peroxidation Assessmnet</figcaption>
+</figure>
 
 - ### *in silico* Simulations
 
+<figure style="text-align:center;">
+  <img src="docking.jpg" width="100%">
+  <figcaption>Molecular Docking Simulation</figcaption>
+</figure>
 
-
-At the end of this journey, and with all praise to Allah, I would like to sincerely acknowledge everyone who supported me throughout this journey—my family, my supervisors, and my colleagues.
+<figure style="text-align:center;">
+  <img src="docking1.jpg" width="100%">
+  <figcaption>Molecular Docking Simulation</figcaption>
+</figure>
+<br>
+#### *At the end of this journey, and with all praise to Allah, I would like to sincerely acknowledge everyone who supported me throughout this journey—my family, my supervisors, and my colleagues.*

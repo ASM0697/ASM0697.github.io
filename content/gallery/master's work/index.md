@@ -159,7 +159,7 @@ I then began the practical phase of my research, implementing the proposed study
   <figcaption>Colorimetric Lipid Peroxidation Assessmnet</figcaption>
 </figure>
 
-- ### *in silico* Simulations
+- ### *In silico* Simulations
 
 <figure style="text-align:center;">
   <img src="docking.jpg" width="100%">
@@ -170,6 +170,13 @@ I then began the practical phase of my research, implementing the proposed study
   <img src="docking1.jpg" width="100%">
   <figcaption>Molecular Docking Simulation</figcaption>
 </figure>
-<br>
+
+### And finally, data anlysis and representation.
+
+<figure style="text-align:center;">
+  <img src="data.jpg" width="100%">
+  <figcaption>Graphs, Scientific Illustrations, and TE Micrographs</figcaption>
+</figure>
+
 
 #### *At the end of this journey, and with all praise to Allah, I would like to sincerely acknowledge everyone who supported me throughout this journey—my family, my supervisors, and my colleagues.*

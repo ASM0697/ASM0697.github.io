@@ -72,14 +72,16 @@ Snippets from the lab, capturing the learning journey and the outcomes of my stu
 
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/electrophoresis.jpg" title="Agarose Gel Electrophoresis" description="My students having hands-on experience with Agarose electrophoresis." image="https://asm0697.github.io/gallery/teaching-snippts/electrophoresis.jpg" width="800" height="800" quality="90" >}}
 
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/electrophoresis.jpg" title="Agarose Gel Electrophoresis" description="My students having hands-on experience with Agarose electrophoresis." image="https://asm0697.github.io/gallery/teaching-snippts/electrophoresis1.jpg" width="800" height="800" quality="90" >}}
+
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/elisa.jpg" title="ELISA" description="My students having hands-on experience with ELISA." image="https://asm0697.github.io/gallery/teaching-snippts/elisa.jpg" width="800" height="800" quality="90" >}}
 
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/elisa1.jpg" title="ELISA" description="My students having hands-on experience with ELISA." image="https://asm0697.github.io/gallery/teaching-snippts/elisa1.jpg" width="800" height="800" quality="90" >}}
 
-{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/sc.jpg" title="Spinal Cord" description="Micrograph illustrating neuronal bodies and neuroglia in lumbar spinal cord." image="https://asm0697.github.io/gallery/teaching-snippts/sc.jpg" width="800" height="800" quality="90" >}}
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" title="Bacterial Transformation" description="Successful transformation of E. coli(italic) with a kanamycin-resistant plasmid." image="https://asm0697.github.io/gallery/teaching-snippts/transformation.jpg" width="800" height="800" quality="90" >}}
 
 ## Histology & Physiology Labs
 
-{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/hypertonic.jpg" title="Osmosis and RBCs" description="Effect of hypertonic solution on the morphology of RBCs." image="https://asm0697.github.io/gallery/teaching-snippts/hypertonic.jpg" width="800" height="800" quality="90" >}}
+{{< embed url="https://asm0697.github.io/gallery/teaching-snippts/sc.jpg" title="Spinal Cord" description="Micrograph illustrating neuronal bodies and neuroglia in lumbar spinal cord." image="https://asm0697.github.io/gallery/teaching-snippts/sc.jpg" width="800" height="800" quality="90" >}}
 
 {{< embed url="https://asm0697.github.io/gallery/teaching-snippts/hypertonic.jpg" title="Osmosis and RBCs" description="Effect of hypertonic solution on the morphology of RBCs." image="https://asm0697.github.io/gallery/teaching-snippts/hypertonic.jpg" width="800" height="800" quality="90" >}}

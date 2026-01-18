@@ -112,7 +112,7 @@ I then began the practical phase of my research, implementing the proposed study
 
 <figure style="text-align:center;">
   <img src="tissuelysis.jpg" width="100%">
-  <figcaption>Tissue Lysis Using Qiagen TissueLizer LT</figcaption>
+  <figcaption>Tissue Lysis Using Qiagen TissueLyser LT</figcaption>
 </figure>
 
 <figure style="text-align:center;">

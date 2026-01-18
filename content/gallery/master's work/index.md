@@ -128,7 +128,7 @@ I then began the practical phase of my research, implementing the proposed study
 </figure>
 
 <figure style="text-align:center;">
-  <img src="nandrop.jpg" width="100%">
+  <img src="nanodrop.jpg" width="100%">
   <figcaption>Purity Assment and Concentration Determination Using NanoDrop2000</figcaption>
 </figure>
 
@@ -138,8 +138,8 @@ I then began the practical phase of my research, implementing the proposed study
 </figure>
 
 <figure style="text-align:center;">
-  <img src="qpcr.jpg" width="100%">
-  <figcaption>qRT PCR Using Qiagen RotorQgene</figcaption>
+  <img src="qrtpcr.jpg" width="100%">
+  <figcaption>qRT-PCR Using Qiagen Rotor-gene Q</figcaption>
 </figure>
 
 - #### Biochemical

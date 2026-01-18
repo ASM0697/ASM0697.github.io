@@ -104,19 +104,19 @@ I then began the practical phase of my research, implementing the proposed study
 - ### Dissection and Sample Collection
 
 <figure style="text-align:center;">
-  <img src="sample.jpg" width="100%">
+  <img src="sampling.jpg" width="100%">
   <figcaption>Sample Collection Day</figcaption>
 </figure>
 
 - ### Biochemical & Molecular Analysis
 
 <figure style="text-align:center;">
-  <img src="tissue-lysis.jpg" width="100%">
+  <img src="tissuelysis.jpg" width="100%">
   <figcaption>Tissue Lysis Using Qiagen TissueLizer LT</figcaption>
 </figure>
 
 <figure style="text-align:center;">
-  <img src="mirna-kit.jpg" width="100%">
+  <img src="mirneasykit.jpg" width="100%">
   <figcaption>miRNeasy Kit for miRNA Extraction Purchased from Qiagen</figcaption>
 </figure>
 
@@ -127,7 +127,7 @@ I then began the practical phase of my research, implementing the proposed study
 
 <figure style="text-align:center;">
   <img src="molecular-lab.jpg" width="100%">
-  <figcaption>Inside the Molecular Biology Lab</figcaption>
+  <figcaption>Me Inside the Molecular Biology Lab 😎</figcaption>
 </figure>
 
 - ### *in silico* Simulations

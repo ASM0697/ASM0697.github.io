@@ -129,7 +129,7 @@ I then began the practical phase of my research, implementing the proposed study
 
 <figure style="text-align:center;">
   <img src="nanodrop.jpg" width="100%">
-  <figcaption>Purity Assment and Concentration Determination Using NanoDrop2000</figcaption>
+  <figcaption>Purity Assessment and Concentration Determination Using NanoDrop2000</figcaption>
 </figure>
 
 <figure style="text-align:center;">

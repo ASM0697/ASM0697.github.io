@@ -171,7 +171,7 @@ I then began the practical phase of my research, implementing the proposed study
   <figcaption>Molecular Docking Simulation</figcaption>
 </figure>
 
-### And finally, data anlysis and representation.
+- ### And finally, data anlysis and representation.
 
 <figure style="text-align:center;">
   <img src="data.jpg" width="100%">
@@ -179,4 +179,4 @@ I then began the practical phase of my research, implementing the proposed study
 </figure>
 
 
-#### *At the end of this journey, and with all praise to Allah, I would like to sincerely acknowledge everyone who supported me throughout this journey—my family, my supervisors, and my colleagues.*
+### *At the end of this journey, and with all praise to Allah, I would like to sincerely acknowledge everyone who supported me throughout this journey—my family, my supervisors, and my colleagues.*

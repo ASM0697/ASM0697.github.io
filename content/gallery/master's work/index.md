@@ -93,7 +93,7 @@ I then began the practical phase of my research, implementing the proposed study
 
 <figure style="text-align:center;">
   <img src="treatment.jpg" width="100%">
-  <figcaption>Betanin Purchased from Sigma Aldrich</figcaption>
+  <figcaption>Betanin, Purchased from Sigma Aldrich</figcaption>
 </figure>
 
 <figure style="text-align:center;">
@@ -108,7 +108,9 @@ I then began the practical phase of my research, implementing the proposed study
   <figcaption>Sample Collection Day</figcaption>
 </figure>
 
-- ### Biochemical & Molecular Analysis
+- ### Molecular & Biochemical Analysis
+
+#### Molecular
 
 <figure style="text-align:center;">
   <img src="tissuelysis.jpg" width="100%">
@@ -117,18 +119,20 @@ I then began the practical phase of my research, implementing the proposed study
 
 <figure style="text-align:center;">
   <img src="mirneasykit.jpg" width="100%">
-  <figcaption>miRNeasy Kit for miRNA Extraction Purchased from Qiagen</figcaption>
-</figure>
-
-<figure style="text-align:center;">
-  <img src="mirna-kit.jpg" width="100%">
-  <figcaption>miRNeasy Kit for miRNA Extraction Purchased from Qiagen</figcaption>
+  <figcaption>miRNeasy Kit for miRNA Extraction, Purchased from Qiagen</figcaption>
 </figure>
 
 <figure style="text-align:center;">
   <img src="molecular-lab.jpg" width="100%">
-  <figcaption>Me Inside the Molecular Biology Lab 😎</figcaption>
+  <figcaption>Me Inside the Molecular Biology Lab! 😎</figcaption>
 </figure>
+
+<figure style="text-align:center;">
+  <img src="mirneasykit.jpg" width="100%">
+  <figcaption>Purity Assment and Concentration Determination Using NanoDrop2000</figcaption>
+</figure>
+
+#### Biochemical
 
 - ### *in silico* Simulations
 

@@ -116,10 +116,12 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-/* If navbar is fixed/sticky and adds offset */
-main{
-  padding-top: 0 !important;
+/* Mobile-first: reduce top space under navbar */
+.resume-biography{
+  padding-top: 0.5rem !important;   /* جرّب 0.5rem لو عايز أقل */
+  padding-bottom: 1.5rem !important;
 }
+
 
 
 /* Hide "Powered by Hugo Blox" inside HugoBlox search modal */ كود توسيط الكارتات في الصفحة الرئيسية - لتفعيله أزل الباك سلاش والنجمة

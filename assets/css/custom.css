@@ -116,8 +116,8 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-/* Hide "Powered by Hugo Blox" inside HugoBlox search modal */
-[x-data="searchModal()"] a[href*="hugoblox"],
+/* Hide "Powered by Hugo Blox" inside HugoBlox search modal */ كود توسيط الكارتات في الصفحة الرئيسية - لتفعيله أزل الباك سلاش والنجمة
+/*[x-data="searchModal()"] a[href*="hugoblox"],
 [x-data="searchModal()"] a[href*="hugo-blox"],
 [x-data="searchModal()"] a[href*="hugoblox.com"],
 [x-data="searchModal()"] a[href*="hugoblox.net"] {
@@ -125,35 +125,9 @@ body.dark .download-btn-outline:hover {
 }
 
 /* If it's wrapped in a footer-like container, hide it too */
-[x-data="searchModal()"] .pagefind-ui__search-footer,
+/*[x-data="searchModal()"] .pagefind-ui__search-footer,
 [x-data="searchModal()"] .search-footer,
 [x-data="searchModal()"] footer {
   display: none !important;
 }
 
-/* Make portfolio layout flex so last row centers naturally */
-#section-portfolio div[data-stagger="100"]{
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: center !important;
-  gap: 1.5rem !important; /* نفس gap-6 */
-}
-
-/* Mobile: 1 card per row */
-#section-portfolio div[data-stagger="100"] > article{
-  width: 100% !important;
-}
-
-/* Tablet: 2 cards per row */
-@media (min-width: 768px){
-  #section-portfolio div[data-stagger="100"] > article{
-    width: calc((100% - 1.5rem) / 2) !important; /* gap واحد */
-  }
-}
-
-/* Desktop: 3 cards per row */
-@media (min-width: 1024px){
-  #section-portfolio div[data-stagger="100"] > article{
-    width: calc((100% - 3rem) / 3) !important; /* gapين */
-  }
-}

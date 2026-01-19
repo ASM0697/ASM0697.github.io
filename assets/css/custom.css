@@ -145,3 +145,8 @@ body.dark .download-btn-outline:hover {
 .blox-portfolio article {
   justify-self: center !important;
 }
+
+/* Center cards inside the portfolio grid (fixes single/2 items alignment) */
+.blox-portfolio .grid.grid-cols-1 {
+  justify-items: center !important;
+}

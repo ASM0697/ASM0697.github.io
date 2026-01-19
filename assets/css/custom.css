@@ -132,6 +132,23 @@ body.dark .download-btn-outline:hover {
 }
 
 
+/* ===== Desktop ===== */
+@media (min-width: 1024px){
+  #section-portfolio{
+    padding-top: 0.5rem !important;   /* نص فوق */
+    padding-bottom: 0.5rem !important;/* نص تحت */
+    margin-top: 0 !important;
+  }
+}
+
+/* ===== Tablet + Mobile ===== */
+@media (max-width: 1023px){
+  #section-portfolio{
+    padding-top: 0 !important;      /* 0 فوق */
+    padding-bottom: 0 !important;   /* 0 تحت */
+    margin-top: -2rem !important;   /* -2 */
+  }
+}
 
 /* Hide "Powered by Hugo Blox" inside HugoBlox search modal */ كود توسيط الكارتات في الصفحة الرئيسية - لتفعيله أزل الباك سلاش والنجمة
 /*[x-data="searchModal()"] a[href*="hugoblox"],

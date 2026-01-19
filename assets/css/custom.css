@@ -116,6 +116,11 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
+.resume-biography{
+  padding-top: 1.5rem !important;
+}
+
+
 /* Hide "Powered by Hugo Blox" inside HugoBlox search modal */ كود توسيط الكارتات في الصفحة الرئيسية - لتفعيله أزل الباك سلاش والنجمة
 /*[x-data="searchModal()"] a[href*="hugoblox"],
 [x-data="searchModal()"] a[href*="hugo-blox"],

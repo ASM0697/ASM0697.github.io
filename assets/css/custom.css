@@ -129,8 +129,8 @@ body.dark .download-btn-outline:hover {
 /* ===== Desktop ===== */
 @media (min-width: 1024px){
   #section-portfolio{
-    padding-top: 0.5rem !important;   /* نص فوق */
-    padding-bottom: 0.5rem !important;/* نص تحت */
+    padding-top: 0.0rem !important;   /* نص فوق */
+    padding-bottom: 0.0rem !important;/* نص تحت */
   }
 }
 

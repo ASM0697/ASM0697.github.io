@@ -131,27 +131,13 @@ body.dark .download-btn-outline:hover {
   display: none !important;
 }
 
-/* Center portfolio items when row is not full */
-.blox-portfolio .grid {
-  justify-items: center;
-}
-
-.blox-portfolio .grid > * {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Center portfolio cards inside grid cells (works even when there's 1 card) */
-.blox-portfolio article {
-  justify-self: center !important;
-}
-
-/* Center cards inside the portfolio grid (fixes single/2 items alignment) */
-.blox-portfolio .grid.grid-cols-1 {
+/* Portfolio grid: center items */
+#section-portfolio div[data-stagger="100"]{
   justify-items: center !important;
 }
 
-/* Center cards inside THIS portfolio block only */
-.center-portfolio .grid.grid-cols-1 {
-  place-items: center !important;   /* = justify-items + align-items */
+/* Cards: do NOT stretch to full cell width */
+#section-portfolio div[data-stagger="100"] > article{
+  width: auto !important;
+  justify-self: center !important;
 }

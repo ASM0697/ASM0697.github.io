@@ -135,3 +135,8 @@ body.dark .download-btn-outline:hover {
 .blox-portfolio .grid {
   justify-items: center;
 }
+
+.blox-portfolio .grid > * {
+  margin-left: auto;
+  margin-right: auto;
+}

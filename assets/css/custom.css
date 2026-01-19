@@ -150,3 +150,8 @@ body.dark .download-btn-outline:hover {
 .blox-portfolio .grid.grid-cols-1 {
   justify-items: center !important;
 }
+
+/* Center cards inside THIS portfolio block only */
+.center-portfolio .grid.grid-cols-1 {
+  place-items: center !important;   /* = justify-items + align-items */
+}

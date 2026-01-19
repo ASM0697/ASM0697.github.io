@@ -119,8 +119,8 @@ body.dark .download-btn-outline:hover {
 
 @media (max-width: 1023px){ /* للشاشات الصغيرة مثل الموبايل والتابلت */
   .resume-biography{
-    padding-top: 0.0rem !important;
-    padding-bottom: 0.0rem !important;
+    padding-top: 1.0rem !important;
+    padding-bottom: 1.0rem !important;
     margin-top: -2rem;   /* اسحب البلوك لفوق */
   }
 }

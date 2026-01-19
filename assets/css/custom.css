@@ -116,7 +116,7 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-/* Mobile-first: reduce top space under navbar تقليل المسافة فوق السيرة الذاتية للشاشات الكبيرة */ 
+/*  reduce top space under navbar تقليل المسافة فوق السيرة الذاتية للشاشات الكبيرة */ 
 .resume-biography{
   padding-top: 0.75rem !important;   /* جرّب 0.5rem لو عايز أقل */
   padding-bottom: 0.5rem !important;
@@ -166,7 +166,7 @@ body.dark .download-btn-outline:hover {
 
 /*لغاية هنا ده كل ما يخص الحواف في الصفحة الرئيسية اعلى واسفل كل سيكشن
 
-/* Hide "Powered by Hugo Blox" inside HugoBlox search modal */ كود توسيط الكارتات في الصفحة الرئيسية - لتفعيله أزل الباك سلاش والنجمة
+/* Hide "Powered by Hugo Blox" inside HugoBlox search modal  كود توسيط الكارتات في الصفحة الرئيسية - لتفعيله أزل الباك سلاش والنجمة */
 /*[x-data="searchModal()"] a[href*="hugoblox"],
 [x-data="searchModal()"] a[href*="hugo-blox"],
 [x-data="searchModal()"] a[href*="hugoblox.com"],
@@ -179,5 +179,7 @@ body.dark .download-btn-outline:hover {
 [x-data="searchModal()"] .search-footer,
 [x-data="searchModal()"] footer {
   display: none !important;
-}
+} */
+
+
 

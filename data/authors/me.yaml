@@ -29,7 +29,7 @@ links:
     url: "https://www.linkedin.com/in/ahmedelsayed97/"
     label: "LinkedIn"
   - icon: "academicons/orcid"
-    url: "https://orcid.org/my-orcid?orcid=0000-0001-6004-6797"
+    url: "https://orcid.org/0000-0001-6004-6797"
     label: "ORCID"
   - icon: "academicons/scopus"
     url: "https://www.scopus.com/authid/detail.uri?authorId=60154251400"

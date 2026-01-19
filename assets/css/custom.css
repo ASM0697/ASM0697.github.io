@@ -141,3 +141,7 @@ body.dark .download-btn-outline:hover {
   width: auto !important;
   justify-self: center !important;
 }
+
+#section-portfolio div[data-stagger="100"] > article{
+  max-width: 420px !important;   /* غير الرقم زي ما تحب */
+}

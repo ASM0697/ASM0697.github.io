@@ -131,3 +131,7 @@ body.dark .download-btn-outline:hover {
   display: none !important;
 }
 
+/* Center portfolio items when row is not full */
+.blox-portfolio .grid {
+  justify-items: center;
+}

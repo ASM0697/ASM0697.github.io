@@ -131,3 +131,29 @@ body.dark .download-btn-outline:hover {
   display: none !important;
 }
 
+/* Make portfolio layout flex so last row centers naturally */
+#section-portfolio div[data-stagger="100"]{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: 1.5rem !important; /* نفس gap-6 */
+}
+
+/* Mobile: 1 card per row */
+#section-portfolio div[data-stagger="100"] > article{
+  width: 100% !important;
+}
+
+/* Tablet: 2 cards per row */
+@media (min-width: 768px){
+  #section-portfolio div[data-stagger="100"] > article{
+    width: calc((100% - 1.5rem) / 2) !important; /* gap واحد */
+  }
+}
+
+/* Desktop: 3 cards per row */
+@media (min-width: 1024px){
+  #section-portfolio div[data-stagger="100"] > article{
+    width: calc((100% - 3rem) / 3) !important; /* gapين */
+  }
+}

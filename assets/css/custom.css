@@ -118,7 +118,7 @@ body.dark .download-btn-outline:hover {
 
 /* Mobile-first: reduce top space under navbar */
 .resume-biography{
-  padding-top: 0.5rem !important;   /* جرّب 0.5rem لو عايز أقل */
+  padding-top: 0.0rem !important;   /* جرّب 0.5rem لو عايز أقل */
   padding-bottom: 1.5rem !important;
 }
 

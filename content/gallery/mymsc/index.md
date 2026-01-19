@@ -151,7 +151,7 @@ I then began the practical phase of my research, implementing the proposed study
 
 <figure style="text-align:center;">
   <img src="elisa1.jpg" width="100%">
-  <figcaption>While I Was Waiting for the Incubation Periods of ELISA! 🫠</figcaption>
+  <figcaption>While Waiting During the ELISA Incubation Periods! 🫠</figcaption>
 </figure>
 
 <figure style="text-align:center;">

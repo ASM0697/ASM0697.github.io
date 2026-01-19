@@ -81,7 +81,6 @@ sections:
       #  text: "Browse more!"  # Customize text
        # link: "https://asm0697.github.io/gallery/"  # Custom URL
     design:
-      css_class: center-portfolio
       columns: 3
      # view: showcase
       spacing:

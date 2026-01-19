@@ -131,33 +131,3 @@ body.dark .download-btn-outline:hover {
   display: none !important;
 }
 
-/* Portfolio grid: center items */
-#section-portfolio div[data-stagger="100"]{
-  justify-items: center !important;
-}
-
-/* Cards: do NOT stretch to full cell width */
-#section-portfolio div[data-stagger="100"] > article{
-  width: auto !important;
-  justify-self: center !important;
-}
-
-#section-portfolio div[data-stagger="100"] > article{
-  max-width: 420px !important;   /* غير الرقم زي ما تحب */
-}
-
-/* Desktop: center leftover cards */
-@media (min-width: 1024px){
-  #section-portfolio div[data-stagger="100"]{
-    justify-content: center !important;
-    grid-template-columns: repeat(3, max-content) !important;
-  }
-}
-
-/* Tablet: 2 cols centered */
-@media (min-width: 768px) and (max-width: 1023px){
-  #section-portfolio div[data-stagger="100"]{
-    justify-content: center !important;
-    grid-template-columns: repeat(2, max-content) !important;
-  }
-}

@@ -116,10 +116,13 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-/* Mobile-first: reduce top space under navbar */
-.resume-biography{
-  padding-top: 0.0rem !important;   /* جرّب 0.5rem لو عايز أقل */
-  padding-bottom: 1.5rem !important;
+
+@media (max-width: 767px){
+  .resume-biography{
+    padding-top: 0.0rem !important;
+    padding-bottom: 0.25rem !important;
+    margin-top: -1rem;   /* اسحب البلوك لفوق */
+  }
 }
 
 

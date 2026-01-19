@@ -140,3 +140,8 @@ body.dark .download-btn-outline:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Center portfolio cards inside grid cells (works even when there's 1 card) */
+.blox-portfolio article {
+  justify-self: center !important;
+}

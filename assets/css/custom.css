@@ -137,13 +137,27 @@ body.dark .download-btn-outline:hover {
   #section-portfolio{
     padding-top: 0.5rem !important;   /* نص فوق */
     padding-bottom: 0.5rem !important;/* نص تحت */
-    margin-top: 0 !important;
   }
 }
 
 /* ===== Tablet + Mobile ===== */
 @media (max-width: 1023px){
   #section-portfolio{
+    padding-top: 0 !important;      /* 0 فوق */
+    padding-bottom: 0 !important;   /* 0 تحت */
+    margin-top: -2rem !important;   /* -2 */
+  }
+}
+
+@media (min-width: 1024px){
+  .contact-section{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;/* نص تحت */
+  }
+}
+
+@media (max-width: 1023px){
+  .contact-section{
     padding-top: 0 !important;      /* 0 فوق */
     padding-bottom: 0 !important;   /* 0 تحت */
     margin-top: -2rem !important;   /* -2 */

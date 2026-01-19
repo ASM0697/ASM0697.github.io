@@ -116,8 +116,9 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-.resume-biography{
-  padding-top: 1.5rem !important;
+/* If navbar is fixed/sticky and adds offset */
+main{
+  padding-top: 0 !important;
 }
 
 

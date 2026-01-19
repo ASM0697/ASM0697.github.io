@@ -57,3 +57,7 @@ hugoblox:
     enable: true
   seo:
     enable: true
+
+  assets:
+  custom_css:
+    - css/custom.css

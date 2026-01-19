@@ -145,7 +145,6 @@ body.dark .download-btn-outline:hover {
   #section-portfolio{
     padding-top: 0 !important;      /* 0 فوق */
     padding-bottom: 0 !important;   /* 0 تحت */
-    margin-top: -2rem !important;   /* -2 */
   }
 }
 
@@ -162,9 +161,10 @@ body.dark .download-btn-outline:hover {
   #contact{
     padding-top: 0 !important;        /* 0 فوق */
     padding-bottom: 0 !important;     /* 0 تحت */
-    margin-top: -2rem !important;     /* -2 */
   }
 }
+
+/*لغاية هنا ده كل ما يخص الحواف في الصفحة الرئيسية اعلى واسفل كل سيكشن
 
 /* Hide "Powered by Hugo Blox" inside HugoBlox search modal */ كود توسيط الكارتات في الصفحة الرئيسية - لتفعيله أزل الباك سلاش والنجمة
 /*[x-data="searchModal()"] a[href*="hugoblox"],

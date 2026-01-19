@@ -116,12 +116,6 @@ body.dark .download-btn-outline:hover {
   font-style: italic;
 }
 
-/* Mobile-first: reduce top space under navbar تقليل المسافة فوق السيرة الذاتية للشاشات الكبيرة */ 
-.resume-biography{
-  padding-top: 0.5rem !important;   /* جرّب 0.5rem لو عايز أقل */
-  padding-bottom: 0.5rem !important;
-}
-
 
 @media (max-width: 1023px){ /* للشاشات الصغيرة مثل الموبايل والتابلت */
   .resume-biography{
@@ -151,7 +145,7 @@ body.dark .download-btn-outline:hover {
 /* ===== Desktop ===== */
 @media (min-width: 1024px){
   #contact{
-    padding-top: 0.5rem !important;     /* نص فوق */
+    padding-top: 0.25rem !important;     /* نص فوق */
     padding-bottom: 0.5rem !important;  /* نص تحت */
   }
 }

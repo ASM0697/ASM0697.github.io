@@ -160,7 +160,7 @@ body.dark .download-btn-outline:hover {
 @media (max-width: 1023px){
   #contact{
     padding-top: 0 !important;        /* 0 فوق */
-    padding-bottom: 0.05 !important;     /* 0 تحت */
+    padding-bottom: 0 !important;     /* 0 تحت */
   }
 }
 

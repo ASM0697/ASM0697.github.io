@@ -166,20 +166,17 @@ body.dark .download-btn-outline:hover {
 
 /*لغاية هنا ده كل ما يخص الحواف في الصفحة الرئيسية اعلى واسفل كل سيكشن
 
-/* Hide "Powered by Hugo Blox" inside HugoBlox search modal  كود توسيط الكارتات في الصفحة الرئيسية - لتفعيله أزل الباك سلاش والنجمة */
-/*[x-data="searchModal()"] a[href*="hugoblox"],
+/* Hide "Powered by Hugo Blox" inside HugoBlox search modal */
+[x-data="searchModal()"] a[href*="hugoblox"],
 [x-data="searchModal()"] a[href*="hugo-blox"],
 [x-data="searchModal()"] a[href*="hugoblox.com"],
 [x-data="searchModal()"] a[href*="hugoblox.net"] {
   display: none !important;
 }
 
-/* If it's wrapped in a footer-like container, hide it too */
-/*[x-data="searchModal()"] .pagefind-ui__search-footer,
+If it's wrapped in a footer-like container, hide it too */
+[x-data="searchModal()"] .pagefind-ui__search-footer,
 [x-data="searchModal()"] .search-footer,
 [x-data="searchModal()"] footer {
   display: none !important;
 } */
-
-
-

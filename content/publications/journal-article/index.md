@@ -42,7 +42,7 @@ links:
     url: https://doi.org/10.1007/s13679-025-00669-1
     label: DOI
 
-status: "New"
+#status: "New"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:

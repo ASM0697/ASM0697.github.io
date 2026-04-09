@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Integrating Single-Cell Sequencing and Proteomics to Unravel Stem Cell Heterogeneity: Implications for Precision Regenerative Medicine"
 authors:
 - me

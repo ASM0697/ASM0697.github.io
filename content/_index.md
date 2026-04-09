@@ -56,7 +56,7 @@ sections:
     content:
       title: "Professional Highlights"
       subtitle: "A selection of my recent activities"
-      count: 4
+      count: 5
       filters:
         folders:
           - publications

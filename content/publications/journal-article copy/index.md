@@ -22,7 +22,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["Review article"]
 
 # Publication name and optional abbreviated publication name.
-publication journal: "Part of a Topical Collection: Transcriptomics and Stem Cells at Stem Cell Reviews and Reports"
+publication: "Part of a Topical Collection: Transcriptomics and Stem Cells at Stem Cell Reviews and Reports"
 publication_short: ""
 
 # Summary. An optional shortened abstract.

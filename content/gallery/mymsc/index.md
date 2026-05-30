@@ -6,7 +6,7 @@ authors:
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2025-09-20T00:00:00Z"
+date: "2026-05-30T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -183,14 +183,8 @@ I then began the practical phase of my research, implementing the proposed study
 <a href="https://doi.org/10.3390/biomedicines14061202" target="_blank">
   <figure style="text-align:center;">
     <img src="am_article.jpg" width="100%">
-  </figure>
-</a>
-
-<a href="https://doi.org/10.3390/biomedicines14061202" target="_blank">
-  <figure style="text-align:center;">
-    <img src="am_article1.jpg" width="100%">
     <figcaption>
-      Betanin from <i>Beta vulgaris</i>> Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights
+      Betanin from <i>Beta vulgaris</i> Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights
     </figcaption>
   </figure>
 </a>

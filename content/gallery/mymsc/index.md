@@ -171,12 +171,22 @@ I then began the practical phase of my research, implementing the proposed study
   <figcaption>Molecular Docking Simulation</figcaption>
 </figure>
 
-- ### And finally, data anlysis and representation.
+- ### Data anlysis and representation.
 
 <figure style="text-align:center;">
   <img src="data.jpg" width="100%">
   <figcaption>Graphs, Scientific Illustrations, and TE Micrographs</figcaption>
 </figure>
 
+- ### And finally, publishing my article in Biomedicines, a Q1 journal (IF: 3.9, CS: 6.8), entitled:
+
+<a href="https://doi.org/10.3390/biomedicines14061202" target="_blank">
+  <figure style="text-align:center;">
+    <img src="am_article.jpg" width="100%">
+    <figcaption>
+      Betanin from Beta vulgaris Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights
+    </figcaption>
+  </figure>
+</a>
 
 ### *At the end of this journey, and with all praise to Allah, I would like to sincerely acknowledge everyone who supported me throughout—my family, my supervisors, and my colleagues.*

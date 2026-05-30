@@ -183,8 +183,14 @@ I then began the practical phase of my research, implementing the proposed study
 <a href="https://doi.org/10.3390/biomedicines14061202" target="_blank">
   <figure style="text-align:center;">
     <img src="am_article.jpg" width="100%">
+  </figure>
+</a>
+
+<a href="https://doi.org/10.3390/biomedicines14061202" target="_blank">
+  <figure style="text-align:center;">
+    <img src="am_article1.jpg" width="100%">
     <figcaption>
-      Betanin from Beta vulgaris Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights
+      Betanin from <i>Beta vulgaris</i>> Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights
     </figcaption>
   </figure>
 </a>

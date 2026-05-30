@@ -1,5 +1,5 @@
 ---
-title: "Betanin from 𝘽𝙚𝙩𝙖 𝙫𝙪𝙡𝙜𝙖𝙧𝙞𝙨 Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights"
+title: "Betanin from 𝘉𝘦𝘵𝘢 𝘷𝘶𝘭𝘨𝘢𝘳𝘪𝘴 Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights"
 authors:
 - me
 - Amina E. Essawy

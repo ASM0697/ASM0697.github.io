@@ -69,7 +69,8 @@ image:
 
 During the pre-master’s year, I completed 10 courses (30 credit hours) and contributed to curriculum preparation and presentations delivered to my colleagues.
 
-By the end of the year, I registered my research point and presented my research proposal on the regulatory roles of miRNAs mediating the analgesic effects of betanin on murine inflammatory pain model.
+By the end of the year, I registered my research point and presented my research proposal on the analgesic potential of betanin, anti-inflammatory, anti-oxidant and miRNA-pain related effects on murine inflammatory pain model.
+By the end of the year, I registered my research topic and presented my research proposal investigating the analgesic potential of betanin in a murine inflammatory pain model, with a focus on its anti-inflammatory, antioxidant, and pain-related miRNA regulatory effects.
 
 <figure style="text-align:center;">
   <img src="proposal.jpg" width="100%">
@@ -184,7 +185,7 @@ I then began the practical phase of my research, implementing the proposed study
   <figure style="text-align:center;">
     <img src="am_article.jpg" width="100%">
     <figcaption>
-      Betanin from <i>Beta vulgaris</i> Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights
+      <b>Betanin from <i>Beta vulgaris</i> Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights</b>
     </figcaption>
   </figure>
 </a>

@@ -10,13 +10,6 @@ design:
   spacing: '6rem'
 
 sections:
-  - block: markdown
-    content:
-      text: "{{< dna_hero >}}"
-    design:
-      spacing:
-        padding: ["1.5rem", "0", "0", "0"]
-
   - block: resume-biography-3
     id: bio
     content:

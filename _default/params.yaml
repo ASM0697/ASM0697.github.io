@@ -1,0 +1,58 @@
+hugoblox:
+  schema: "2.0"
+  identity:
+    name: Ahmed Massoud
+    type: person
+    tagline: Teaching Assistant | Researcher | Bio-Scientific Designer
+    description: Ahmed Massoud is a molecular biotechnology teaching assistant at AIU, researcher, and bio-scientific designer with a strong background in life sciences.
+    organization: Alamein International University
+  theme:
+    mode: system
+    pack: minimal
+    colors:
+      primary: ""
+      secondary: ""
+      neutral: ""
+  typography:
+    font: sans
+    size: md
+  layout:
+    radius: md
+    spacing: comfortable
+    avatar_shape: circle
+  header:
+    enable: true
+    style: navbar
+    sticky: true
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    cta:
+      enable: false
+      text: Contact Me
+      url: /contact/
+  footer:
+    style: minimal
+    language_switcher: true
+    text: >
+        © 2026 <a href="/">Ahmed El-Sayed Massoud</a>.<br>
+        This work is under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> license.
+      
+  copyright:
+    notice: 
+    
+    license:
+      type: cc
+      allow_derivatives: true
+      share_alike: true
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+  search:
+    enable: true
+  seo:

@@ -1,0 +1,472 @@
+---
+title: "Scientific Illustrations Portfolio"
+url: "/gallery/scientific-illustrations-portfolio/"
+summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
+date: 2025-09-18
+image:
+  filename: "featured.png"
+  focal_point: "center"
+  preview_only: false
+---
+
+<p class="portfolio-subtitle"><em>Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙</em></p>
+
+<div class="portfolio-container">
+  <div id="portfolioGrid" class="portfolio-grid"></div>
+</div>
+
+<!-- Lightbox Modal Popup -->
+<div id="illustrationModal" class="sci-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="sciModalTitle">
+  <div class="sci-modal-container">
+    <button class="sci-modal-close" onclick="closeSciModal()" aria-label="Close modal">&times;</button>
+    <div class="sci-modal-header">
+      <h2 id="sciModalTitle" class="sci-modal-title"></h2>
+    </div>
+    <div class="sci-modal-body">
+      <div class="sci-modal-img-frame">
+        <img id="sciModalImg" src="" alt="Scientific Illustration Preview" />
+      </div>
+      <p id="sciModalDesc" class="sci-modal-desc"></p>
+    </div>
+    <div class="sci-modal-footer">
+      <a id="sciModalFullView" href="#" target="_blank" rel="noopener noreferrer" class="sci-btn sci-btn-secondary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+        Full View
+      </a>
+      <a id="sciModalDownload" href="#" download class="sci-btn sci-btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+.portfolio-subtitle {
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--color-footer-fg, #8b949e);
+  margin-top: 0.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.portfolio-container {
+  width: 100%;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 1023px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 639px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.sci-card {
+  background: var(--color-header-bg, #161b22);
+  border: 1px solid var(--color-border, rgba(255, 255, 255, 0.12));
+  border-radius: var(--hb-radius, 12px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  position: relative;
+  height: 100%;
+}
+
+.sci-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  border-color: var(--color-primary-500, #3b82f6);
+}
+
+.sci-card-img-wrapper {
+  width: 100%;
+  height: 220px;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid var(--color-border, rgba(255, 255, 255, 0.08));
+  padding: 0.75rem;
+}
+
+.sci-card-img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.sci-card:hover .sci-card-img-wrapper img {
+  transform: scale(1.03);
+}
+
+.sci-card-zoom-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.sci-card:hover .sci-card-zoom-badge {
+  opacity: 1;
+  transform: scale(1.1);
+  background: var(--color-primary-500, #3b82f6);
+}
+
+.sci-card-body {
+  padding: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.sci-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-foreground, #c9d1d9);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Lightbox Modal Styles */
+.sci-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.sci-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sci-modal-container {
+  background: var(--color-background, #0d1117);
+  border: 1px solid var(--color-border, rgba(255, 255, 255, 0.15));
+  border-radius: 16px;
+  width: 100%;
+  max-width: 900px;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
+  transition: transform 0.25s ease;
+  overflow: hidden;
+}
+
+.sci-modal-overlay.active .sci-modal-container {
+  transform: scale(1);
+}
+
+.sci-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: var(--color-foreground, #ffffff);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.sci-modal-close:hover {
+  background: rgba(239, 68, 68, 0.8);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.sci-modal-header {
+  padding: 1.25rem 3.5rem 0.75rem 1.5rem;
+  border-bottom: 1px solid var(--color-border, rgba(255, 255, 255, 0.1));
+}
+
+.sci-modal-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-foreground, #ffffff);
+  margin: 0;
+  line-height: 1.35;
+}
+
+.sci-modal-body {
+  padding: 1.25rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.sci-modal-img-frame {
+  width: 100%;
+  max-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+.sci-modal-img-frame img {
+  max-width: 100%;
+  max-height: 55vh;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.sci-modal-desc {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--color-footer-fg, #8b949e);
+  margin: 0;
+}
+
+.sci-modal-footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--color-border, rgba(255, 255, 255, 0.1));
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  background: var(--color-header-bg, #161b22);
+}
+
+.sci-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.55rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sci-btn-primary {
+  background: var(--color-primary-500, #2563eb);
+  color: #ffffff !important;
+  border: 1px solid var(--color-primary-500, #2563eb);
+}
+
+.sci-btn-primary:hover {
+  background: #1d4ed8;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+}
+
+.sci-btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-foreground, #c9d1d9) !important;
+  border: 1px solid var(--color-border, rgba(255, 255, 255, 0.15));
+}
+
+.sci-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 639px) {
+  .sci-modal-container {
+    max-height: 95vh;
+    border-radius: 12px;
+  }
+  .sci-modal-header {
+    padding: 1rem 3rem 0.5rem 1rem;
+  }
+  .sci-modal-title {
+    font-size: 1.05rem;
+  }
+  .sci-modal-body {
+    padding: 0.75rem;
+  }
+  .sci-modal-img-frame img {
+    max-height: 45vh;
+  }
+  .sci-modal-footer {
+    flex-direction: column;
+    padding: 0.75rem;
+  }
+  .sci-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+const scientificIllustrations = [
+  {
+    id: "fig-1",
+    title: "Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis",
+    image: "featured.png",
+    download: "featured.png",
+    description: "Integrative molecular signaling map illustrating how chronic nutrient overload, visceral white adipose tissue (vWAT) inflammation, and autonomic nerve impairment interact to drive iron-dependent ferroptosis across metabolic organs."
+  },
+  {
+    id: "fig-2",
+    title: "Visceral Adipose Tissue (vWAT) Inflammation",
+    image: "vwat-inflammation.png",
+    download: "vwat-inflammation.png",
+    description: "Pro-inflammatory signaling dynamics within visceral white adipose tissue during chronic nutrient surplus, featuring M1 macrophage activation, CD8+ T-cell infiltration, and cytokine secretion cascades."
+  },
+  {
+    id: "fig-3",
+    title: "SLC7A11 / GPX4 Lipid Peroxidation Axis",
+    image: "gpx4-axis.png",
+    download: "gpx4-axis.png",
+    description: "Detailed cellular pathway of antioxidant breakdown, Nrf2/SLC7A11 suppression, and glutathione peroxidase 4 (GPX4) depletion leading to toxic lipid peroxidation."
+  },
+  {
+    id: "fig-4",
+    title: "Autonomic Nervous System & Vagal Tone",
+    image: "autonomic-dysregulation.png",
+    download: "autonomic-dysregulation.png",
+    description: "Neuro-immune axis highlighting sympathetic hyperreactivity and vagal anti-inflammatory pathway impairment in systemic metabolic dysfunction."
+  }
+];
+
+function renderPortfolioGrid() {
+  const container = document.getElementById('portfolioGrid');
+  if (!container) return;
+  
+  container.innerHTML = scientificIllustrations.map((item, idx) => `
+    <div class="sci-card" onclick="openSciModal(${idx})" role="button" tabindex="0" aria-label="View ${item.title}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSciModal(${idx});}">
+      <div class="sci-card-img-wrapper">
+        <img src="${item.image}" alt="${item.title}" loading="lazy" />
+        <div class="sci-card-zoom-badge" title="Expand preview">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <polyline points="9 21 3 21 3 15"></polyline>
+            <line x1="21" y1="3" x2="14" y2="10"></line>
+            <line x1="3" y1="21" x2="10" y2="14"></line>
+          </svg>
+        </div>
+      </div>
+      <div class="sci-card-body">
+        <h3 class="sci-card-title">${item.title}</h3>
+      </div>
+    </div>
+  `).join('');
+}
+
+function openSciModal(index) {
+  const item = scientificIllustrations[index];
+  if (!item) return;
+
+  const modalTitle = document.getElementById('sciModalTitle');
+  const modalImg = document.getElementById('sciModalImg');
+  const modalDesc = document.getElementById('sciModalDesc');
+  const fullViewBtn = document.getElementById('sciModalFullView');
+  const downloadBtn = document.getElementById('sciModalDownload');
+  const modalOverlay = document.getElementById('illustrationModal');
+
+  if (modalTitle) modalTitle.innerText = item.title;
+  if (modalImg) {
+    modalImg.src = item.image;
+    modalImg.alt = item.title;
+  }
+  if (modalDesc) modalDesc.innerText = item.description || '';
+
+  if (fullViewBtn) {
+    fullViewBtn.href = item.image;
+  }
+  if (downloadBtn) {
+    downloadBtn.href = item.download || item.image;
+    downloadBtn.setAttribute('download', item.download ? item.download.split('/').pop() : item.image.split('/').pop());
+  }
+
+  if (modalOverlay) {
+    modalOverlay.classList.add('active');
+  }
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSciModal() {
+  const modalOverlay = document.getElementById('illustrationModal');
+  if (modalOverlay) {
+    modalOverlay.classList.remove('active');
+  }
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  renderPortfolioGrid();
+  
+  const modalOverlay = document.getElementById('illustrationModal');
+  if (modalOverlay) {
+    modalOverlay.addEventListener('click', function(e) {
+      if (e.target === modalOverlay) {
+        closeSciModal();
+      }
+    });
+  }
+});
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    closeSciModal();
+  }
+});
+
+if (document.readyState === 'interactive' || document.readyState === 'complete') {
+  renderPortfolioGrid();
+}
+</script>

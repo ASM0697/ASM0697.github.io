@@ -3,10 +3,10 @@ title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
 date: 2025-09-18
-image:
-  filename: "featured.png"
-  focal_point: "center"
-  preview_only: false
+#image:
+#  filename: "featured.png"
+#  focal_point: "center"
+#  preview_only: false
 ---
 
 <p class="portfolio-subtitle"><em>Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙</em></p>

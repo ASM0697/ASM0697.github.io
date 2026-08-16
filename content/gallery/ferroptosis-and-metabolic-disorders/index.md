@@ -3,10 +3,14 @@ title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
 date: 2025-09-18
+show_date: false
+show_time: false
+show_read_time: false
+reading_time: false
 image:
   filename: "featured.png"
   focal_point: "center"
-  preview_only: false
+  preview_only: true
 ---
 
 <p class="portfolio-subtitle"><em>Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙</em></p>
@@ -50,11 +54,29 @@ image:
 </div>
 
 <style>
+/* Hide date, reading time metadata, and top banner image */
+.article-metadata,
+.article-meta,
+.page-header-metadata,
+.article-date,
+.reading-time,
+.article-header,
+.article-featured-image,
+.featured-image-wrapper,
+.page-wrapper > article > img,
+.hugo-blox-article-header,
+.hugo-blox-featured-image,
+div[class*="article-meta"],
+span[class*="article-meta"],
+div[class*="featured-image"] {
+  display: none !important;
+}
+
 .portfolio-subtitle {
   font-style: italic;
   font-size: 1.05rem;
   color: var(--color-footer-fg, #8b949e);
-  margin-top: 0.25rem;
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
   line-height: 1.5;
 }
@@ -83,94 +105,112 @@ image:
   }
 }
 
+/* Stylish Card Design conforming to site theme */
 .sci-card {
   background: var(--color-header-bg, #161b22);
   border: 1px solid var(--color-border, rgba(255, 255, 255, 0.12));
-  border-radius: var(--hb-radius, 12px);
+  border-radius: var(--hb-radius, 14px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.3s ease;
   position: relative;
   height: 100%;
 }
 
 .sci-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
-  border-color: var(--color-primary-500, #3b82f6);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.18);
+  border-color: var(--color-primary-500, #38bdf8);
 }
 
 .sci-card-img-wrapper {
   width: 100%;
-  height: 220px;
-  background: rgba(0, 0, 0, 0.2);
+  height: 230px;
+  background: rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   position: relative;
   border-bottom: 1px solid var(--color-border, rgba(255, 255, 255, 0.08));
-  padding: 0.75rem;
+  padding: 0.85rem;
 }
 
 .sci-card-img-wrapper img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  transition: transform 0.3s ease;
+  transition: transform 0.35s ease;
 }
 
 .sci-card:hover .sci-card-img-wrapper img {
-  transform: scale(1.03);
+  transform: scale(1.04);
 }
 
-.sci-card-zoom-badge {
+/* Hover Preview Overlay & Badge */
+.sci-card-hover-overlay {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  background: rgba(0, 0, 0, 0.65);
-  color: #fff;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  inset: 0;
+  background: rgba(13, 17, 23, 0.65);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0.7;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 5;
 }
 
-.sci-card:hover .sci-card-zoom-badge {
+.sci-card:hover .sci-card-hover-overlay {
   opacity: 1;
-  transform: scale(1.1);
-  background: var(--color-primary-500, #3b82f6);
+}
+
+.sci-preview-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--color-primary-500, #38bdf8);
+  color: #0f172a;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.45rem 1rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  transform: translateY(6px) scale(0.95);
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+  letter-spacing: 0.3px;
+}
+
+.sci-card:hover .sci-preview-badge {
+  transform: translateY(0) scale(1);
 }
 
 .sci-card-body {
-  padding: 1.15rem;
+  padding: 1.25rem;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
 .sci-card-title {
-  font-size: 1rem;
+  font-size: 1.02rem;
   font-weight: 600;
   color: var(--color-foreground, #c9d1d9);
   margin: 0;
   line-height: 1.4;
 }
 
-/* Lightbox Modal Styles */
+/* Modal Popup Styles */
 .sci-modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.82);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(5, 10, 20, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   z-index: 99999;
   display: flex;
   align-items: center;
@@ -196,7 +236,7 @@ image:
   display: flex;
   flex-direction: column;
   position: relative;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
   transform: scale(0.95);
   transition: transform 0.25s ease;
   overflow: hidden;
@@ -226,9 +266,8 @@ image:
 }
 
 .sci-modal-close:hover {
-  background: rgba(239, 68, 68, 0.8);
+  background: rgba(239, 68, 68, 0.85);
   color: #fff;
-  transform: scale(1.05);
 }
 
 .sci-modal-header {
@@ -259,7 +298,7 @@ image:
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.35);
   border-radius: 10px;
   padding: 0.5rem;
   overflow: hidden;
@@ -276,6 +315,10 @@ image:
   font-size: 0.95rem;
   line-height: 1.55;
   color: var(--color-footer-fg, #8b949e);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--color-primary-500, #38bdf8);
   margin: 0;
 }
 
@@ -302,9 +345,9 @@ image:
 }
 
 .sci-btn-primary {
-  background: var(--color-primary-500, #2563eb);
+  background: #2563eb;
   color: #ffffff !important;
-  border: 1px solid var(--color-primary-500, #2563eb);
+  border: 1px solid #3b82f6;
 }
 
 .sci-btn-primary:hover {
@@ -391,13 +434,16 @@ function renderPortfolioGrid() {
     <div class="sci-card" onclick="openSciModal(${idx})" role="button" tabindex="0" aria-label="View ${item.title}" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openSciModal(${idx});}">
       <div class="sci-card-img-wrapper">
         <img src="${item.image}" alt="${item.title}" loading="lazy" />
-        <div class="sci-card-zoom-badge" title="Expand preview">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="15 3 21 3 21 9"></polyline>
-            <polyline points="9 21 3 21 3 15"></polyline>
-            <line x1="21" y1="3" x2="14" y2="10"></line>
-            <line x1="3" y1="21" x2="10" y2="14"></line>
-          </svg>
+        <div class="sci-card-hover-overlay">
+          <span class="sci-preview-badge">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              <line x1="11" y1="8" x2="11" y2="14"></line>
+              <line x1="8" y1="11" x2="14" y2="11"></line>
+            </svg>
+            Preview
+          </span>
         </div>
       </div>
       <div class="sci-card-body">

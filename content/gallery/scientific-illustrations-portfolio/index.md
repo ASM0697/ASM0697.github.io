@@ -2,7 +2,6 @@
 title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
-date: 2025-09-18
 show_date: false
 show_time: false
 show_read_time: false
@@ -55,6 +54,7 @@ image:
 
 <style>
 /* Hide date, reading time metadata, and top banner image */
+time,
 .article-metadata,
 .article-meta,
 .page-header-metadata,
@@ -68,7 +68,8 @@ image:
 .hugo-blox-featured-image,
 div[class*="article-meta"],
 span[class*="article-meta"],
-div[class*="featured-image"] {
+div[class*="featured-image"],
+[itemprop="datePublished"] {
   display: none !important;
 }
 
@@ -126,22 +127,24 @@ div[class*="featured-image"] {
   border-color: var(--color-primary-500, #38bdf8);
 }
 
+/* Image fills top portion edge-to-edge with no padding */
 .sci-card-img-wrapper {
   width: 100%;
-  height: 230px;
-  background: rgba(0, 0, 0, 0.25);
+  height: 220px;
+  background: #020617;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   position: relative;
   border-bottom: 1px solid var(--color-border, rgba(255, 255, 255, 0.08));
-  padding: 0.85rem;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .sci-card-img-wrapper img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   transition: transform 0.35s ease;
 }
@@ -190,18 +193,29 @@ div[class*="featured-image"] {
 }
 
 .sci-card-body {
-  padding: 1.25rem;
+  padding: 1.15rem;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
 .sci-card-title {
-  font-size: 1.02rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--color-foreground, #c9d1d9);
+  margin: 0 0 0.4rem 0;
+  line-height: 1.35;
+}
+
+.sci-card-desc {
+  font-size: 0.85rem;
+  color: var(--color-footer-fg, #8b949e);
+  line-height: 1.45;
   margin: 0;
-  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* Modal Popup Styles */
@@ -448,6 +462,7 @@ function renderPortfolioGrid() {
       </div>
       <div class="sci-card-body">
         <h3 class="sci-card-title">${item.title}</h3>
+        <p class="sci-card-desc">${item.description}</p>
       </div>
     </div>
   `).join('');

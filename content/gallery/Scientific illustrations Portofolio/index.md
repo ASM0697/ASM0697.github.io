@@ -13,4 +13,3 @@ image:
 ---
 
 {{< scientific_illustrations >}}
-

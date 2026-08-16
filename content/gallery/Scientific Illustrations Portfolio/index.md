@@ -1,12 +1,11 @@
 ---
-title: "Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis"
+title: "Scientific Illustrations Portfolio"
 authors:
-Draft: true
 - me
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
-date: "2025-09-18T00:00:00Z"
+#date: "2025-09-18T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: "2017-01-01T00:00:00Z"
@@ -23,10 +22,10 @@ date: "2025-09-18T00:00:00Z"
 # Summary. An optional shortened abstract.
 #summary: This figure ...
 
-tags:
+# tags:
 #- Featured
 #- Featured Illustration
-- Illustrations
+# - Illustrations
 # featured: true
 
 
@@ -65,7 +64,7 @@ This figure illustrates the interconnected relationship between metabolic disord
 <br>
 
 <div class="download-wrapper">
-  <a href="featured.png" download class="download-btn-outline">
+  <a href="obesity.png" download class="download-btn-outline">
      Download
   </a>
 </div>

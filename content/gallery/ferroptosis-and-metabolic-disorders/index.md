@@ -2,6 +2,13 @@
 title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
+date: 2025-09-18
+tags:
+  - Featured
+  - Featured Illustration
+  - Illustrations
+  - Ferroptosis
+  - Metabolic Disorders
 show_date: false
 show_time: false
 show_read_time: false
@@ -24,6 +31,10 @@ image:
     <button class="sci-modal-close" onclick="closeSciModal()" aria-label="Close modal">&times;</button>
     <div class="sci-modal-header">
       <h2 id="sciModalTitle" class="sci-modal-title"></h2>
+      <div class="sci-modal-meta">
+        <span id="sciModalDate" class="sci-modal-date"></span>
+        <div id="sciModalTags" class="sci-modal-tags"></div>
+      </div>
     </div>
     <div class="sci-modal-body">
       <div class="sci-modal-img-frame">
@@ -53,7 +64,7 @@ image:
 </div>
 
 <style>
-/* Hide date, reading time metadata, and top banner image */
+/* Hide default page-level metadata headers */
 time,
 .article-metadata,
 .article-meta,
@@ -203,7 +214,7 @@ div[class*="featured-image"],
   font-size: 1rem;
   font-weight: 600;
   color: var(--color-foreground, #c9d1d9);
-  margin: 0 0 0.4rem 0;
+  margin: 0 0 0.35rem 0;
   line-height: 1.35;
 }
 
@@ -211,11 +222,36 @@ div[class*="featured-image"],
   font-size: 0.85rem;
   color: var(--color-footer-fg, #8b949e);
   line-height: 1.45;
-  margin: 0;
+  margin: 0 0 0.6rem 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.sci-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--color-footer-fg, #8b949e);
+  margin-top: auto;
+}
+
+.sci-card-date {
+  font-weight: 500;
+  opacity: 0.85;
+}
+
+.sci-tag-pill {
+  background: rgba(56, 189, 248, 0.12);
+  color: var(--color-primary-500, #38bdf8);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 12px;
+  letter-spacing: 0.3px;
 }
 
 /* Modal Popup Styles */
@@ -295,6 +331,25 @@ div[class*="featured-image"],
   color: var(--color-foreground, #ffffff);
   margin: 0;
   line-height: 1.35;
+}
+
+.sci-modal-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.sci-modal-date {
+  font-size: 0.82rem;
+  color: var(--color-footer-fg, #8b949e);
+  font-weight: 500;
+}
+
+.sci-modal-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
 .sci-modal-body {
@@ -413,6 +468,8 @@ const scientificIllustrations = [
   {
     id: "fig-1",
     title: "Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis",
+    date: "September 2025",
+    tags: ["Illustrations", "Ferroptosis", "Metabolic"],
     image: "featured.png",
     download: "featured.png",
     description: "Integrative molecular signaling map illustrating how chronic nutrient overload, visceral white adipose tissue (vWAT) inflammation, and autonomic nerve impairment interact to drive iron-dependent ferroptosis across metabolic organs."
@@ -420,6 +477,8 @@ const scientificIllustrations = [
   {
     id: "fig-2",
     title: "Visceral Adipose Tissue (vWAT) Inflammation",
+    date: "August 2025",
+    tags: ["Illustrations", "Adipose", "Inflammation"],
     image: "vwat-inflammation.png",
     download: "vwat-inflammation.png",
     description: "Pro-inflammatory signaling dynamics within visceral white adipose tissue during chronic nutrient surplus, featuring M1 macrophage activation, CD8+ T-cell infiltration, and cytokine secretion cascades."
@@ -427,6 +486,8 @@ const scientificIllustrations = [
   {
     id: "fig-3",
     title: "SLC7A11 / GPX4 Lipid Peroxidation Axis",
+    date: "July 2025",
+    tags: ["Illustrations", "Lipid Peroxidation", "GPX4"],
     image: "gpx4-axis.png",
     download: "gpx4-axis.png",
     description: "Detailed cellular pathway of antioxidant breakdown, Nrf2/SLC7A11 suppression, and glutathione peroxidase 4 (GPX4) depletion leading to toxic lipid peroxidation."
@@ -434,6 +495,8 @@ const scientificIllustrations = [
   {
     id: "fig-4",
     title: "Autonomic Nervous System & Vagal Tone",
+    date: "June 2025",
+    tags: ["Illustrations", "Neuro-Immune", "Vagal Tone"],
     image: "autonomic-dysregulation.png",
     download: "autonomic-dysregulation.png",
     description: "Neuro-immune axis highlighting sympathetic hyperreactivity and vagal anti-inflammatory pathway impairment in systemic metabolic dysfunction."
@@ -463,6 +526,10 @@ function renderPortfolioGrid() {
       <div class="sci-card-body">
         <h3 class="sci-card-title">${item.title}</h3>
         <p class="sci-card-desc">${item.description}</p>
+        <div class="sci-card-meta">
+          <span class="sci-card-date">${item.date}</span>
+          ${item.tags && item.tags.length ? `<span class="sci-tag-pill">${item.tags[0]}</span>` : ''}
+        </div>
       </div>
     </div>
   `).join('');
@@ -473,6 +540,8 @@ function openSciModal(index) {
   if (!item) return;
 
   const modalTitle = document.getElementById('sciModalTitle');
+  const modalDate = document.getElementById('sciModalDate');
+  const modalTags = document.getElementById('sciModalTags');
   const modalImg = document.getElementById('sciModalImg');
   const modalDesc = document.getElementById('sciModalDesc');
   const fullViewBtn = document.getElementById('sciModalFullView');
@@ -480,6 +549,11 @@ function openSciModal(index) {
   const modalOverlay = document.getElementById('illustrationModal');
 
   if (modalTitle) modalTitle.innerText = item.title;
+  if (modalDate) modalDate.innerText = item.date || '';
+  if (modalTags) {
+    modalTags.innerHTML = (item.tags || []).map(tag => `<span class="sci-tag-pill">${tag}</span>`).join('');
+  }
+
   if (modalImg) {
     modalImg.src = item.image;
     modalImg.alt = item.title;

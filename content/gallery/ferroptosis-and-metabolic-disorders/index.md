@@ -64,7 +64,7 @@ image:
 </div>
 
 <style>
-/* Hide default page-level metadata headers */
+/* Hide default page-level metadata headers & date stamps */
 time,
 .article-metadata,
 .article-meta,
@@ -89,19 +89,19 @@ div[class*="featured-image"],
   font-size: 1.05rem;
   color: var(--color-footer-fg, #8b949e);
   margin-top: 0.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.25rem;
   line-height: 1.5;
 }
 
 .portfolio-container {
   width: 100%;
-  margin: 1.5rem 0 3rem 0;
+  margin: 1.5rem 0 3.5rem 0;
 }
 
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 1.75rem;
 }
 
 @media (max-width: 1023px) {
@@ -117,32 +117,32 @@ div[class*="featured-image"],
   }
 }
 
-/* Stylish Card Design conforming to site theme */
+/* Stylistic Card Design conforming to site theme */
 .sci-card {
   background: var(--color-header-bg, #161b22);
   border: 1px solid var(--color-border, rgba(255, 255, 255, 0.12));
-  border-radius: var(--hb-radius, 14px);
+  border-radius: var(--hb-radius, 16px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.3s ease;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
   position: relative;
   height: 100%;
 }
 
 .sci-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.18);
+  transform: translateY(-8px);
+  box-shadow: 0 16px 36px rgba(56, 189, 248, 0.22), 0 0 20px rgba(56, 189, 248, 0.1);
   border-color: var(--color-primary-500, #38bdf8);
 }
 
 /* Image fills top portion edge-to-edge with no padding */
 .sci-card-img-wrapper {
   width: 100%;
-  height: 220px;
-  background: #020617;
+  height: 240px;
+  background: radial-gradient(circle at center, rgba(30, 41, 59, 0.6) 0%, rgba(2, 6, 23, 0.95) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -157,25 +157,25 @@ div[class*="featured-image"],
   width: 100%;
   height: 100%;
   object-fit: contain;
-  transition: transform 0.35s ease;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .sci-card:hover .sci-card-img-wrapper img {
-  transform: scale(1.04);
+  transform: scale(1.05);
 }
 
 /* Hover Preview Overlay & Badge */
 .sci-card-hover-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(13, 17, 23, 0.65);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: rgba(13, 17, 23, 0.72);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   display: flex;
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.25s ease;
+  transition: opacity 0.3s ease;
   z-index: 5;
 }
 
@@ -186,17 +186,17 @@ div[class*="featured-image"],
 .sci-preview-badge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  background: var(--color-primary-500, #38bdf8);
+  gap: 8px;
+  background: linear-gradient(135deg, var(--color-primary-500, #38bdf8), #0284c7);
   color: #0f172a;
   font-size: 0.85rem;
   font-weight: 700;
-  padding: 0.45rem 1rem;
-  border-radius: 20px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
-  transform: translateY(6px) scale(0.95);
-  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
-  letter-spacing: 0.3px;
+  padding: 0.5rem 1.15rem;
+  border-radius: 24px;
+  box-shadow: 0 4px 18px rgba(56, 189, 248, 0.4);
+  transform: translateY(8px) scale(0.95);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  letter-spacing: 0.4px;
 }
 
 .sci-card:hover .sci-preview-badge {
@@ -204,43 +204,91 @@ div[class*="featured-image"],
 }
 
 .sci-card-body {
-  padding: 1.15rem;
+  padding: 1.35rem;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
+.sci-card-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.sci-card-fig-num {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--color-primary-500, #38bdf8);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.sci-card-date {
+  font-size: 0.78rem;
+  color: var(--color-footer-fg, #8b949e);
+  font-weight: 500;
+}
+
 .sci-card-title {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--color-foreground, #c9d1d9);
-  margin: 0 0 0.35rem 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--color-foreground, #f8fafc);
+  margin: 0.25rem 0 0.45rem 0;
   line-height: 1.35;
 }
 
 .sci-card-desc {
-  font-size: 0.85rem;
-  color: var(--color-footer-fg, #8b949e);
-  line-height: 1.45;
-  margin: 0 0 0.6rem 0;
+  font-size: 0.86rem;
+  color: var(--color-footer-fg, #94a3b8);
+  line-height: 1.5;
+  margin: 0 0 1.1rem 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-.sci-card-meta {
+.sci-card-footer {
+  margin-top: auto;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--color-border, rgba(255, 255, 255, 0.07));
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.78rem;
-  color: var(--color-footer-fg, #8b949e);
-  margin-top: auto;
+  justify-content: space-between;
 }
 
-.sci-card-date {
-  font-weight: 500;
-  opacity: 0.85;
+.sci-card-tag {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-footer-fg, #94a3b8);
+}
+
+.sci-card-action {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-primary-500, #38bdf8);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: gap 0.25s ease;
+}
+
+.sci-card:hover .sci-card-action {
+  gap: 8px;
+}
+
+.sci-arrow {
+  transition: transform 0.25s ease;
+}
+
+.sci-card:hover .sci-arrow {
+  transform: translateX(3px);
 }
 
 .sci-tag-pill {
@@ -468,7 +516,7 @@ const scientificIllustrations = [
   {
     id: "fig-1",
     title: "Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis",
-    date: "September 2025",
+    date: "Sept 2025",
     tags: ["Illustrations", "Ferroptosis", "Metabolic"],
     image: "featured.png",
     download: "featured.png",
@@ -477,7 +525,7 @@ const scientificIllustrations = [
   {
     id: "fig-2",
     title: "Visceral Adipose Tissue (vWAT) Inflammation",
-    date: "August 2025",
+    date: "Aug 2025",
     tags: ["Illustrations", "Adipose", "Inflammation"],
     image: "vwat-inflammation.png",
     download: "vwat-inflammation.png",
@@ -519,16 +567,20 @@ function renderPortfolioGrid() {
               <line x1="11" y1="8" x2="11" y2="14"></line>
               <line x1="8" y1="11" x2="14" y2="11"></line>
             </svg>
-            Preview
+            Expand Preview
           </span>
         </div>
       </div>
       <div class="sci-card-body">
+        <div class="sci-card-top-bar">
+          <span class="sci-card-fig-num">FIG 0${idx + 1}</span>
+          <span class="sci-card-date">${item.date}</span>
+        </div>
         <h3 class="sci-card-title">${item.title}</h3>
         <p class="sci-card-desc">${item.description}</p>
-        <div class="sci-card-meta">
-          <span class="sci-card-date">${item.date}</span>
-          ${item.tags && item.tags.length ? `<span class="sci-tag-pill">${item.tags[0]}</span>` : ''}
+        <div class="sci-card-footer">
+          <span class="sci-card-tag">${item.tags && item.tags[0] ? item.tags[0] : 'Illustration'}</span>
+          <span class="sci-card-action">View Figure <span class="sci-arrow">&rarr;</span></span>
         </div>
       </div>
     </div>

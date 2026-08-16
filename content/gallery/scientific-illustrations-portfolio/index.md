@@ -2,8 +2,8 @@
 title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
-date: 2025-09-18
-tags:
+#date: 2025-09-18
+#tags:
   - Featured
   - Featured Illustration
   - Illustrations

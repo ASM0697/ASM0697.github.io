@@ -1,0 +1,230 @@
+<div class="dna-hero-wrapper">
+  <canvas id="dna-hero-canvas" aria-label="Interactive DNA animation"></canvas>
+  <div class="dna-hero-overlay">
+    <div class="dna-hero-badge">🧬 Molecular Biology &amp; Bio-Scientific Design</div>
+    <h1 class="dna-hero-title">Ahmed Massoud</h1>
+    <p class="dna-hero-subtitle">Teaching Assistant · Researcher · Bio-Scientific Designer</p>
+    <p class="dna-hero-hint">✨ Click the revolving DNA strand to interact ✨</p>
+  </div>
+</div>
+
+<style>
+.dna-hero-wrapper {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  overflow: hidden;
+  background: radial-gradient(ellipse at 50% 100%, rgba(14, 165, 233, 0.15) 0%, rgba(16, 185, 129, 0.08) 40%, transparent 70%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+#dna-hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.dna-hero-overlay {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  pointer-events: none;
+  padding: 1.5rem;
+}
+.dna-hero-badge {
+  display: inline-block;
+  background: rgba(56, 189, 248, 0.14);
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  color: #38bdf8;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  margin-bottom: 0.8rem;
+  letter-spacing: 0.3px;
+}
+.dna-hero-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 0.4rem;
+  background: linear-gradient(135deg, #0ea5e9, #10b981);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dna-hero-subtitle {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--hb-text-secondary, #cbd5e1);
+  margin-bottom: 0.6rem;
+}
+.dna-hero-hint {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  opacity: 0.8;
+  animation: dnaPulse 2s ease-in-out infinite;
+}
+@keyframes dnaPulse { 0%,100%{opacity:0.5} 50%{opacity:1} }
+</style>
+
+<script>
+(function() {
+  const canvas = document.getElementById('dna-hero-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+
+  let W, H, cx, cy;
+  let time = 0;
+  let speed = 0.009;
+  let excited = false;
+  let exciteTimer = 0;
+  let particles = [];
+
+  function resize() {
+    W = canvas.width  = canvas.offsetWidth;
+    H = canvas.height = canvas.offsetHeight;
+    cx = W / 2;
+    cy = H / 2;
+  }
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
+
+  function spawnParticles(x, y) {
+    for (let i = 0; i < 50; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const spd   = 1.5 + Math.random() * 4;
+      const size  = 2 + Math.random() * 4;
+      const life  = 50 + Math.random() * 40;
+      const hue   = Math.random() < 0.5 ? '14,165,233' : '16,185,129';
+      particles.push({ x, y, vx: Math.cos(angle) * spd, vy: Math.sin(angle) * spd, size, life, maxLife: life, hue });
+    }
+  }
+
+  function updateParticles() {
+    particles = particles.filter(p => {
+      p.x += p.vx; p.y += p.vy;
+      p.vy += 0.06; p.vx *= 0.98;
+      p.life--;
+      return p.life > 0;
+    });
+    particles.forEach(p => {
+      const alpha = p.life / p.maxLife;
+      ctx.save();
+      ctx.globalAlpha = alpha;
+      ctx.fillStyle = `rgb(${p.hue})`;
+      ctx.shadowColor = `rgba(${p.hue},0.6)`;
+      ctx.shadowBlur = 6;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size * alpha, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    });
+  }
+
+  function drawDNA() {
+    ctx.clearRect(0, 0, W, H);
+    const numRungs = 18;
+    const amp      = Math.min(W * 0.22, 180);
+    const startY   = 30;
+    const endY     = H - 30;
+    const helixH   = endY - startY;
+
+    const points1 = [], points2 = [];
+    for (let i = 0; i <= numRungs * 4; i++) {
+      const t   = i / (numRungs * 4);
+      const y   = startY + helixH * t;
+      const ang = time + t * Math.PI * 3.5;
+      const x1  = cx + Math.cos(ang) * amp;
+      const x2  = cx + Math.cos(ang + Math.PI) * amp;
+      const z1  = Math.sin(ang);
+      const z2  = Math.sin(ang + Math.PI);
+      points1.push({ x: x1, y, z: z1 });
+      points2.push({ x: x2, y, z: z2 });
+    }
+
+    // Strand 1
+    ctx.save();
+    ctx.beginPath();
+    points1.forEach((p, i) => { if (i === 0) ctx.moveTo(p.x, p.y); else ctx.lineTo(p.x, p.y); });
+    ctx.strokeStyle = 'rgba(14, 165, 233, 0.85)';
+    ctx.lineWidth = 3;
+    ctx.shadowColor = 'rgba(14, 165, 233, 0.5)';
+    ctx.shadowBlur = excited ? 18 : 8;
+    ctx.stroke();
+    ctx.restore();
+
+    // Strand 2
+    ctx.save();
+    ctx.beginPath();
+    points2.forEach((p, i) => { if (i === 0) ctx.moveTo(p.x, p.y); else ctx.lineTo(p.x, p.y); });
+    ctx.strokeStyle = 'rgba(16, 185, 129, 0.85)';
+    ctx.lineWidth = 3;
+    ctx.shadowColor = 'rgba(16, 185, 129, 0.5)';
+    ctx.shadowBlur = excited ? 18 : 8;
+    ctx.stroke();
+    ctx.restore();
+
+    // Rungs
+    for (let r = 0; r < numRungs; r++) {
+      const t   = r / numRungs;
+      const idx = Math.round(t * (points1.length - 1));
+      const p1  = points1[idx];
+      const p2  = points2[idx];
+      if (!p1 || !p2) continue;
+
+      const depth = (p1.z + p2.z) / 2;
+      const alpha = 0.25 + 0.45 * Math.abs(depth);
+
+      ctx.save();
+      ctx.strokeStyle = `rgba(148, 163, 184, ${alpha})`;
+      ctx.lineWidth = 2;
+      ctx.beginPath(); ctx.moveTo(p1.x, p1.y); ctx.lineTo(p2.x, p2.y);
+      ctx.stroke();
+      ctx.restore();
+
+      const nodeR = excited ? 5 : 3.5;
+      [[p1, '#38bdf8'], [p2, '#34d399']].forEach(([p, color]) => {
+        ctx.save();
+        ctx.beginPath(); ctx.arc(p.x, p.y, nodeR, 0, Math.PI * 2);
+        ctx.fillStyle = color;
+        ctx.shadowColor = color;
+        ctx.shadowBlur = excited ? 12 : 4;
+        ctx.fill();
+        ctx.restore();
+      });
+    }
+
+    updateParticles();
+  }
+
+  function animate() {
+    time += speed * (excited ? 3.5 : 1);
+    if (excited) {
+      exciteTimer--;
+      if (exciteTimer <= 0) { excited = false; speed = 0.009; }
+    }
+    drawDNA();
+    requestAnimationFrame(animate);
+  }
+  animate();
+
+  canvas.addEventListener('click', function(e) {
+    const rect = canvas.getBoundingClientRect();
+    const mx   = e.clientX - rect.left;
+    const my   = e.clientY - rect.top;
+    excited    = true;
+    exciteTimer = 80;
+    speed      = 0.035;
+    spawnParticles(mx, my);
+  });
+})();
+</script>

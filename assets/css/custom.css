@@ -202,6 +202,24 @@ time,
   display: none !important;
 }
 
+/* Center portfolio page main title */
+.page-wrapper article > header,
+.page-wrapper article > header h1,
+article.article-container h1,
+article h1,
+h1.title,
+.article-title {
+  text-align: center !important;
+}
+
+/* Hide page-end tags widget */
+.page-wrapper article > footer,
+.page-wrapper article .article-tags,
+.page-wrapper article .tags-widget,
+div:has(> a[href*="/tags/"]) {
+  display: none !important;
+}
+
 .portfolio-subtitle {
   font-style: italic;
   font-size: 1.1rem;
@@ -404,6 +422,14 @@ time,
   background: linear-gradient(135deg, #1d4ed8, #1e40af);
   box-shadow: 0 6px 18px rgba(37, 99, 235, 0.4);
   transform: translateY(-2px);
+}
+
+.sci-card-tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 0.25rem;
+  margin-bottom: 0.85rem;
 }
 
 .sci-card-tag {

@@ -3,12 +3,6 @@ title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
 date: 2025-09-18
-tags:
-  - Featured
-  - Featured Illustration
-  - Illustrations
-  - Ferroptosis
-  - Metabolic Disorders
 show_date: false
 show_time: false
 show_read_time: false
@@ -47,6 +41,11 @@ image:
         </div>
         <h3 class="sci-card-title">Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis</h3>
         <p class="sci-card-desc">Integrative molecular signaling map illustrating how chronic nutrient overload, visceral white adipose tissue (vWAT) inflammation, and autonomic nerve impairment interact to drive iron-dependent ferroptosis across metabolic organs.</p>
+        <div class="sci-card-tags-list">
+          <span class="sci-tag-pill">Ferroptosis</span>
+          <span class="sci-tag-pill">Metabolic Disorders</span>
+          <span class="sci-tag-pill">Illustrations</span>
+        </div>
         <div class="sci-card-footer">
           <button class="sci-preview-btn" onclick="openSciModal(0); event.stopPropagation();" aria-label="Preview Metabolic Disorders illustration">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -84,6 +83,11 @@ image:
         </div>
         <h3 class="sci-card-title">Visceral Adipose Tissue (vWAT) Inflammation</h3>
         <p class="sci-card-desc">Pro-inflammatory signaling dynamics within visceral white adipose tissue during chronic nutrient surplus, featuring M1 macrophage activation, CD8+ T-cell infiltration, and cytokine secretion cascades.</p>
+        <div class="sci-card-tags-list">
+          <span class="sci-tag-pill">Adipose</span>
+          <span class="sci-tag-pill">Inflammation</span>
+          <span class="sci-tag-pill">Illustrations</span>
+        </div>
         <div class="sci-card-footer">
           <button class="sci-preview-btn" onclick="openSciModal(1); event.stopPropagation();" aria-label="Preview Visceral Adipose Tissue illustration">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -121,6 +125,11 @@ image:
         </div>
         <h3 class="sci-card-title">SLC7A11 / GPX4 Lipid Peroxidation Axis</h3>
         <p class="sci-card-desc">Detailed cellular pathway of antioxidant breakdown, Nrf2/SLC7A11 suppression, and glutathione peroxidase 4 (GPX4) depletion leading to toxic lipid peroxidation.</p>
+        <div class="sci-card-tags-list">
+          <span class="sci-tag-pill">Lipid Peroxidation</span>
+          <span class="sci-tag-pill">GPX4</span>
+          <span class="sci-tag-pill">Illustrations</span>
+        </div>
         <div class="sci-card-footer">
           <button class="sci-preview-btn" onclick="openSciModal(2); event.stopPropagation();" aria-label="Preview SLC7A11 GPX4 illustration">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -182,7 +191,7 @@ const scientificIllustrations = [
     id: "fig-1",
     title: "Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis",
     date: "Sept 2025",
-    tags: ["Illustrations", "Ferroptosis", "Metabolic Disorders"],
+    tags: ["Ferroptosis", "Metabolic Disorders", "Illustrations"],
     image: "featured.png",
     download: "featured.png",
     description: "Integrative molecular signaling map illustrating how chronic nutrient overload, visceral white adipose tissue (vWAT) inflammation, and autonomic nerve impairment interact to drive iron-dependent ferroptosis across metabolic organs."
@@ -191,7 +200,7 @@ const scientificIllustrations = [
     id: "fig-2",
     title: "Visceral Adipose Tissue (vWAT) Inflammation",
     date: "Aug 2025",
-    tags: ["Illustrations", "Adipose", "Inflammation"],
+    tags: ["Adipose", "Inflammation", "Illustrations"],
     image: "vwat-inflammation.png",
     download: "vwat-inflammation.png",
     description: "Pro-inflammatory signaling dynamics within visceral white adipose tissue during chronic nutrient surplus, featuring M1 macrophage activation, CD8+ T-cell infiltration, and cytokine secretion cascades."
@@ -200,7 +209,7 @@ const scientificIllustrations = [
     id: "fig-3",
     title: "SLC7A11 / GPX4 Lipid Peroxidation Axis",
     date: "July 2025",
-    tags: ["Illustrations", "Lipid Peroxidation", "GPX4"],
+    tags: ["Lipid Peroxidation", "GPX4", "Illustrations"],
     image: "gpx4-axis.png",
     download: "gpx4-axis.png",
     description: "Detailed cellular pathway of antioxidant breakdown, Nrf2/SLC7A11 suppression, and glutathione peroxidase 4 (GPX4) depletion leading to toxic lipid peroxidation."

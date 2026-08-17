@@ -268,9 +268,9 @@ Preview
 </div>
 
 <!-- Block 3 -->
-<div class="sci-card" onclick="openSciModal(2)" role="button" tabindex="0" aria-label="View SLC7A11 / GPX4 Lipid Peroxidation Axis">
+<div class="sci-card" onclick="openSciModal(2)" role="button" tabindex="0" aria-label="View Betanin-Mediated Modulation of miRNA Signaling and Neuroinflammation in Inflammatory Pain">
 <div class="sci-card-img-wrapper">
-<img src="thumb_gpx4-axis.png" alt="SLC7A11 / GPX4 Lipid Peroxidation Axis" loading="lazy" />
+<img src="Betanin_proposed_analgesic_mechanism.png" alt="Betanin-Mediated Modulation of miRNA Signaling and Neuroinflammation in Inflammatory Pain" loading="lazy" />
 <div class="sci-card-hover-overlay">
 <span class="sci-preview-badge">
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -288,8 +288,8 @@ Preview
 <span class="sci-card-fig-num">FIG 03</span>
 <span class="sci-card-date">July 2025</span>
 </div>
-<h3 class="sci-card-title">SLC7A11 / GPX4 Lipid Peroxidation Axis</h3>
-<p class="sci-card-desc">Detailed cellular pathway of antioxidant breakdown, Nrf2/SLC7A11 suppression, and glutathione peroxidase 4 (GPX4) depletion leading to toxic lipid peroxidation.</p>
+<h3 class="sci-card-title">Betanin-Mediated Modulation of miRNA Signaling and Neuroinflammation in Inflammatory Pain</h3>
+<p class="sci-card-desc">Proposed molecular mechanism illustrating how betanin may attenuate inflammatory pain through modulation of miR-107/GLT-1 and miR-145/Akt signaling, with downstream effects on glutamate accumulation, oxidative stress, and inflammatory cytokines.</p>
 <div class="sci-card-tags-list">
 <span class="sci-tag-pill">Lipid Peroxidation</span>
 <span class="sci-tag-pill">GPX4</span>
@@ -373,12 +373,12 @@ const scientificIllustrations = [
   },
   {
     id: "fig-3",
-    title: "SLC7A11 / GPX4 Lipid Peroxidation Axis",
-    date: "July 2025",
-    tags: ["Lipid Peroxidation", "GPX4", "Illustrations"],
-    image: "gpx4-axis.png",
-    download: "gpx4-axis.png",
-    description: "Detailed cellular pathway of antioxidant breakdown, Nrf2/SLC7A11 suppression, and glutathione peroxidase 4 (GPX4) depletion leading to toxic lipid peroxidation."
+    title: "Betanin-Mediated Modulation of miRNA Signaling and Neuroinflammation in Inflammatory Pain",
+    date: "Feb 2026",
+    tags: ["Betanin", "Pain", "miRNA"],
+    image: "Betanin_proposed_analgesic_mechanism.png",
+    download: "Betanin_proposed_analgesic_mechanism.png",
+    description: "Proposed molecular mechanism illustrating how betanin may attenuate inflammatory pain through modulation of miR-107/GLT-1 and miR-145/Akt signaling, with downstream effects on glutamate accumulation, oxidative stress, and inflammatory cytokines."
   }
 ];
 

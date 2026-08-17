@@ -14,14 +14,15 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Expand layout container to 1450px width so card blocks are wider in width */
-.max-w-prose, .prose, article.article, .article-container, main .container, article > div, .container, body.page-wrapper main {
-  max-width: 1450px !important;
+/* THIS PAGE ONLY: Expand portfolio content area width to 1400px */
+.max-w-prose, .prose, .article-style, .article-container, article .article-style {
+  max-width: 1400px !important;
   width: 100% !important;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-left: 1rem !important;
   padding-right: 1rem !important;
+  box-sizing: border-box !important;
 }
 
 /* THIS PAGE ONLY: Page Header spacing */
@@ -48,7 +49,7 @@ image:
 /* THIS PAGE ONLY: Portfolio Grid layout for wide cards */
 .portfolio-container {
   width: 100% !important;
-  max-width: 1450px !important;
+  max-width: 1400px !important;
   margin: 1rem auto 3rem auto !important;
 }
 
@@ -111,11 +112,11 @@ image:
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 170px !important; /* Shorter height so card aspect ratio is wide, not long */
+  height: 170px !important;
   overflow: hidden !important;
   border-radius: 14px 14px 0 0 !important;
   margin: 0 !important;
-  padding: 10px !important; /* Outer edges frame padding */
+  padding: 10px !important;
   box-sizing: border-box !important;
   transition: background 0.3s ease, border-color 0.3s ease;
   
@@ -136,10 +137,10 @@ body.dark .sci-card-img-wrapper,
 .sci-card-img-wrapper img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important; /* Zoomed/extended cover fill inside inner frame */
+  object-fit: cover !important;
   object-position: center !important;
   display: block !important;
-  border-radius: 8px !important; /* Rounded inner image */
+  border-radius: 8px !important;
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
@@ -153,6 +154,27 @@ html.dark .sci-card-img-wrapper img,
 body.dark .sci-card-img-wrapper img {
   /* Dark Mode Inner Border */
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+/* THIS PAGE ONLY: Force footer to span 100% full width and center text matching rest of site */
+body.page-wrapper footer, footer.site-footer, footer, .page-footer {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+body.page-wrapper footer .container, footer .container, footer > div, .page-footer > div {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 </style>
 

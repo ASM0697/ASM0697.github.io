@@ -14,9 +14,9 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Expand layout container to match full Gallery width (1200px) */
+/* THIS PAGE ONLY: Expand layout container to 1400px width so card blocks are wider in width */
 .max-w-prose, .prose, article.article, .article-container, main .container, article > div {
-  max-width: 1200px !important;
+  max-width: 1400px !important;
   width: 100% !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -24,38 +24,38 @@ image:
   padding-right: 1rem !important;
 }
 
-/* THIS PAGE ONLY: Page Header spacing (DO NOT modify top site-header navbar) */
+/* THIS PAGE ONLY: Page Header spacing */
 .article-header, article header, .page-header {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 .article-title, article header h1, h1, h1.article-title, .page-header h1 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 
-/* Subtitle: Clean spacing under Title, generous space above Card Blocks */
+/* Subtitle: SMALL tight space under Title, clear space above Card Blocks */
 .portfolio-subtitle {
-  margin-top: 0.25rem !important;
-  margin-bottom: 2.5rem !important; /* Breathing room between subtitle and card blocks */
+  margin-top: -1.2rem !important; /* Pulls subtitle tight under title */
+  margin-bottom: 2rem !important; /* Breathing room above card blocks */
   padding-top: 0 !important;
   font-style: italic;
-  font-size: 1.08rem;
+  font-size: 1.05rem;
   color: var(--color-footer-fg, #64748b);
   text-align: center;
 }
 
-/* THIS PAGE ONLY: Portfolio Grid matching Gallery page 3-column layout */
+/* THIS PAGE ONLY: Portfolio Grid layout for wide cards */
 .portfolio-container {
   width: 100% !important;
-  max-width: 1200px !important;
-  margin: 1.5rem auto 3rem auto !important;
+  max-width: 1400px !important;
+  margin: 1rem auto 3rem auto !important;
 }
 
 .portfolio-grid {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
-  gap: 1.75rem !important;
+  gap: 1.5rem !important;
 }
 
 @media (max-width: 1023px) {
@@ -71,43 +71,57 @@ image:
   }
 }
 
-/* THIS PAGE ONLY: Images fill inner edge 100%, outer border colors adapt to dark/light mode */
+/* THIS PAGE ONLY: Make card body compact so cards are wider, not long/tall */
+.sci-card-body {
+  padding: 1rem 1.1rem !important;
+}
+
+/* THIS PAGE ONLY: Mode-adaptive outer frame edges with rounded & zoomed/extended image */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 220px !important;
+  height: 180px !important; /* Shorter height so card aspect ratio is wide, not long */
   overflow: hidden !important;
-  border-radius: 12px 12px 0 0 !important;
+  border-radius: 14px 14px 0 0 !important;
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 10px !important; /* Outer edges frame padding */
   box-sizing: border-box !important;
   transition: background 0.3s ease, border-color 0.3s ease;
   
-  /* Light Mode Outer Border */
-  background: #f8fafc !important;
-  border-bottom: 1px solid #e2e8f0 !important;
+  /* Light Mode Outer Frame Background & Border */
+  background: #f1f5f9 !important;
+  border-bottom: 1px solid #cbd5e1 !important;
 }
 
-/* Dark Mode Outer Border */
+/* Dark Mode Outer Frame Background & Border */
 .dark .sci-card-img-wrapper,
 html.dark .sci-card-img-wrapper,
 body.dark .sci-card-img-wrapper,
 [data-wc-theme-default="dark"] .sci-card-img-wrapper {
   background: #161b22 !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
 .sci-card-img-wrapper img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important; /* Fills inner part & edges completely */
+  object-fit: cover !important; /* Zoomed/extended fill inside inner frame */
   object-position: center !important;
   display: block !important;
-  border: none !important;
-  border-radius: 12px 12px 0 0 !important;
+  border-radius: 8px !important; /* Rounded inner image */
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
+  
+  /* Light Mode Inner Border */
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.dark .sci-card-img-wrapper img,
+html.dark .sci-card-img-wrapper img,
+body.dark .sci-card-img-wrapper img {
+  /* Dark Mode Inner Border */
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 </style>
 

@@ -228,7 +228,7 @@ Preview
 <!-- Block 2 -->
 <div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
 <div class="sci-card-img-wrapper">
-<img src="ferroptosis_disufidptosis.png" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
+<img src="ferroptosis_disufidptosis.jpg" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
 <div class="sci-card-hover-overlay">
 <span class="sci-preview-badge">
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">

@@ -13,9 +13,11 @@ sections:
     content:
       title: My Gallery
       text: |
-       *Explore the work, experiences, ideas, and moments that have shaped my academic journey. From science and teaching to creativity and personal projects,* *I hope you find something that inspires you1 💙*
+      <div style="text-align: center;">
+       *Explore the work, experiences, ideas, and moments that have shaped my academic journey. From science and teaching to creativity and personal projects,* *I hope you find something that inspires you! 💙*
+      </div>
        <br><br>
-      text-align: center
+      
       filters:
         folders:
           - gallery

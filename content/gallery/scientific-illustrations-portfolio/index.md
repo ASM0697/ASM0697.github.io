@@ -49,7 +49,7 @@ image:
 /* THIS PAGE ONLY: Portfolio Grid layout for wide cards (1450px) */
 .portfolio-container {
   width: 100% !important;
-  max-width: 1550px !important;
+  max-width: 1450px !important;
   margin: 1rem auto 3rem auto !important;
 }
 
@@ -181,7 +181,7 @@ body.page-wrapper footer .container, footer .container, footer > div, .page-foot
 <p class="portfolio-subtitle" style="text-align: center;"><em>Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙</em></p>
 
 <div class="portfolio-container">
-<div id="collection" class="collection">
+    <div id="collection" class="collection" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;">
 
 <!-- Block 1 -->
 <div class="sci-card" onclick="openSciModal(0)" role="button" tabindex="0" aria-label="View Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis">

@@ -309,6 +309,132 @@ Preview
 </div>
 </div>
 
+<!-- Block 4 -->
+<div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
+<div class="sci-card-img-wrapper">
+<img src="ferroptosis_disufidptosis.jpg" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
+<div class="sci-card-hover-overlay">
+<span class="sci-preview-badge">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="11" cy="11" r="8"></circle>
+<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+<line x1="11" y1="8" x2="11" y2="14"></line>
+<line x1="8" y1="11" x2="14" y2="11"></line>
+</svg>
+Preview
+</span>
+</div>
+</div>
+<div class="sci-card-body">
+<div class="sci-card-top-bar">
+<span class="sci-card-fig-num">FIG 02</span>
+<span class="sci-card-date">Mar 2026</span>
+</div>
+<h3 class="sci-card-title">SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases</h3>
+<p class="sci-card-desc">Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases.</p>
+<div class="sci-card-tags-list">
+<span class="sci-tag-pill">SLC7A11</span>
+<span class="sci-tag-pill">Ferroptosis</span>
+<span class="sci-tag-pill">Disulfidptosis</span>
+</div>
+<div class="sci-card-footer">
+<button class="sci-preview-btn" onclick="openSciModal(1); event.stopPropagation();" aria-label="Preview Visceral Adipose Tissue illustration">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="11" cy="11" r="8"></circle>
+<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+<line x1="11" y1="8" x2="11" y2="14"></line>
+<line x1="8" y1="11" x2="14" y2="11"></line>
+</svg>
+Preview
+</button>
+</div>
+</div>
+</div>
+
+<!-- Block 5 -->
+<div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
+<div class="sci-card-img-wrapper">
+<img src="ferroptosis_disufidptosis.jpg" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
+<div class="sci-card-hover-overlay">
+<span class="sci-preview-badge">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="11" cy="11" r="8"></circle>
+<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+<line x1="11" y1="8" x2="11" y2="14"></line>
+<line x1="8" y1="11" x2="14" y2="11"></line>
+</svg>
+Preview
+</span>
+</div>
+</div>
+<div class="sci-card-body">
+<div class="sci-card-top-bar">
+<span class="sci-card-fig-num">FIG 02</span>
+<span class="sci-card-date">Mar 2026</span>
+</div>
+<h3 class="sci-card-title">SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases</h3>
+<p class="sci-card-desc">Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases.</p>
+<div class="sci-card-tags-list">
+<span class="sci-tag-pill">SLC7A11</span>
+<span class="sci-tag-pill">Ferroptosis</span>
+<span class="sci-tag-pill">Disulfidptosis</span>
+</div>
+<div class="sci-card-footer">
+<button class="sci-preview-btn" onclick="openSciModal(1); event.stopPropagation();" aria-label="Preview Visceral Adipose Tissue illustration">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="11" cy="11" r="8"></circle>
+<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+<line x1="11" y1="8" x2="11" y2="14"></line>
+<line x1="8" y1="11" x2="14" y2="11"></line>
+</svg>
+Preview
+</button>
+</div>
+</div>
+</div>
+
+<!-- Block 6 -->
+<div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
+<div class="sci-card-img-wrapper">
+<img src="ferroptosis_disufidptosis.jpg" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
+<div class="sci-card-hover-overlay">
+<span class="sci-preview-badge">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="11" cy="11" r="8"></circle>
+<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+<line x1="11" y1="8" x2="11" y2="14"></line>
+<line x1="8" y1="11" x2="14" y2="11"></line>
+</svg>
+Preview
+</span>
+</div>
+</div>
+<div class="sci-card-body">
+<div class="sci-card-top-bar">
+<span class="sci-card-fig-num">FIG 02</span>
+<span class="sci-card-date">Mar 2026</span>
+</div>
+<h3 class="sci-card-title">SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases</h3>
+<p class="sci-card-desc">Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases.</p>
+<div class="sci-card-tags-list">
+<span class="sci-tag-pill">SLC7A11</span>
+<span class="sci-tag-pill">Ferroptosis</span>
+<span class="sci-tag-pill">Disulfidptosis</span>
+</div>
+<div class="sci-card-footer">
+<button class="sci-preview-btn" onclick="openSciModal(1); event.stopPropagation();" aria-label="Preview Visceral Adipose Tissue illustration">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="11" cy="11" r="8"></circle>
+<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+<line x1="11" y1="8" x2="11" y2="14"></line>
+<line x1="8" y1="11" x2="14" y2="11"></line>
+</svg>
+Preview
+</button>
+</div>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -379,6 +505,33 @@ const scientificIllustrations = [
     image: "Betanin_proposed_analgesic_mechanism.png",
     download: "Betanin_proposed_analgesic_mechanism.png",
     description: "Proposed molecular mechanism illustrating how betanin may attenuate inflammatory pain through modulation of miR-107/GLT-1 and miR-145/Akt signaling, with downstream effects on glutamate accumulation, oxidative stress, and inflammatory cytokines."
+  },
+  {
+    id: "fig-4",
+    title: "SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases",
+    date: "Aug 2025",
+    tags: ["SLC7A11", "Ferroptosis", "Disulfidptosis"],
+    image: "ferroptosis_disufidptosis.jpg",
+    download: "ferroptosis_disufidptosis.jpg",
+    description: "Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases."
+  },
+  {
+    id: "fig-5",
+    title: "SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases",
+    date: "Aug 2025",
+    tags: ["SLC7A11", "Ferroptosis", "Disulfidptosis"],
+    image: "ferroptosis_disufidptosis.jpg",
+    download: "ferroptosis_disufidptosis.jpg",
+    description: "Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases."
+  },
+  {
+    id: "fig-6",
+    title: "SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases",
+    date: "Aug 2025",
+    tags: ["SLC7A11", "Ferroptosis", "Disulfidptosis"],
+    image: "ferroptosis_disufidptosis.jpg",
+    download: "ferroptosis_disufidptosis.jpg",
+    description: "Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases."
   }
 ];
 

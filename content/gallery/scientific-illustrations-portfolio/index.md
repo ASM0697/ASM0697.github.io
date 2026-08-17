@@ -244,7 +244,7 @@ Preview
 <div class="sci-card-body">
 <div class="sci-card-top-bar">
 <span class="sci-card-fig-num">FIG 02</span>
-<span class="sci-card-date">Aug 2025</span>
+<span class="sci-card-date">Mar 2026</span>
 </div>
 <h3 class="sci-card-title">SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases</h3>
 <p class="sci-card-desc">Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases.</p>

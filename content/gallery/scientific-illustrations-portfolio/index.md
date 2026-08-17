@@ -116,7 +116,7 @@ image:
   overflow: hidden !important;
   border-radius: 14px 14px 0 0 !important;
   margin: 0 !important;
-  padding: 10px !important;
+  padding: 8px !important;
   box-sizing: border-box !important;
   transition: background 0.3s ease, border-color 0.3s ease;
   

@@ -182,13 +182,11 @@ body.dark .download-btn-outline:hover {
    Scientific Illustrations Portfolio Styles
    ========================================================================== */
 
-/* Hide metadata date, reading time on portfolio pages */
-article h1 + *,
-header h1 + *,
-.article-header h1 + *,
-.page-wrapper article > header > *:not(h1),
-article header > *:not(h1),
-.article-header > *:not(h1),
+/* Hide metadata date and reading time without affecting article featured images */
+time,
+[itemprop="datePublished"],
+.article-metadata,
+.article-header .article-metadata,
 .page-wrapper article > header .article-metadata,
 .page-wrapper article > header time,
 .page-wrapper article > header .text-xs,
@@ -196,9 +194,7 @@ article.article-container > div.article-metadata,
 article header div.flex.items-center.gap-2,
 article header div.text-xs,
 article header span[class*="date"],
-article header time,
-time,
-[itemprop="datePublished"] {
+article header time {
   display: none !important;
 }
 

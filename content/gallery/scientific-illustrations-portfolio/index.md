@@ -15,7 +15,7 @@ image:
 {{< rawhtml >}}
 <style>
 /* THIS PAGE ONLY: Expand layout container to match full Gallery width (1200px) */
-.article-style, .prose, article, main .container, article > div {
+.max-w-prose, .prose, article.article, .article-container, main .container, article > div {
   max-width: 1200px !important;
   width: 100% !important;
   margin-left: auto !important;
@@ -24,20 +24,20 @@ image:
   padding-right: 1rem !important;
 }
 
-/* THIS PAGE ONLY: Header spacing */
-.article-header, article header, .page-header, header {
-  margin-bottom: 0 !important;
+/* THIS PAGE ONLY: Page Header spacing (DO NOT modify top site-header navbar) */
+.article-header, article header, .page-header {
+  margin-bottom: 0.5rem !important;
   padding-bottom: 0 !important;
 }
 .article-title, article header h1, h1, h1.article-title, .page-header h1 {
-  margin-bottom: 0 !important;
+  margin-bottom: 0.5rem !important;
   padding-bottom: 0 !important;
 }
 
-/* Subtitle: SMALL space under Title, CLEAR space above Blocks */
+/* Subtitle: Clean spacing under Title, generous space above Card Blocks */
 .portfolio-subtitle {
-  margin-top: -0.6rem !important; /* Pulls subtitle tight under main title */
-  margin-bottom: 2.5rem !important; /* Puts clear breathing room above card blocks */
+  margin-top: 0.25rem !important;
+  margin-bottom: 2.5rem !important; /* Breathing room between subtitle and card blocks */
   padding-top: 0 !important;
   font-style: italic;
   font-size: 1.08rem;
@@ -45,7 +45,7 @@ image:
   text-align: center;
 }
 
-/* THIS PAGE ONLY: Portfolio Grid matching Gallery page layout */
+/* THIS PAGE ONLY: Portfolio Grid matching Gallery page 3-column layout */
 .portfolio-container {
   width: 100% !important;
   max-width: 1200px !important;
@@ -71,7 +71,7 @@ image:
   }
 }
 
-/* THIS PAGE ONLY: Mode-adaptive outer frame edges with inner edge fill */
+/* THIS PAGE ONLY: Images fill inner edge 100%, outer border colors adapt to dark/light mode */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
@@ -79,16 +79,16 @@ image:
   overflow: hidden !important;
   border-radius: 12px 12px 0 0 !important;
   margin: 0 !important;
-  padding: 10px !important; /* Outer edges frame padding */
+  padding: 0 !important;
   box-sizing: border-box !important;
   transition: background 0.3s ease, border-color 0.3s ease;
   
-  /* Light Mode Outer Frame Background & Border */
+  /* Light Mode Outer Border */
   background: #f8fafc !important;
   border-bottom: 1px solid #e2e8f0 !important;
 }
 
-/* Dark Mode Outer Frame Background & Border */
+/* Dark Mode Outer Border */
 .dark .sci-card-img-wrapper,
 html.dark .sci-card-img-wrapper,
 body.dark .sci-card-img-wrapper,
@@ -100,23 +100,14 @@ body.dark .sci-card-img-wrapper,
 .sci-card-img-wrapper img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important; /* Image fills inner edge cleanly without cropping */
+  object-fit: cover !important; /* Fills inner part & edges completely */
   object-position: center !important;
   display: block !important;
-  border-radius: 8px !important;
+  border: none !important;
+  border-radius: 12px 12px 0 0 !important;
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
-  
-  /* Light Mode Inner Edge Border */
-  border: 1px solid rgba(0, 0, 0, 0.08) !important;
-}
-
-.dark .sci-card-img-wrapper img,
-html.dark .sci-card-img-wrapper img,
-body.dark .sci-card-img-wrapper img {
-  /* Dark Mode Inner Edge Border */
-  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 </style>
 

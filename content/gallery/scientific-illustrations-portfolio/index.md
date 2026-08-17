@@ -186,7 +186,7 @@ body.page-wrapper footer .container, footer .container, footer > div, .page-foot
 <!-- Block 1 -->
 <div class="sci-card" onclick="openSciModal(0)" role="button" tabindex="0" aria-label="View Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis">
 <div class="sci-card-img-wrapper">
-<img src="thumb_featured.png" alt="Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis" loading="lazy" />
+<img src="thumb_obesity.png" alt="Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis" loading="lazy" />
 <div class="sci-card-hover-overlay">
 <span class="sci-preview-badge">
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -228,7 +228,7 @@ Preview
 <!-- Block 2 -->
 <div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
 <div class="sci-card-img-wrapper">
-<img src="thumb_vwat-inflammation.png" alt="Visceral Adipose Tissue (vWAT) Inflammation" loading="lazy" />
+<img src="ferroptosis_disufidptosis.png" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
 <div class="sci-card-hover-overlay">
 <span class="sci-preview-badge">
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -246,12 +246,12 @@ Preview
 <span class="sci-card-fig-num">FIG 02</span>
 <span class="sci-card-date">Aug 2025</span>
 </div>
-<h3 class="sci-card-title">Visceral Adipose Tissue (vWAT) Inflammation</h3>
-<p class="sci-card-desc">Pro-inflammatory signaling dynamics within visceral white adipose tissue during chronic nutrient surplus, featuring M1 macrophage activation, CD8+ T-cell infiltration, and cytokine secretion cascades.</p>
+<h3 class="sci-card-title">SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases</h3>
+<p class="sci-card-desc">Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases.</p>
 <div class="sci-card-tags-list">
-<span class="sci-tag-pill">Adipose</span>
-<span class="sci-tag-pill">Inflammation</span>
-<span class="sci-tag-pill">Illustrations</span>
+<span class="sci-tag-pill">SLC7A11</span>
+<span class="sci-tag-pill">Ferroptosis</span>
+<span class="sci-tag-pill">Disulfidptosis</span>
 </div>
 <div class="sci-card-footer">
 <button class="sci-preview-btn" onclick="openSciModal(1); event.stopPropagation();" aria-label="Preview Visceral Adipose Tissue illustration">
@@ -364,12 +364,12 @@ const scientificIllustrations = [
   },
   {
     id: "fig-2",
-    title: "Visceral Adipose Tissue (vWAT) Inflammation",
+    title: "SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases",
     date: "Aug 2025",
-    tags: ["Adipose", "Inflammation", "Illustrations"],
-    image: "vwat-inflammation.png",
-    download: "vwat-inflammation.png",
-    description: "Pro-inflammatory signaling dynamics within visceral white adipose tissue during chronic nutrient surplus, featuring M1 macrophage activation, CD8+ T-cell infiltration, and cytokine secretion cascades."
+    tags: ["SLC7A11", "Ferroptosis", "Disulfidptosis"],
+    image: "ferroptosis_disufidptosis.jpg",
+    download: "ferroptosis_disufidptosis.jpg",
+    description: "Schematic overview illustrating how SLC7A11 regulates redox homeostasis and neuronal survival, with its dysregulation driving ferroptosis or disulfidptosis in neurodegenerative diseases."
   },
   {
     id: "fig-3",

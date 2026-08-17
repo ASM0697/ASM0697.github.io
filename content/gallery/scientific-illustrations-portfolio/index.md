@@ -181,7 +181,7 @@ body.page-wrapper footer .container, footer .container, footer > div, .page-foot
 <p class="portfolio-subtitle" style="text-align: center;"><em>Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙</em></p>
 
 <div class="portfolio-container">
-<div id="portfolioGrid" class="portfolio-grid">
+<div id="collection" class="collection">
 
 <!-- Block 1 -->
 <div class="sci-card" onclick="openSciModal(0)" role="button" tabindex="0" aria-label="View Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis">

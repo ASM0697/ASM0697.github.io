@@ -13,8 +13,9 @@ sections:
     content:
       title: My Gallery
       text: |
-       *Explore the ideas, experiences, creations, and moments that make up my journey in science, learning, teaching, and beyond.* *I hope you find something that inspires you. 💙*
+       *Explore the work, experiences, ideas, and moments that have shaped my academic journey. From science and teaching to creativity and personal projects,* *I hope you find something that inspires you1 💙*
        <br><br>
+      text-align: center
       filters:
         folders:
           - gallery

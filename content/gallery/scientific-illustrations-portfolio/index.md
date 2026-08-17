@@ -14,17 +14,21 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Collapsed title-to-subtitle space */
+/* THIS PAGE ONLY: Tight title-to-subtitle vertical spacing */
 .article-header, article header, .page-header, header {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
+}
+.article-style, .prose, article > div {
+  margin-top: -1.8rem !important; /* Pulls page content UP tight under title */
+  padding-top: 0 !important;
 }
 .article-title, article header h1, h1, h1.article-title, .page-header h1 {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 .portfolio-subtitle {
-  margin-top: -0.65rem !important; /* Pulls subtitle tight below page title */
+  margin-top: -0.25rem !important;
   margin-bottom: 1.5rem !important;
   padding-top: 0 !important;
   font-style: italic;
@@ -33,7 +37,7 @@ image:
   text-align: center;
 }
 
-/* THIS PAGE ONLY: Mode-adaptive image frame background & borders */
+/* THIS PAGE ONLY: Image fills 100% of top card area edge-to-edge with 0 padding */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
@@ -41,44 +45,30 @@ image:
   overflow: hidden !important;
   border-radius: 12px 12px 0 0 !important;
   margin: 0 !important;
-  padding: 10px !important;
+  padding: 0 !important; /* ZERO padding so image touches card edges */
   box-sizing: border-box !important;
-  transition: background 0.3s ease, border-color 0.3s ease;
-  
-  /* Light Mode Frame Background & Border */
-  background: #f8fafc !important;
-  border-bottom: 1px solid #e2e8f0 !important;
+  background: transparent !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
 }
 
-/* Dark Mode Frame Background & Border */
 .dark .sci-card-img-wrapper,
 html.dark .sci-card-img-wrapper,
 body.dark .sci-card-img-wrapper,
 [data-wc-theme-default="dark"] .sci-card-img-wrapper {
-  background: #161b22 !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 .sci-card-img-wrapper img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important;
+  object-fit: cover !important; /* Fills edge-to-edge completely with zero spaces */
   object-position: center !important;
   display: block !important;
-  border-radius: 8px !important;
+  border: none !important;
+  border-radius: 12px 12px 0 0 !important;
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
-  
-  /* Light Mode Image Inner Border */
-  border: 1px solid rgba(0, 0, 0, 0.08) !important;
-}
-
-.dark .sci-card-img-wrapper img,
-html.dark .sci-card-img-wrapper img,
-body.dark .sci-card-img-wrapper img {
-  /* Dark Mode Image Inner Border */
-  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 </style>
 

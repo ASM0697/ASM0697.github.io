@@ -13,6 +13,49 @@ image:
 ---
 
 {{< rawhtml >}}
+<style>
+/* THIS PAGE ONLY: Collapsed title-to-subtitle vertical space */
+.article-header, article header, .page-header, header {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.article-title, article header h1, h1 {
+  margin-bottom: 0.1rem !important;
+  padding-bottom: 0 !important;
+}
+.portfolio-subtitle {
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem !important;
+  padding-top: 0 !important;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--color-footer-fg, #64748b);
+  text-align: center;
+}
+
+/* THIS PAGE ONLY: Edge-to-edge full-bleed card preview images without padding or borders */
+.sci-card-img-wrapper {
+  position: relative !important;
+  width: 100% !important;
+  height: 220px !important;
+  overflow: hidden !important;
+  border-radius: 12px 12px 0 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+.sci-card-img-wrapper img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+</style>
+
 <p class="portfolio-subtitle" style="text-align: center;"><em>Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙</em></p>
 
 <div class="portfolio-container">
@@ -21,7 +64,7 @@ image:
 <!-- Block 1 -->
 <div class="sci-card" onclick="openSciModal(0)" role="button" tabindex="0" aria-label="View Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis">
 <div class="sci-card-img-wrapper">
-<img src="featured.png" alt="Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis" loading="lazy" />
+<img src="thumb_featured.png" alt="Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis" loading="lazy" />
 <div class="sci-card-hover-overlay">
 <span class="sci-preview-badge">
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -63,7 +106,7 @@ Preview
 <!-- Block 2 -->
 <div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
 <div class="sci-card-img-wrapper">
-<img src="vwat-inflammation.png" alt="Visceral Adipose Tissue (vWAT) Inflammation" loading="lazy" />
+<img src="thumb_vwat-inflammation.png" alt="Visceral Adipose Tissue (vWAT) Inflammation" loading="lazy" />
 <div class="sci-card-hover-overlay">
 <span class="sci-preview-badge">
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -105,7 +148,7 @@ Preview
 <!-- Block 3 -->
 <div class="sci-card" onclick="openSciModal(2)" role="button" tabindex="0" aria-label="View SLC7A11 / GPX4 Lipid Peroxidation Axis">
 <div class="sci-card-img-wrapper">
-<img src="gpx4-axis.png" alt="SLC7A11 / GPX4 Lipid Peroxidation Axis" loading="lazy" />
+<img src="thumb_gpx4-axis.png" alt="SLC7A11 / GPX4 Lipid Peroxidation Axis" loading="lazy" />
 <div class="sci-card-hover-overlay">
 <span class="sci-preview-badge">
 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">

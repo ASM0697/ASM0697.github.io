@@ -14,9 +14,9 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Expand portfolio content area width to 1400px */
-.max-w-prose, .prose, .article-style, .article-container, article .article-style {
-  max-width: 1400px !important;
+/* THIS PAGE ONLY: Expand portfolio content area width to 1450px so card blocks are wide */
+.max-w-prose, .prose, .article-style, .article-container, article .article-style, article.article {
+  max-width: 1450px !important;
   width: 100% !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -46,10 +46,10 @@ image:
   text-align: center;
 }
 
-/* THIS PAGE ONLY: Portfolio Grid layout for wide cards */
+/* THIS PAGE ONLY: Portfolio Grid layout for wide cards (1450px) */
 .portfolio-container {
   width: 100% !important;
-  max-width: 1400px !important;
+  max-width: 1450px !important;
   margin: 1rem auto 3rem auto !important;
 }
 

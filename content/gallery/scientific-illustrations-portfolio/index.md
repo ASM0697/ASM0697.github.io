@@ -14,9 +14,9 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Expand layout container to 1400px width so card blocks are wider in width */
-.max-w-prose, .prose, article.article, .article-container, main .container, article > div {
-  max-width: 1400px !important;
+/* THIS PAGE ONLY: Expand layout container to 1450px width so card blocks are wider in width */
+.max-w-prose, .prose, article.article, .article-container, main .container, article > div, .container, body.page-wrapper main {
+  max-width: 1450px !important;
   width: 100% !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -48,7 +48,7 @@ image:
 /* THIS PAGE ONLY: Portfolio Grid layout for wide cards */
 .portfolio-container {
   width: 100% !important;
-  max-width: 1400px !important;
+  max-width: 1450px !important;
   margin: 1rem auto 3rem auto !important;
 }
 
@@ -71,16 +71,47 @@ image:
   }
 }
 
-/* THIS PAGE ONLY: Make card body compact so cards are wider, not long/tall */
+/* THIS PAGE ONLY: Compact card body & elements so blocks are SHORTER & WIDER */
 .sci-card-body {
-  padding: 1rem 1.1rem !important;
+  padding: 0.85rem 1.1rem !important;
 }
 
-/* THIS PAGE ONLY: Mode-adaptive outer frame edges with rounded & zoomed/extended image */
+.sci-card-title {
+  font-size: 1.02rem !important;
+  line-height: 1.3 !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.sci-card-desc {
+  font-size: 0.85rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.6rem !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+.sci-card-tags-list {
+  margin-bottom: 0.6rem !important;
+  gap: 0.3rem !important;
+}
+
+.sci-tag-pill {
+  padding: 0.2rem 0.65rem !important;
+  font-size: 0.72rem !important;
+}
+
+.sci-preview-btn {
+  padding: 0.4rem 0.85rem !important;
+  font-size: 0.82rem !important;
+}
+
+/* THIS PAGE ONLY: Mode-adaptive outer frame edges with rounded & zoomed cover image */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 180px !important; /* Shorter height so card aspect ratio is wide, not long */
+  height: 170px !important; /* Shorter height so card aspect ratio is wide, not long */
   overflow: hidden !important;
   border-radius: 14px 14px 0 0 !important;
   margin: 0 !important;
@@ -105,7 +136,7 @@ body.dark .sci-card-img-wrapper,
 .sci-card-img-wrapper img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important; /* Zoomed/extended fill inside inner frame */
+  object-fit: cover !important; /* Zoomed/extended cover fill inside inner frame */
   object-position: center !important;
   display: block !important;
   border-radius: 8px !important; /* Rounded inner image */

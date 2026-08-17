@@ -13,7 +13,7 @@ sections:
     content:
       title: My Gallery
       text: |
-       *Feel free to use my scientific illustartions for any academic purpose!* *Enjoy! 💙*
+       *Explore the ideas, experiences, creations, and moments that make up my journey in science, learning, teaching, and beyond.* *I hope you find something that inspires you! 💙*
        <br><br>
       filters:
         folders:

@@ -183,6 +183,9 @@ body.dark .download-btn-outline:hover {
    ========================================================================== */
 
 /* Hide metadata date, reading time, and top featured image on portfolio pages */
+.page-wrapper article > header > *:not(h1),
+article header > *:not(h1),
+.article-header > *:not(h1),
 .page-wrapper article > header .article-metadata,
 .page-wrapper article > header time,
 .page-wrapper article > header .text-xs,

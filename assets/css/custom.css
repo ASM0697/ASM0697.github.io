@@ -182,29 +182,18 @@ body.dark .download-btn-outline:hover {
    Scientific Illustrations Portfolio Styles
    ========================================================================== */
 
-/* Hide metadata date and reading time without affecting article featured images */
-time,
-[itemprop="datePublished"],
-.article-metadata,
-.article-header .article-metadata,
-.page-wrapper article > header .article-metadata,
-.page-wrapper article > header time,
-.page-wrapper article > header .text-xs,
-article.article-container > div.article-metadata,
-article header div.flex.items-center.gap-2,
-article header div.text-xs,
-article header span[class*="date"],
-article header time {
+/* Scope date hiding strictly to portfolio pages */
+body:has(.portfolio-container) time,
+body:has(.portfolio-container) .article-metadata,
+body:has(.portfolio-container) [itemprop="datePublished"] {
   display: none !important;
 }
 
-/* Center portfolio page main title */
-.page-wrapper article > header,
-.page-wrapper article > header h1,
-article.article-container h1,
-article h1,
-h1.title,
-.article-title {
+/* Center title ONLY on Scientific Illustrations Portfolio page */
+body:has(.portfolio-container) article header h1,
+body:has(.portfolio-container) h1,
+article:has(.portfolio-container) header h1,
+article:has(.portfolio-subtitle) header h1 {
   text-align: center !important;
   margin-bottom: 0.2rem !important;
   padding-bottom: 0 !important;

@@ -12,6 +12,7 @@ image:
   preview_only: true
 ---
 
+{{< rawhtml >}}
 <p class="portfolio-subtitle" style="text-align: center;"><em>Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙</em></p>
 
 <div class="portfolio-container">
@@ -183,6 +184,7 @@ Download
 </div>
 </div>
 </div>
+{{< /rawhtml >}}
 
 <script>
 const scientificIllustrations = [

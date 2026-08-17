@@ -14,17 +14,17 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Collapsed title-to-subtitle vertical space */
+/* THIS PAGE ONLY: Collapsed title-to-subtitle space */
 .article-header, article header, .page-header, header {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
-.article-title, article header h1, h1 {
-  margin-bottom: 0.1rem !important;
+.article-title, article header h1, h1, h1.article-title, .page-header h1 {
+  margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
 .portfolio-subtitle {
-  margin-top: 0 !important;
+  margin-top: -0.65rem !important; /* Pulls subtitle tight below page title */
   margin-bottom: 1.5rem !important;
   padding-top: 0 !important;
   font-style: italic;
@@ -33,7 +33,7 @@ image:
   text-align: center;
 }
 
-/* THIS PAGE ONLY: Edge-to-edge full-bleed card preview images without padding or borders */
+/* THIS PAGE ONLY: Mode-adaptive image frame background & borders */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
@@ -41,18 +41,44 @@ image:
   overflow: hidden !important;
   border-radius: 12px 12px 0 0 !important;
   margin: 0 !important;
-  padding: 0 !important;
-  background: transparent !important;
+  padding: 10px !important;
+  box-sizing: border-box !important;
+  transition: background 0.3s ease, border-color 0.3s ease;
+  
+  /* Light Mode Frame Background & Border */
+  background: #f8fafc !important;
+  border-bottom: 1px solid #e2e8f0 !important;
 }
+
+/* Dark Mode Frame Background & Border */
+.dark .sci-card-img-wrapper,
+html.dark .sci-card-img-wrapper,
+body.dark .sci-card-img-wrapper,
+[data-wc-theme-default="dark"] .sci-card-img-wrapper {
+  background: #161b22 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
 .sci-card-img-wrapper img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   object-position: center !important;
   display: block !important;
-  border: none !important;
+  border-radius: 8px !important;
   margin: 0 !important;
   padding: 0 !important;
+  box-sizing: border-box !important;
+  
+  /* Light Mode Image Inner Border */
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.dark .sci-card-img-wrapper img,
+html.dark .sci-card-img-wrapper img,
+body.dark .sci-card-img-wrapper img {
+  /* Dark Mode Image Inner Border */
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 </style>
 

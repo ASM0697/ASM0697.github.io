@@ -49,7 +49,7 @@ image:
 /* THIS PAGE ONLY: Portfolio Grid layout for wide cards (1450px) */
 .portfolio-container {
   width: 100% !important;
-  max-width: 1450px !important;
+  max-width: 1550px !important;
   margin: 1rem auto 3rem auto !important;
 }
 

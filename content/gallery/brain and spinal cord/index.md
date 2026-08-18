@@ -22,8 +22,8 @@ date: "2024-03-25T00:00:00Z"
 # Summary. An optional shortened abstract.
 #summary: This figure ...
 
-tags:
-  - Lectures
+#tags:
+#- Ferroptosis
 #featured: false
 
 hugoblox:

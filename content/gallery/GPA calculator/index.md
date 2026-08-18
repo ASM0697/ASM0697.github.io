@@ -22,8 +22,8 @@ date: "2025-07-08T00:00:00Z"
 # Summary. An optional shortened abstract.
 #summary: This figure ...
 
-tags:
-  - stories
+#tags:
+#- Ferroptosis
 #featured: false
 
 #hugoblox:

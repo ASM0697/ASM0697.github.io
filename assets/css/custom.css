@@ -250,11 +250,16 @@ article:has(.portfolio-subtitle) header h1 {
   padding-bottom: 0 !important;
 }
 
-/* Hide page-end tags widget */
+/* Hide page-end tags widget and tag links completely */
 .page-wrapper article > footer,
 .page-wrapper article .article-tags,
 .page-wrapper article .tags-widget,
-div:has(> a[href*="/tags/"]) {
+.article-tags,
+.tags-widget,
+.article-metadata .article-tags,
+a[href*="/tags/"],
+div:has(> a[href*="/tags/"]),
+span:has(> a[href*="/tags/"]) {
   display: none !important;
 }
 

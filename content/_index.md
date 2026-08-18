@@ -64,7 +64,7 @@ sections:
         tag: "Publications, Illustrations, Lectures, stories"
       buttons:
         - name: All
-          tag: '.js-id-Publications, .js-id-Illustrations, .js-id-Lectures, .js-id-stories'
+          tag: '*'
         - name: Publications
           tag: Publications 
         - name: Illustrations

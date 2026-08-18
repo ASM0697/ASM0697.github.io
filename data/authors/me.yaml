@@ -51,18 +51,25 @@ interests:
 education:
   - degree: "MSc in Molecular Biology"
     institution: "Alexandria University"
-    start: "2022-08-24"
-    end: ""
-    summary: "My master's focused on investigating the analgesic and anti-inflammatory effects of a natural extract, focusing on the epigenetic regulation of inflammatory pain pathways by microRNAs, specifically miR-107 and miR-145.\n"
+    start: "2022-09-01"
+    end: "2026-08-31"
+    summary: |
+      Coursework Year CGPA: 3.93/4.00 | Grade: Excellent (98.25%).
+
+      The coursework year included these courses: Genomics & Proteomics, Analytical Methods in Molecular Biology, Molecular Biology of RNA, Molecular Diagnostics, Cancer Biology, Animal Cell Culture and Tissue Engineering, Stem Cell Biology, Cellular and Molecular Immunology, and Research Methodology and Biosafety. Relevant Courses: Advanced Neurophysiology and Biometrices.
+
+      The master's thesis focused on evaluating the analgesic potential of betanin, a natural pigment derived from Beta vulgaris, in an inflammatory pain model by investigating its anti-inflammatory, antioxidant, and pain-associated miRNA-modulating effects.
+
+      Published a research article in a Q1-ranked, peer-reviewed journal.
     button:
       text: "Master`s Paper"
-      url: null
+      url: "https://www.mdpi.com/2227-9059/14/6/1202"
       icon: null
   - degree: "BSc in Molecular Biology & Microbiology"
     institution: "Alexandria University"
     start: "2015-09-01"
-    end: "2019-07-30"
-    summary: "Ranked first in my class with an excellent grade - GPA: 3.69 out of 4.\ \n"
+    end: "2019-08-31"
+    summary: "Ranked first in my class with an excellent grade - GPA: 3.69 out of 4.\n"
 experience:
   - role: "Full-time Teaching Assistant"
     org: "Alamein International University"

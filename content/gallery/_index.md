@@ -13,8 +13,8 @@ sections:
     content:
       title: My Gallery
       text: |
-       *I hope you find something that inspires you! 💙*
-       <br><br>
+       <p style="text-align: center; font-style: italic;">Explore the work, ideas, and experiences that shape my academic journey—from science and teaching to creativity and personal projects. I hope you find something inspiring! 💙</p>
+       <br>
       filters:
         folders:
           - gallery

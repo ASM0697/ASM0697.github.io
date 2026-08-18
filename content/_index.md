@@ -61,6 +61,7 @@ sections:
         folders:
           - publications
           - gallery
+        tag: "Publications, Illustrations, Lectures, stories"
       buttons:
         - name: All
           tag: '*'

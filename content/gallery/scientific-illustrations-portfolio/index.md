@@ -36,6 +36,18 @@ div.mx-auto {
   max-width: 100% !important;
   width: 100% !important;
   box-sizing: border-box !important;
+/* THIS PAGE ONLY: Hide page header date completely */
+.article-metadata,
+time,
+[itemprop="datePublished"],
+.article-header time,
+header time,
+.page-header time,
+.article-subtitle + time,
+h1 + time,
+div:has(> time),
+span:has(> time) {
+  display: none !important;
 }
 
 /* Page Header spacing */

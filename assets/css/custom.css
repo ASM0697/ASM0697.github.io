@@ -37,12 +37,6 @@ div:has(> .pub-list-item),
   line-height: 1.4;
 }
 
-/* Reduce vertical space between collection sections (e.g. Publications and Under Review) */
-.blox-collection {
-  padding-top: 1.25rem !important;
-  padding-bottom: 1.25rem !important;
-}
-
 /* ===== Global Site Footer (Light & Dark Mode Consistent) ===== */
 footer,
 .site-footer,

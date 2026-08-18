@@ -2,6 +2,7 @@
 title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
+type: landing
 show_date: false
 show_time: false
 show_read_time: false
@@ -15,9 +16,13 @@ image:
 {{< rawhtml >}}
 <style>
 /* THIS PAGE ONLY: Unconstrain ALL parent container wrappers in Hugo / HugoBlox */
-html, body, .page-wrapper, .page-body, main, article, section, .universal-wrapper, .article-container, .article-style, .prose, .max-w-prose, [class*="max-w-"], [class*="container"] {
+html, body, .page-wrapper, .page-body, main, article, section, .universal-wrapper, .article-container, .article-style, .prose, .max-w-prose, [class*="max-w-"], [class*="container"], [class*="mx-auto"] {
   max-width: 100% !important;
   width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   box-sizing: border-box !important;
 }
 
@@ -42,40 +47,40 @@ html, body, .page-wrapper, .page-body, main, article, section, .universal-wrappe
   text-align: center;
 }
 
-/* VIEWPORT BREAKOUT: Stretch Collection Container to 92% of full screen width (Eliminates side margins completely) */
+/* VIEWPORT BREAKOUT: Stretch Collection Container to fill full desktop width matching My Gallery */
 .portfolio-container, .collection-container {
   width: 92vw !important;
-  max-width: 1650px !important;
+  max-width: 1450px !important;
   margin-left: calc(50% - 46vw) !important;
   margin-right: calc(50% - 46vw) !important;
-  margin-top: 1rem !important;
+  margin-top: 1.5rem !important;
   margin-bottom: 4rem !important;
   box-sizing: border-box !important;
 }
 
-/* COLLECTION GRID: 4 Wide, Spacious Columns across Desktop */
+/* COLLECTION GRID: 3 Columns per row (matching My Gallery layout) for desktop, 4 columns on ultra-wide */
 .collection, .portfolio-grid {
   display: grid !important;
-  grid-template-columns: repeat(4, 1fr) !important;
-  gap: 1.75rem !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1.85rem !important;
   width: 100% !important;
 }
 
-@media (max-width: 1250px) and (min-width: 900px) {
+@media (min-width: 1600px) {
   .collection, .portfolio-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 1.75rem !important;
+  }
+}
+
+@media (max-width: 1050px) and (min-width: 680px) {
+  .collection, .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 1.5rem !important;
   }
 }
 
-@media (max-width: 899px) and (min-width: 580px) {
-  .collection, .portfolio-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 1.25rem !important;
-  }
-}
-
-@media (max-width: 579px) {
+@media (max-width: 679px) {
   .collection, .portfolio-grid {
     grid-template-columns: 1fr !important;
     gap: 1.25rem !important;

@@ -8,18 +8,39 @@
     display: none !important;
 }
 
+/* Automatic Numbering for Publications & Citations */
+.blox-collection,
+section:has(.pub-list-item),
+div:has(> .pub-list-item),
 .wc-cite {
   counter-reset: pub-counter;
 }
 
+.pub-list-item,
+.view-citation,
 .wc-cite li {
-  list-style: none;
   counter-increment: pub-counter;
+  position: relative;
+  padding-left: 2.2rem !important;
 }
 
+.pub-list-item::before,
+.view-citation::before,
 .wc-cite li::before {
-  content: "[" counter(pub-counter) "] ";
-  font-weight: bold;
+  content: "[" counter(pub-counter) "]";
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  font-weight: 700;
+  color: inherit;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Reduce vertical space between collection sections (e.g. Publications and Under Review) */
+.blox-collection {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
 }
 
 /* ===== Global Site Footer (Light & Dark Mode Consistent) ===== */

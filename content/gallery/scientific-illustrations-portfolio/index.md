@@ -57,40 +57,47 @@ div.mx-auto {
   text-align: center;
 }
 
-/* COLLECTION CONTAINER: Centered spacious container (1450px max width matching My Gallery) */
+/* COLLECTION CONTAINER: Centered spacious container expanded to 1750px (96% width) */
 .portfolio-container, .collection-container {
-  width: 92% !important;
-  max-width: 1450px !important;
+  width: 96% !important;
+  max-width: 1750px !important;
   margin: 1.5rem auto 4rem auto !important;
   box-sizing: border-box !important;
 }
 
-/* COLLECTION GRID: 3 Columns per row (matching My Gallery layout) for desktop, 4 columns on ultra-wide */
+/* COLLECTION GRID: 5 Columns per row on desktop screens */
 .collection, .portfolio-grid {
   display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
-  gap: 1.85rem !important;
+  grid-template-columns: repeat(5, 1fr) !important;
+  gap: 1.25rem !important;
   width: 100% !important;
 }
 
-@media (min-width: 1600px) {
+@media (max-width: 1400px) and (min-width: 1080px) {
   .collection, .portfolio-grid {
     grid-template-columns: repeat(4, 1fr) !important;
-    gap: 1.75rem !important;
+    gap: 1.2rem !important;
   }
 }
 
-@media (max-width: 1050px) and (min-width: 680px) {
+@media (max-width: 1079px) and (min-width: 720px) {
+  .collection, .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1.15rem !important;
+  }
+}
+
+@media (max-width: 719px) and (min-width: 480px) {
   .collection, .portfolio-grid {
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 1.5rem !important;
+    gap: 1rem !important;
   }
 }
 
-@media (max-width: 679px) {
+@media (max-width: 479px) {
   .collection, .portfolio-grid {
     grid-template-columns: 1fr !important;
-    gap: 1.25rem !important;
+    gap: 1rem !important;
   }
 }
 
@@ -128,11 +135,11 @@ body.dark .sci-card:hover {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* THIS PAGE ONLY: Image Outer Frame & Height (~200px height for ~370px width) */
+/* THIS PAGE ONLY: Image Outer Frame & Height (~175px height for ~330px width) */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 200px !important;
+  height: 175px !important;
   overflow: hidden !important;
   border-radius: 16px 16px 0 0 !important;
   margin: 0 !important;

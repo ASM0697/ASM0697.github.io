@@ -218,10 +218,11 @@ body.dark .download-btn-outline:hover {
    Scientific Illustrations Portfolio Styles
    ========================================================================== */
 
-/* Scope date hiding strictly to portfolio pages */
+/* Scope date hiding strictly to portfolio pages - Hide any header metadata (dates) except h1 title */
 body:has(.portfolio-container) time,
 body:has(.portfolio-container) .article-metadata,
-body:has(.portfolio-container) [itemprop="datePublished"] {
+body:has(.portfolio-container) [itemprop="datePublished"],
+body:has(.portfolio-container) article header *:not(h1) {
   display: none !important;
 }
 

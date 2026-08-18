@@ -2,6 +2,7 @@
 title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
+date: "2026-05-29T00:00:00Z"
 show_date: false
 show_time: false
 show_read_time: false

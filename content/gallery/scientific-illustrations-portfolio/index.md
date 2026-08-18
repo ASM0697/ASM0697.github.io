@@ -2,7 +2,6 @@
 title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
-type: landing
 show_date: false
 show_time: false
 show_read_time: false
@@ -15,18 +14,29 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Unconstrain ALL parent container wrappers in Hugo / HugoBlox */
-html, body, .page-wrapper, .page-body, main, article, section, .universal-wrapper, .article-container, .article-style, .prose, .max-w-prose, [class*="max-w-"], [class*="container"], [class*="mx-auto"] {
+/* THIS PAGE ONLY: Override ALL Hugo/Tailwind max-width constraints on parent elements */
+.max-w-prose,
+.max-w-3xl,
+.max-w-4xl,
+.max-w-5xl,
+.max-w-6xl,
+.max-w-7xl,
+.max-w-screen-xl,
+.article-container,
+.article-style,
+.prose,
+main,
+article,
+section,
+.page-body,
+.universal-wrapper,
+div.mx-auto {
   max-width: 100% !important;
   width: 100% !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
   box-sizing: border-box !important;
 }
 
-/* THIS PAGE ONLY: Page Header spacing */
+/* Page Header spacing */
 .article-header, article header, .page-header {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
@@ -47,14 +57,11 @@ html, body, .page-wrapper, .page-body, main, article, section, .universal-wrappe
   text-align: center;
 }
 
-/* VIEWPORT BREAKOUT: Stretch Collection Container to fill full desktop width matching My Gallery */
+/* COLLECTION CONTAINER: Centered spacious container (1450px max width matching My Gallery) */
 .portfolio-container, .collection-container {
-  width: 92vw !important;
+  width: 92% !important;
   max-width: 1450px !important;
-  margin-left: calc(50% - 46vw) !important;
-  margin-right: calc(50% - 46vw) !important;
-  margin-top: 1.5rem !important;
-  margin-bottom: 4rem !important;
+  margin: 1.5rem auto 4rem auto !important;
   box-sizing: border-box !important;
 }
 

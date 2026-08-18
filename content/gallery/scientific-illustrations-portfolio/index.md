@@ -57,11 +57,16 @@ div.mx-auto {
   text-align: center;
 }
 
-/* COLLECTION CONTAINER: Centered spacious container expanded to 1850px (98% width for max card width) */
+/* COLLECTION CONTAINER: Full viewport breakout to maximize horizontal card width */
 .portfolio-container, .collection-container {
-  width: 98% !important;
-  max-width: 1850px !important;
-  margin: 1.5rem auto 3.5rem auto !important;
+  width: 98vw !important;
+  max-width: 100% !important;
+  margin-left: calc(50% - 49vw) !important;
+  margin-right: calc(50% - 49vw) !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 3.5rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
   box-sizing: border-box !important;
 }
 
@@ -69,21 +74,21 @@ div.mx-auto {
 .collection, .portfolio-grid {
   display: grid !important;
   grid-template-columns: repeat(5, 1fr) !important;
-  gap: 0.85rem !important;
+  gap: 1rem !important;
   width: 100% !important;
 }
 
 @media (max-width: 1400px) and (min-width: 1080px) {
   .collection, .portfolio-grid {
     grid-template-columns: repeat(4, 1fr) !important;
-    gap: 0.85rem !important;
+    gap: 0.9rem !important;
   }
 }
 
 @media (max-width: 1079px) and (min-width: 720px) {
   .collection, .portfolio-grid {
     grid-template-columns: repeat(3, 1fr) !important;
-    gap: 0.8rem !important;
+    gap: 0.85rem !important;
   }
 }
 

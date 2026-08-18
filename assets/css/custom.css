@@ -27,8 +27,8 @@ footer,
 .site-footer,
 body footer,
 .page-wrapper footer {
-  background-color: #f8fafc !important;             /* Clean background in Light Mode */
-  color: #334155 !important;                        /* Dark readable text in Light Mode */
+  background-color: #f6f8fa !important;             /* Clean background in Light Mode */
+  color: #000000 !important;                        /* Dark text in Light Mode */
   min-height: 1.5cm;
   display: flex !important;
   align-items: center !important;
@@ -49,15 +49,15 @@ body footer,
 footer a,
 .site-footer a,
 body footer a {
-  color: #2563eb !important;                        /* Blue link color in Light Mode */
+  color: inherit !important;                        /* Inherits natural text color */
   text-decoration: none !important;
-  font-weight: 500;
-  transition: color 0.2s ease;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
 }
 
 footer a:hover,
 .site-footer a:hover {
-  text-decoration: underline !important;
+  opacity: 0.8 !important;
 }
 
 /* Dark Mode (toggled by site theme button `.dark`, `html.dark`, `body.dark`) */
@@ -70,7 +70,7 @@ body.dark .site-footer,
 [data-wc-theme-default="dark"] footer,
 [data-wc-theme-default="dark"] .site-footer {
   background-color: #161b22 !important;           /* Dark background in Dark Mode */
-  color: #e2e8f0 !important;                       /* Light readable text in Dark Mode */
+  color: #ffffff !important;                       /* White text in Dark Mode */
   border-top: 1px solid #30363d !important;          /* Dark border in Dark Mode */
 }
 
@@ -82,7 +82,7 @@ html.dark .site-footer a,
 body.dark .site-footer a,
 [data-wc-theme-default="dark"] footer a,
 [data-wc-theme-default="dark"] .site-footer a {
-  color: #38bdf8 !important;                        /* Cyan link color in Dark Mode */
+  color: inherit !important;                        /* Inherits white text color in Dark Mode */
 }
 
 /* System preference fallback when no explicit class is set */
@@ -90,12 +90,12 @@ body.dark .site-footer a,
   :root:not(.light) footer,
   :root:not(.light) .site-footer {
     background-color: #161b22;
-    color: #e2e8f0;
+    color: #ffffff;
     border-top: 1px solid #30363d;
   }
   :root:not(.light) footer a,
   :root:not(.light) .site-footer a {
-    color: #38bdf8;
+    color: inherit;
   }
 }
 

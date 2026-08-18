@@ -261,13 +261,6 @@ body:has(.portfolio-container) span:has(> a[href*="/tags/"]) {
   display: none !important;
 }
 
-/* Hide any portfolio item that does NOT carry Publications, Illustrations, Lectures, or stories tags */
-.isotope-item:not(.js-id-Publications):not(.js-id-Illustrations):not(.js-id-Lectures):not(.js-id-stories),
-.project-card:not(.js-id-Publications):not(.js-id-Illustrations):not(.js-id-Lectures):not(.js-id-stories),
-.grid-item:not(.js-id-Publications):not(.js-id-Illustrations):not(.js-id-Lectures):not(.js-id-stories) {
-  display: none !important;
-}
-
 .portfolio-subtitle {
   font-style: italic;
   font-size: 1.05rem;

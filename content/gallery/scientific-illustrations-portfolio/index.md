@@ -2,8 +2,6 @@
 title: "Scientific Illustrations Portfolio"
 url: "/gallery/scientific-illustrations-portfolio/"
 summary: "Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙"
-date: "2026-05-29T00:00:00Z"
-weight: 2
 show_date: false
 show_time: false
 show_read_time: false
@@ -36,18 +34,6 @@ div.mx-auto {
   max-width: 100% !important;
   width: 100% !important;
   box-sizing: border-box !important;
-/* THIS PAGE ONLY: Hide page header date completely */
-.article-metadata,
-time,
-[itemprop="datePublished"],
-.article-header time,
-header time,
-.page-header time,
-.article-subtitle + time,
-h1 + time,
-div:has(> time),
-span:has(> time) {
-  display: none !important;
 }
 
 /* Page Header spacing */

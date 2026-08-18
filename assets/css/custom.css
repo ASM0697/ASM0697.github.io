@@ -261,6 +261,12 @@ body:has(.portfolio-container) span:has(> a[href*="/tags/"]) {
   display: none !important;
 }
 
+/* Hide untagged cards in Professional Highlights portfolio grid so All = Publications + Illustrations + Lectures + Stories */
+.isotope .grid-item:not([class*="js-id-"]),
+.isotope .project-card:not([class*="js-id-"]) {
+  display: none !important;
+}
+
 .portfolio-subtitle {
   font-style: italic;
   font-size: 1.05rem;

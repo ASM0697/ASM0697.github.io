@@ -14,14 +14,10 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Max content container width for generous card spacing (1380px) */
-.max-w-prose, .prose, .article-style, .article-container, article .article-style, article.article {
-  max-width: 1380px !important;
+/* THIS PAGE ONLY: Unconstrain ALL parent container wrappers in Hugo / HugoBlox */
+html, body, .page-wrapper, .page-body, main, article, section, .universal-wrapper, .article-container, .article-style, .prose, .max-w-prose, [class*="max-w-"], [class*="container"] {
+  max-width: 100% !important;
   width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
   box-sizing: border-box !important;
 }
 
@@ -38,50 +34,55 @@ image:
 /* Subtitle: SMALL tight space under Title, clear space above Card Blocks */
 .portfolio-subtitle {
   margin-top: -1.2rem !important;
-  margin-bottom: 2.2rem !important;
+  margin-bottom: 2.5rem !important;
   padding-top: 0 !important;
   font-style: italic;
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   color: var(--color-footer-fg, #64748b);
   text-align: center;
 }
 
-/* THIS PAGE ONLY: Collection Container */
+/* VIEWPORT BREAKOUT: Stretch Collection Container to 92% of full screen width (Eliminates side margins completely) */
 .portfolio-container, .collection-container {
-  width: 100% !important;
-  max-width: 1380px !important;
-  margin: 1rem auto 3rem auto !important;
+  width: 92vw !important;
+  max-width: 1650px !important;
+  margin-left: calc(50% - 46vw) !important;
+  margin-right: calc(50% - 46vw) !important;
+  margin-top: 1rem !important;
+  margin-bottom: 4rem !important;
+  box-sizing: border-box !important;
 }
 
-/* THIS PAGE ONLY: Collection Grid layout - 3 Columns per row (matching Gallery Image 2) for standard desktop/laptop (1024px+) */
+/* COLLECTION GRID: 4 Wide, Spacious Columns across Desktop */
 .collection, .portfolio-grid {
   display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
+  grid-template-columns: repeat(4, 1fr) !important;
   gap: 1.75rem !important;
+  width: 100% !important;
 }
 
-@media (min-width: 1600px) {
+@media (max-width: 1250px) and (min-width: 900px) {
   .collection, .portfolio-grid {
-    grid-template-columns: repeat(4, 1fr) !important;
-    gap: 1.75rem !important;
-  }
-}
-
-@media (max-width: 1023px) and (min-width: 680px) {
-  .collection, .portfolio-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 1.5rem !important;
   }
 }
 
-@media (max-width: 679px) {
+@media (max-width: 899px) and (min-width: 580px) {
+  .collection, .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.25rem !important;
+  }
+}
+
+@media (max-width: 579px) {
   .collection, .portfolio-grid {
     grid-template-columns: 1fr !important;
     gap: 1.25rem !important;
   }
 }
 
-/* THIS PAGE ONLY: Card Styling - Wide, spacious, well-proportioned blocks matching Gallery (Image 2) */
+/* THIS PAGE ONLY: Card Styling - Wide, spacious, well-proportioned blocks */
 .sci-card, .collection-card {
   display: flex !important;
   flex-direction: column !important;
@@ -92,6 +93,7 @@ image:
   border: 1px solid rgba(0, 0, 0, 0.08) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04) !important;
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease !important;
+  width: 100% !important;
 }
 
 .dark .sci-card,
@@ -114,11 +116,11 @@ body.dark .sci-card:hover {
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* THIS PAGE ONLY: Image Outer Frame & Height (~16:10 ratio like Gallery) */
+/* THIS PAGE ONLY: Image Outer Frame & Height (~200px height for ~370px width) */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 185px !important;
+  height: 200px !important;
   overflow: hidden !important;
   border-radius: 16px 16px 0 0 !important;
   margin: 0 !important;
@@ -158,7 +160,7 @@ body.dark .sci-card-img-wrapper img {
 
 /* THIS PAGE ONLY: Spacious Card Body & Clean Typography */
 .sci-card-body {
-  padding: 1.1rem 1.25rem 1.25rem 1.25rem !important;
+  padding: 1.2rem 1.35rem 1.35rem 1.35rem !important;
   display: flex !important;
   flex-direction: column !important;
   flex: 1 1 auto !important;
@@ -168,11 +170,11 @@ body.dark .sci-card-img-wrapper img {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0.55rem !important;
 }
 
 .sci-card-fig-num {
-  font-size: 0.76rem !important;
+  font-size: 0.78rem !important;
   font-weight: 700 !important;
   padding: 0.2rem 0.6rem !important;
   border-radius: 6px !important;
@@ -180,15 +182,15 @@ body.dark .sci-card-img-wrapper img {
 }
 
 .sci-card-date {
-  font-size: 0.8rem !important;
+  font-size: 0.82rem !important;
   white-space: nowrap !important;
 }
 
 .sci-card-title {
-  font-size: 1.02rem !important;
+  font-size: 1.05rem !important;
   font-weight: 700 !important;
   line-height: 1.35 !important;
-  margin-bottom: 0.45rem !important;
+  margin-bottom: 0.5rem !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 2 !important;
   -webkit-box-orient: vertical !important;
@@ -196,9 +198,9 @@ body.dark .sci-card-img-wrapper img {
 }
 
 .sci-card-desc {
-  font-size: 0.85rem !important;
+  font-size: 0.86rem !important;
   line-height: 1.45 !important;
-  margin-bottom: 0.8rem !important;
+  margin-bottom: 0.9rem !important;
   color: var(--color-footer-fg, #64748b) !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 2 !important;
@@ -210,12 +212,12 @@ body.dark .sci-card-img-wrapper img {
   display: flex !important;
   flex-wrap: wrap !important;
   gap: 0.35rem !important;
-  margin-bottom: 0.85rem !important;
+  margin-bottom: 0.9rem !important;
 }
 
 .sci-tag-pill {
-  padding: 0.2rem 0.65rem !important;
-  font-size: 0.72rem !important;
+  padding: 0.22rem 0.68rem !important;
+  font-size: 0.73rem !important;
   border-radius: 999px !important;
 }
 
@@ -226,8 +228,8 @@ body.dark .sci-card-img-wrapper img {
 
 .sci-preview-btn {
   width: 100% !important;
-  padding: 0.5rem 1rem !important;
-  font-size: 0.85rem !important;
+  padding: 0.55rem 1rem !important;
+  font-size: 0.88rem !important;
   font-weight: 600 !important;
   display: flex !important;
   justify-content: center !important;

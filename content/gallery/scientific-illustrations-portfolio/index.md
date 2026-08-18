@@ -14,14 +14,14 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Expand portfolio content area width to 1450px so card blocks are wide */
+/* THIS PAGE ONLY: Expand portfolio content area width to 1650px so 4 or 5 card collections fit per row */
 .max-w-prose, .prose, .article-style, .article-container, article .article-style, article.article {
-  max-width: 1450px !important;
-  width: 100% !important;
+  max-width: 1650px !important;
+  width: 96% !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
   box-sizing: border-box !important;
 }
 
@@ -37,8 +37,8 @@ image:
 
 /* Subtitle: SMALL tight space under Title, clear space above Card Blocks */
 .portfolio-subtitle {
-  margin-top: -1.2rem !important; /* Pulls subtitle tight under title */
-  margin-bottom: 2rem !important; /* Breathing room above card blocks */
+  margin-top: -1.2rem !important;
+  margin-bottom: 2rem !important;
   padding-top: 0 !important;
   font-style: italic;
   font-size: 1.05rem;
@@ -46,86 +46,84 @@ image:
   text-align: center;
 }
 
-/* THIS PAGE ONLY: Portfolio Grid layout for wide cards (1450px) */
-.portfolio-container {
+/* THIS PAGE ONLY: Collection Container */
+.portfolio-container, .collection-container {
   width: 100% !important;
-  max-width: 1500px !important;
+  max-width: 1650px !important;
   margin: 1rem auto 3rem auto !important;
 }
 
-.portfolio-grid {
+/* THIS PAGE ONLY: Collection Grid layout - 5 items on large screens (1600px+), 4 items on desktop (1150px+) */
+.collection, .portfolio-grid {
   display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
-  gap: 1.5rem !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 1.15rem !important;
 }
 
-@media (max-width: 1023px) {
-  .portfolio-grid {
+@media (min-width: 1600px) {
+  .collection, .portfolio-grid {
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 1.1rem !important;
+  }
+}
+
+@media (min-width: 1150px) and (max-width: 1599px) {
+  .collection, .portfolio-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 1.15rem !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1149px) {
+  .collection, .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1.1rem !important;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 799px) {
+  .collection, .portfolio-grid {
     grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem !important;
   }
 }
 
-@media (max-width: 639px) {
-  .portfolio-grid {
+@media (max-width: 519px) {
+  .collection, .portfolio-grid {
     grid-template-columns: 1fr !important;
-    gap: 1.25rem !important;
+    gap: 1rem !important;
   }
 }
 
-/* THIS PAGE ONLY: Compact card body & elements so blocks are SHORTER & WIDER */
-.sci-card-body {
-  padding: 0.85rem 1.1rem !important;
-}
-
-.sci-card-title {
-  font-size: 1.02rem !important;
-  line-height: 1.3 !important;
-  margin-bottom: 0.35rem !important;
-}
-
-.sci-card-desc {
-  font-size: 0.85rem !important;
-  line-height: 1.4 !important;
-  margin-bottom: 0.6rem !important;
-  display: -webkit-box !important;
-  -webkit-line-clamp: 2 !important;
-  -webkit-box-orient: vertical !important;
+/* THIS PAGE ONLY: Collection Card Length & Width Adjustments */
+.sci-card, .collection-card {
+  display: flex !important;
+  flex-direction: column !important;
+  border-radius: 14px !important;
   overflow: hidden !important;
+  box-sizing: border-box !important;
+  transition: transform 0.25s ease, box-shadow 0.25s ease !important;
 }
 
-.sci-card-tags-list {
-  margin-bottom: 0.6rem !important;
-  gap: 0.3rem !important;
+.sci-card:hover, .collection-card:hover {
+  transform: translateY(-4px) !important;
 }
 
-.sci-tag-pill {
-  padding: 0.2rem 0.65rem !important;
-  font-size: 0.72rem !important;
-}
-
-.sci-preview-btn {
-  padding: 0.4rem 0.85rem !important;
-  font-size: 0.82rem !important;
-}
-
-/* THIS PAGE ONLY: Mode-adaptive outer frame edges with rounded & zoomed cover image */
+/* THIS PAGE ONLY: Image Outer Frame & Image Height Adjustment */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 170px !important;
+  height: 145px !important;
   overflow: hidden !important;
   border-radius: 14px 14px 0 0 !important;
   margin: 0 !important;
-  padding: 8px !important;
+  padding: 6px !important;
   box-sizing: border-box !important;
   transition: background 0.3s ease, border-color 0.3s ease;
-  
-  /* Light Mode Outer Frame Background & Border */
   background: #f1f5f9 !important;
   border-bottom: 1px solid #cbd5e1 !important;
 }
 
-/* Dark Mode Outer Frame Background & Border */
 .dark .sci-card-img-wrapper,
 html.dark .sci-card-img-wrapper,
 body.dark .sci-card-img-wrapper,
@@ -144,16 +142,91 @@ body.dark .sci-card-img-wrapper,
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
-  
-  /* Light Mode Inner Border */
   border: 1px solid rgba(0, 0, 0, 0.08) !important;
 }
 
 .dark .sci-card-img-wrapper img,
 html.dark .sci-card-img-wrapper img,
 body.dark .sci-card-img-wrapper img {
-  /* Dark Mode Inner Border */
   border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+/* THIS PAGE ONLY: Compact card body elements for clean, well-proportioned blocks */
+.sci-card-body {
+  padding: 0.75rem 0.85rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+}
+
+.sci-card-top-bar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.sci-card-fig-num {
+  font-size: 0.7rem !important;
+  font-weight: 700 !important;
+  padding: 0.15rem 0.5rem !important;
+  border-radius: 6px !important;
+}
+
+.sci-card-date {
+  font-size: 0.74rem !important;
+}
+
+.sci-card-title {
+  font-size: 0.92rem !important;
+  font-weight: 700 !important;
+  line-height: 1.28 !important;
+  margin-bottom: 0.35rem !important;
+  min-height: 2.5em !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+.sci-card-desc {
+  font-size: 0.78rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 0.5rem !important;
+  min-height: 2.7em !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden !important;
+}
+
+.sci-card-tags-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.25rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.sci-tag-pill {
+  padding: 0.15rem 0.5rem !important;
+  font-size: 0.68rem !important;
+  border-radius: 999px !important;
+}
+
+.sci-card-footer {
+  margin-top: auto !important;
+  width: 100% !important;
+}
+
+.sci-preview-btn {
+  width: 100% !important;
+  padding: 0.38rem 0.7rem !important;
+  font-size: 0.8rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  border-radius: 8px !important;
 }
 
 /* THIS PAGE ONLY: Force footer to span 100% full width and center text matching rest of site */
@@ -180,11 +253,11 @@ body.page-wrapper footer .container, footer .container, footer > div, .page-foot
 
 <p class="portfolio-subtitle" style="text-align: center;"><em>Feel free to use my scientific illustartions for any academic purpose! Enjoy! 💙</em></p>
 
-<div class="portfolio-container">
-<div id="portfolioGrid" class="portfolio-grid">
+<div class="portfolio-container collection-container">
+<div id="portfolioGrid" class="collection portfolio-grid">
 
 <!-- Block 1 -->
-<div class="sci-card" onclick="openSciModal(0)" role="button" tabindex="0" aria-label="View Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis">
+<div class="sci-card collection-card" onclick="openSciModal(0)" role="button" tabindex="0" aria-label="View Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis">
 <div class="sci-card-img-wrapper">
 <img src="thumb_obesity.png" alt="Metabolic Disorders, Autonomic Immune Dysfunction, and Ferroptosis" loading="lazy" />
 <div class="sci-card-hover-overlay">
@@ -226,7 +299,7 @@ Preview
 </div>
 
 <!-- Block 2 -->
-<div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
+<div class="sci-card collection-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
 <div class="sci-card-img-wrapper">
 <img src="ferroptosis_disufidptosis.jpg" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
 <div class="sci-card-hover-overlay">
@@ -268,7 +341,7 @@ Preview
 </div>
 
 <!-- Block 3 -->
-<div class="sci-card" onclick="openSciModal(2)" role="button" tabindex="0" aria-label="View Betanin-Mediated Modulation of miRNA Signaling and Neuroinflammation in Inflammatory Pain">
+<div class="sci-card collection-card" onclick="openSciModal(2)" role="button" tabindex="0" aria-label="View Betanin-Mediated Modulation of miRNA Signaling and Neuroinflammation in Inflammatory Pain">
 <div class="sci-card-img-wrapper">
 <img src="Betanin_proposed_analgesic_mechanism.png" alt="Betanin-Mediated Modulation of miRNA Signaling and Neuroinflammation in Inflammatory Pain" loading="lazy" />
 <div class="sci-card-hover-overlay">
@@ -310,7 +383,7 @@ Preview
 </div>
 
 <!-- Block 4 -->
-<div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
+<div class="sci-card collection-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
 <div class="sci-card-img-wrapper">
 <img src="ferroptosis_disufidptosis.jpg" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
 <div class="sci-card-hover-overlay">
@@ -352,7 +425,7 @@ Preview
 </div>
 
 <!-- Block 5 -->
-<div class="sci-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
+<div class="sci-card collection-card" onclick="openSciModal(1)" role="button" tabindex="0" aria-label="View Visceral Adipose Tissue (vWAT) Inflammation">
 <div class="sci-card-img-wrapper">
 <img src="ferroptosis_disufidptosis.jpg" alt="SLC7A11 Redox Homeostasis, Ferroptosis, and Disulfidptosis in Neurodegenerative Diseases" loading="lazy" />
 <div class="sci-card-hover-overlay">

@@ -14,14 +14,14 @@ image:
 
 {{< rawhtml >}}
 <style>
-/* THIS PAGE ONLY: Expand portfolio content area width to 1650px so 4 or 5 card collections fit per row */
+/* THIS PAGE ONLY: Max content container width for generous card spacing (1380px) */
 .max-w-prose, .prose, .article-style, .article-container, article .article-style, article.article {
-  max-width: 1650px !important;
-  width: 96% !important;
+  max-width: 1380px !important;
+  width: 100% !important;
   margin-left: auto !important;
   margin-right: auto !important;
-  padding-left: 0.5rem !important;
-  padding-right: 0.5rem !important;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
   box-sizing: border-box !important;
 }
 
@@ -38,7 +38,7 @@ image:
 /* Subtitle: SMALL tight space under Title, clear space above Card Blocks */
 .portfolio-subtitle {
   margin-top: -1.2rem !important;
-  margin-bottom: 2rem !important;
+  margin-bottom: 2.2rem !important;
   padding-top: 0 !important;
   font-style: italic;
   font-size: 1.05rem;
@@ -49,79 +49,84 @@ image:
 /* THIS PAGE ONLY: Collection Container */
 .portfolio-container, .collection-container {
   width: 100% !important;
-  max-width: 1650px !important;
+  max-width: 1380px !important;
   margin: 1rem auto 3rem auto !important;
 }
 
-/* THIS PAGE ONLY: Collection Grid layout - 5 items on large screens (1600px+), 4 items on desktop (1150px+) */
+/* THIS PAGE ONLY: Collection Grid layout - 3 Columns per row (matching Gallery Image 2) for standard desktop/laptop (1024px+) */
 .collection, .portfolio-grid {
   display: grid !important;
-  grid-template-columns: repeat(4, 1fr) !important;
-  gap: 1.15rem !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 1.75rem !important;
 }
 
 @media (min-width: 1600px) {
   .collection, .portfolio-grid {
-    grid-template-columns: repeat(5, 1fr) !important;
-    gap: 1.1rem !important;
-  }
-}
-
-@media (min-width: 1150px) and (max-width: 1599px) {
-  .collection, .portfolio-grid {
     grid-template-columns: repeat(4, 1fr) !important;
-    gap: 1.15rem !important;
+    gap: 1.75rem !important;
   }
 }
 
-@media (min-width: 800px) and (max-width: 1149px) {
-  .collection, .portfolio-grid {
-    grid-template-columns: repeat(3, 1fr) !important;
-    gap: 1.1rem !important;
-  }
-}
-
-@media (min-width: 520px) and (max-width: 799px) {
+@media (max-width: 1023px) and (min-width: 680px) {
   .collection, .portfolio-grid {
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 1rem !important;
+    gap: 1.5rem !important;
   }
 }
 
-@media (max-width: 519px) {
+@media (max-width: 679px) {
   .collection, .portfolio-grid {
     grid-template-columns: 1fr !important;
-    gap: 1rem !important;
+    gap: 1.25rem !important;
   }
 }
 
-/* THIS PAGE ONLY: Collection Card Length & Width Adjustments */
+/* THIS PAGE ONLY: Card Styling - Wide, spacious, well-proportioned blocks matching Gallery (Image 2) */
 .sci-card, .collection-card {
   display: flex !important;
   flex-direction: column !important;
-  border-radius: 14px !important;
+  border-radius: 16px !important;
   overflow: hidden !important;
   box-sizing: border-box !important;
-  transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease !important;
+}
+
+.dark .sci-card,
+html.dark .sci-card,
+body.dark .sci-card,
+[data-wc-theme-default="dark"] .sci-card {
+  background: #1e2535 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
 }
 
 .sci-card:hover, .collection-card:hover {
-  transform: translateY(-4px) !important;
+  transform: translateY(-6px) !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.06) !important;
 }
 
-/* THIS PAGE ONLY: Image Outer Frame & Image Height Adjustment */
+.dark .sci-card:hover,
+html.dark .sci-card:hover,
+body.dark .sci-card:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* THIS PAGE ONLY: Image Outer Frame & Height (~16:10 ratio like Gallery) */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 145px !important;
+  height: 185px !important;
   overflow: hidden !important;
-  border-radius: 14px 14px 0 0 !important;
+  border-radius: 16px 16px 0 0 !important;
   margin: 0 !important;
-  padding: 6px !important;
+  padding: 8px !important;
   box-sizing: border-box !important;
   transition: background 0.3s ease, border-color 0.3s ease;
   background: #f1f5f9 !important;
-  border-bottom: 1px solid #cbd5e1 !important;
+  border-bottom: 1px solid #e2e8f0 !important;
 }
 
 .dark .sci-card-img-wrapper,
@@ -129,7 +134,7 @@ html.dark .sci-card-img-wrapper,
 body.dark .sci-card-img-wrapper,
 [data-wc-theme-default="dark"] .sci-card-img-wrapper {
   background: #161b22 !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 .sci-card-img-wrapper img {
@@ -138,22 +143,22 @@ body.dark .sci-card-img-wrapper,
   object-fit: cover !important;
   object-position: center !important;
   display: block !important;
-  border-radius: 8px !important;
+  border-radius: 10px !important;
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
-  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid rgba(0, 0, 0, 0.06) !important;
 }
 
 .dark .sci-card-img-wrapper img,
 html.dark .sci-card-img-wrapper img,
 body.dark .sci-card-img-wrapper img {
-  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-/* THIS PAGE ONLY: Compact card body elements for clean, well-proportioned blocks */
+/* THIS PAGE ONLY: Spacious Card Body & Clean Typography */
 .sci-card-body {
-  padding: 0.75rem 0.85rem !important;
+  padding: 1.1rem 1.25rem 1.25rem 1.25rem !important;
   display: flex !important;
   flex-direction: column !important;
   flex: 1 1 auto !important;
@@ -163,26 +168,27 @@ body.dark .sci-card-img-wrapper img {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
-  margin-bottom: 0.35rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .sci-card-fig-num {
-  font-size: 0.7rem !important;
+  font-size: 0.76rem !important;
   font-weight: 700 !important;
-  padding: 0.15rem 0.5rem !important;
+  padding: 0.2rem 0.6rem !important;
   border-radius: 6px !important;
+  white-space: nowrap !important;
 }
 
 .sci-card-date {
-  font-size: 0.74rem !important;
+  font-size: 0.8rem !important;
+  white-space: nowrap !important;
 }
 
 .sci-card-title {
-  font-size: 0.92rem !important;
+  font-size: 1.02rem !important;
   font-weight: 700 !important;
-  line-height: 1.28 !important;
-  margin-bottom: 0.35rem !important;
-  min-height: 2.5em !important;
+  line-height: 1.35 !important;
+  margin-bottom: 0.45rem !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 2 !important;
   -webkit-box-orient: vertical !important;
@@ -190,10 +196,10 @@ body.dark .sci-card-img-wrapper img {
 }
 
 .sci-card-desc {
-  font-size: 0.78rem !important;
-  line-height: 1.35 !important;
-  margin-bottom: 0.5rem !important;
-  min-height: 2.7em !important;
+  font-size: 0.85rem !important;
+  line-height: 1.45 !important;
+  margin-bottom: 0.8rem !important;
+  color: var(--color-footer-fg, #64748b) !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 2 !important;
   -webkit-box-orient: vertical !important;
@@ -203,13 +209,13 @@ body.dark .sci-card-img-wrapper img {
 .sci-card-tags-list {
   display: flex !important;
   flex-wrap: wrap !important;
-  gap: 0.25rem !important;
-  margin-bottom: 0.5rem !important;
+  gap: 0.35rem !important;
+  margin-bottom: 0.85rem !important;
 }
 
 .sci-tag-pill {
-  padding: 0.15rem 0.5rem !important;
-  font-size: 0.68rem !important;
+  padding: 0.2rem 0.65rem !important;
+  font-size: 0.72rem !important;
   border-radius: 999px !important;
 }
 
@@ -220,13 +226,14 @@ body.dark .sci-card-img-wrapper img {
 
 .sci-preview-btn {
   width: 100% !important;
-  padding: 0.38rem 0.7rem !important;
-  font-size: 0.8rem !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  gap: 0.35rem !important;
-  border-radius: 8px !important;
+  gap: 0.4rem !important;
+  border-radius: 10px !important;
 }
 
 /* THIS PAGE ONLY: Force footer to span 100% full width and center text matching rest of site */

@@ -250,16 +250,14 @@ article:has(.portfolio-subtitle) header h1 {
   padding-bottom: 0 !important;
 }
 
-/* Hide page-end tags widget and tag links completely */
-.page-wrapper article > footer,
-.page-wrapper article .article-tags,
-.page-wrapper article .tags-widget,
-.article-tags,
-.tags-widget,
-.article-metadata .article-tags,
-a[href*="/tags/"],
-div:has(> a[href*="/tags/"]),
-span:has(> a[href*="/tags/"]) {
+/* Scope tag hiding strictly to Scientific Illustrations Portfolio page */
+body:has(.portfolio-container) .page-wrapper article > footer,
+body:has(.portfolio-container) .article-tags,
+body:has(.portfolio-container) .tags-widget,
+body:has(.portfolio-container) .article-metadata .article-tags,
+body:has(.portfolio-container) a[href*="/tags/"],
+body:has(.portfolio-container) div:has(> a[href*="/tags/"]),
+body:has(.portfolio-container) span:has(> a[href*="/tags/"]) {
   display: none !important;
 }
 

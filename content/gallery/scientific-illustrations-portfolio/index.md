@@ -57,11 +57,11 @@ div.mx-auto {
   text-align: center;
 }
 
-/* COLLECTION CONTAINER: Centered spacious container expanded to 1750px (96% width) */
+/* COLLECTION CONTAINER: Centered spacious container expanded to 1850px (98% width for max card width) */
 .portfolio-container, .collection-container {
-  width: 96% !important;
-  max-width: 1750px !important;
-  margin: 1.5rem auto 4rem auto !important;
+  width: 98% !important;
+  max-width: 1850px !important;
+  margin: 1.5rem auto 3.5rem auto !important;
   box-sizing: border-box !important;
 }
 
@@ -69,48 +69,48 @@ div.mx-auto {
 .collection, .portfolio-grid {
   display: grid !important;
   grid-template-columns: repeat(5, 1fr) !important;
-  gap: 1.25rem !important;
+  gap: 0.85rem !important;
   width: 100% !important;
 }
 
 @media (max-width: 1400px) and (min-width: 1080px) {
   .collection, .portfolio-grid {
     grid-template-columns: repeat(4, 1fr) !important;
-    gap: 1.2rem !important;
+    gap: 0.85rem !important;
   }
 }
 
 @media (max-width: 1079px) and (min-width: 720px) {
   .collection, .portfolio-grid {
     grid-template-columns: repeat(3, 1fr) !important;
-    gap: 1.15rem !important;
+    gap: 0.8rem !important;
   }
 }
 
 @media (max-width: 719px) and (min-width: 480px) {
   .collection, .portfolio-grid {
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 1rem !important;
+    gap: 0.75rem !important;
   }
 }
 
 @media (max-width: 479px) {
   .collection, .portfolio-grid {
     grid-template-columns: 1fr !important;
-    gap: 1rem !important;
+    gap: 0.75rem !important;
   }
 }
 
-/* THIS PAGE ONLY: Card Styling - Wide, spacious, well-proportioned blocks */
+/* THIS PAGE ONLY: Card Styling - Shorter, wider, sleek compact blocks */
 .sci-card, .collection-card {
   display: flex !important;
   flex-direction: column !important;
-  border-radius: 16px !important;
+  border-radius: 14px !important;
   overflow: hidden !important;
   box-sizing: border-box !important;
   background: #ffffff !important;
   border: 1px solid rgba(0, 0, 0, 0.08) !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.03) !important;
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease !important;
   width: 100% !important;
 }
@@ -121,29 +121,29 @@ body.dark .sci-card,
 [data-wc-theme-default="dark"] .sci-card {
   background: #1e2535 !important;
   border: 1px solid rgba(255, 255, 255, 0.08) !important;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.3) !important;
 }
 
 .sci-card:hover, .collection-card:hover {
-  transform: translateY(-6px) !important;
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12), 0 2px 6px rgba(0, 0, 0, 0.06) !important;
+  transform: translateY(-5px) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(0, 0, 0, 0.05) !important;
 }
 
 .dark .sci-card:hover,
 html.dark .sci-card:hover,
 body.dark .sci-card:hover {
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.5) !important;
 }
 
-/* THIS PAGE ONLY: Image Outer Frame & Height (~175px height for ~330px width) */
+/* THIS PAGE ONLY: Shorter Cover Image Height (~140px for sleek compact ratio) */
 .sci-card-img-wrapper {
   position: relative !important;
   width: 100% !important;
-  height: 175px !important;
+  height: 140px !important;
   overflow: hidden !important;
-  border-radius: 16px 16px 0 0 !important;
+  border-radius: 14px 14px 0 0 !important;
   margin: 0 !important;
-  padding: 8px !important;
+  padding: 5px !important;
   box-sizing: border-box !important;
   transition: background 0.3s ease, border-color 0.3s ease;
   background: #f1f5f9 !important;
@@ -164,7 +164,7 @@ body.dark .sci-card-img-wrapper,
   object-fit: cover !important;
   object-position: center !important;
   display: block !important;
-  border-radius: 10px !important;
+  border-radius: 9px !important;
   margin: 0 !important;
   padding: 0 !important;
   box-sizing: border-box !important;
@@ -177,9 +177,9 @@ body.dark .sci-card-img-wrapper img {
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-/* THIS PAGE ONLY: Spacious Card Body & Clean Typography */
+/* THIS PAGE ONLY: Shorter, Compact Card Body Padding & Elements */
 .sci-card-body {
-  padding: 1.2rem 1.35rem 1.35rem 1.35rem !important;
+  padding: 0.75rem 0.9rem 0.9rem 0.9rem !important;
   display: flex !important;
   flex-direction: column !important;
   flex: 1 1 auto !important;
@@ -189,27 +189,27 @@ body.dark .sci-card-img-wrapper img {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
-  margin-bottom: 0.55rem !important;
+  margin-bottom: 0.35rem !important;
 }
 
 .sci-card-fig-num {
-  font-size: 0.78rem !important;
+  font-size: 0.72rem !important;
   font-weight: 700 !important;
-  padding: 0.2rem 0.6rem !important;
-  border-radius: 6px !important;
+  padding: 0.15rem 0.5rem !important;
+  border-radius: 5px !important;
   white-space: nowrap !important;
 }
 
 .sci-card-date {
-  font-size: 0.82rem !important;
+  font-size: 0.75rem !important;
   white-space: nowrap !important;
 }
 
 .sci-card-title {
-  font-size: 1.05rem !important;
+  font-size: 0.92rem !important;
   font-weight: 700 !important;
-  line-height: 1.35 !important;
-  margin-bottom: 0.5rem !important;
+  line-height: 1.28 !important;
+  margin-bottom: 0.35rem !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 2 !important;
   -webkit-box-orient: vertical !important;
@@ -217,9 +217,9 @@ body.dark .sci-card-img-wrapper img {
 }
 
 .sci-card-desc {
-  font-size: 0.86rem !important;
-  line-height: 1.45 !important;
-  margin-bottom: 0.9rem !important;
+  font-size: 0.78rem !important;
+  line-height: 1.35 !important;
+  margin-bottom: 0.55rem !important;
   color: var(--color-footer-fg, #64748b) !important;
   display: -webkit-box !important;
   -webkit-line-clamp: 2 !important;
@@ -230,13 +230,13 @@ body.dark .sci-card-img-wrapper img {
 .sci-card-tags-list {
   display: flex !important;
   flex-wrap: wrap !important;
-  gap: 0.35rem !important;
-  margin-bottom: 0.9rem !important;
+  gap: 0.25rem !important;
+  margin-bottom: 0.55rem !important;
 }
 
 .sci-tag-pill {
-  padding: 0.22rem 0.68rem !important;
-  font-size: 0.73rem !important;
+  padding: 0.15rem 0.52rem !important;
+  font-size: 0.68rem !important;
   border-radius: 999px !important;
 }
 
@@ -247,14 +247,14 @@ body.dark .sci-card-img-wrapper img {
 
 .sci-preview-btn {
   width: 100% !important;
-  padding: 0.55rem 1rem !important;
-  font-size: 0.88rem !important;
+  padding: 0.4rem 0.8rem !important;
+  font-size: 0.8rem !important;
   font-weight: 600 !important;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
-  gap: 0.4rem !important;
-  border-radius: 10px !important;
+  gap: 0.35rem !important;
+  border-radius: 8px !important;
 }
 
 /* THIS PAGE ONLY: Force footer to span 100% full width and center text matching rest of site */

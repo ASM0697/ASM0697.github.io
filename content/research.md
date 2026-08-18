@@ -46,6 +46,8 @@ sections:
     content:
       title: Peer Review
       text: |
+        * Contributed to the peer-review process of [**Journal of Molecular Histology**](https://link.springer.com/journal/10735) as an invited reviewer in July 2026.
+
         * Contributed to the peer-review process of [**Open Veterinary Journal**](https://www.scimagojr.com/journalsearch.php?q=21100438194&tip=sid) as an invited reviewer in November 2025.
       
       #filters:

@@ -22,44 +22,80 @@
   font-weight: bold;
 }
 
+/* ===== Global Site Footer (Light & Dark Mode Consistent) ===== */
 footer,
-.site-footer {
-  background-color: #f6f8fa;             /* اللون الافتراضي للوضع الفاتح */
-  color: #000000;                        /* لون الخط في الوضع الفاتح */
-  height: 1.5cm;                         /* ارتفاع الفوتر */
-  display: flex;
-  align-items: center;                   /* توسيط رأسي */
-  justify-content: center;               /* توسيط أفقي */
-  width: 100vw;                          /* عرض كامل الشاشة */
-  max-width: 100%;                        /* التأكد من عدم تجاوز العرض */
-  padding: 0;
-  margin: 0;
-  border-top: 1px solid #ddd;            /* خط علوي للوضع الفاتح */
-  box-sizing: border-box;                 /* لتجنب مشاكل البادينج */
+.site-footer,
+body footer,
+.page-wrapper footer {
+  background-color: #f8fafc !important;             /* Clean background in Light Mode */
+  color: #334155 !important;                        /* Dark readable text in Light Mode */
+  min-height: 1.5cm;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0.75rem 1rem !important;
+  margin: 0 !important;
+  border-top: 1px solid #e2e8f0 !important;          /* Subtle border in Light Mode */
+  box-sizing: border-box !important;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 0.9rem;
   line-height: 1.4;
+  text-align: center !important;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 footer a,
-.site-footer a {
-  color: inherit;                        /* رابط بنفس لون النص */
-  text-decoration: none;
+.site-footer a,
+body footer a {
+  color: #2563eb !important;                        /* Blue link color in Light Mode */
+  text-decoration: none !important;
   font-weight: 500;
+  transition: color 0.2s ease;
 }
 
-/* الوضع الليلي */
-@media (prefers-color-scheme: dark) {
-  footer,
-  .site-footer {
-    background-color: #161b22;           /* لون الفوتر في الوضع الليلي */
-    color: #ffffff;                       /* لون الخط في الوضع الليلي */
-    border-top: 1px solid #2a2f38;       /* خط علوي يتناسب مع الوضع الليلي */
-  }
+footer a:hover,
+.site-footer a:hover {
+  text-decoration: underline !important;
+}
 
-  footer a,
-  .site-footer a {
-    color: inherit;                        /* رابط بنفس لون الخط في الوضع الليلي */
+/* Dark Mode (toggled by site theme button `.dark`, `html.dark`, `body.dark`) */
+.dark footer,
+html.dark footer,
+body.dark footer,
+.dark .site-footer,
+html.dark .site-footer,
+body.dark .site-footer,
+[data-wc-theme-default="dark"] footer,
+[data-wc-theme-default="dark"] .site-footer {
+  background-color: #161b22 !important;           /* Dark background in Dark Mode */
+  color: #e2e8f0 !important;                       /* Light readable text in Dark Mode */
+  border-top: 1px solid #30363d !important;          /* Dark border in Dark Mode */
+}
+
+.dark footer a,
+html.dark footer a,
+body.dark footer a,
+.dark .site-footer a,
+html.dark .site-footer a,
+body.dark .site-footer a,
+[data-wc-theme-default="dark"] footer a,
+[data-wc-theme-default="dark"] .site-footer a {
+  color: #38bdf8 !important;                        /* Cyan link color in Dark Mode */
+}
+
+/* System preference fallback when no explicit class is set */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) footer,
+  :root:not(.light) .site-footer {
+    background-color: #161b22;
+    color: #e2e8f0;
+    border-top: 1px solid #30363d;
+  }
+  :root:not(.light) footer a,
+  :root:not(.light) .site-footer a {
+    color: #38bdf8;
   }
 }
 

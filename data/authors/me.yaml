@@ -54,13 +54,13 @@ education:
     start: "2022-09-01"
     end: "2026-08-31"
     summary: |
-      Coursework Year CGPA: 3.93/4.00 | Grade: Excellent (98.25%).
+      - Coursework Year CGPA: 3.93/4.00 | Grade: Excellent (98.25%).
 
-      The coursework year included these courses: Genomics & Proteomics, Analytical Methods in Molecular Biology, Molecular Biology of RNA, Molecular Diagnostics, Cancer Biology, Animal Cell Culture and Tissue Engineering, Stem Cell Biology, Cellular and Molecular Immunology, and Research Methodology and Biosafety. Relevant Courses: Advanced Neurophysiology and Biometrices.
+      - The coursework year included these courses: Genomics & Proteomics, Analytical Methods in Molecular Biology, Molecular Biology of RNA, Molecular Diagnostics, Cancer Biology, Animal Cell Culture and Tissue Engineering, Stem Cell Biology, Cellular and Molecular Immunology, and Research Methodology and Biosafety. Relevant Courses: Advanced Neurophysiology and Biometrices.
 
-      The master's thesis focused on evaluating the analgesic potential of betanin, a natural pigment derived from Beta vulgaris, in an inflammatory pain model by investigating its anti-inflammatory, antioxidant, and pain-associated miRNA-modulating effects.
+      - The master's thesis focused on evaluating the analgesic potential of betanin, a natural pigment derived from Beta vulgaris, in an inflammatory pain model by investigating its anti-inflammatory, antioxidant, and pain-associated miRNA-modulating effects.
 
-      Published a research article in a Q1-ranked, peer-reviewed journal.
+      - Published a research article in a Q1-ranked, peer-reviewed journal.
     button:
       text: "Master`s Paper"
       url: "https://www.mdpi.com/2227-9059/14/6/1202"

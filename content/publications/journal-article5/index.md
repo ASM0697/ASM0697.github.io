@@ -36,7 +36,7 @@ tags:
 - Demyelination
 - Neuroinflammation
 - Moringa oleifera
-- Nuclear factor kappa B (NF-κB)
+- NF-κB
 - Molecular docking
 - Pharmacokinetic analysis
 

@@ -45,7 +45,7 @@ links:
     url: https://doi.org/10.3390/biomedicines14061202
     label: DOI
 
-status: "New"
+# status: "New"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:

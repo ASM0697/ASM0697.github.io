@@ -1,16 +1,18 @@
 ---
-title: "Betanin from 𝘉𝘦𝘵𝘢 𝘷𝘶𝘭𝘨𝘢𝘳𝘪𝘴 Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights"
+title: "Neuroprotective effects of Moringa oleifera leaf extract via potential NF-κB modulation in cuprizone-induced demyelination in rats: Integrated in vivo and in silico evidence"
 authors:
-- me
 - Amina E. Essawy
-- Mohammed A. Alfredan
-- Ashraf M. Abdel-Moneim
+- Rania I. Fahmy
 - Rehab A. Gomaa
-- Sherine Abdel Salam
+- Howida A. Fetouh
+- Mohamed Helal
+- me
+- Mohamed A. Hassan
+- Wessam M. Abdel-Wahab
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2026-05-27T00:00:00Z"
+date: "2026-09-08T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -21,19 +23,22 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["Original article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Biomedicines*"
+publication: "*Tissue and Cell*"
 publication_short: ""
 
 # Summary. An optional shortened abstract.
-summary: This article highlights the analgesic potential of betanin, a natural pigment derived from Beta vulgaris, in inflammatory pain through anti-inflammatory, antioxidant, and pain-associated miRNA-related effects.
+summary: This article highlights the neuroprotective potential of Moringa oleifera leaf extract against cuprizone-induced demyelination through its antioxidant, anti-inflammatory, and neurobehavioral effects, potentially mediated by modulation of the NF-κB pathway.
 
 
 tags:
 #- Featured
 - Publications
-- Pain
-- miRNA
+- Demyelination
+- Neuroinflammation
+- Moringa oleifera
+- Nuclear factor kappa B (NF-κB)
 - Molecular docking
+- Pharmacokinetic analysis
 
 featured: true
 
@@ -42,14 +47,14 @@ hugoblox:
 
 links:
   - type: DOI
-    url: https://doi.org/10.3390/biomedicines14061202
+    url: https://doi.org/10.1016/j.tice.2026.103938
     label: DOI
 
 status: "New"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**MDPI**](https://www.mdpi.com/2227-9059/14/6/1202)'
+  caption: 'Image credit: [**Elsevier**](https://doi.org/10.1016/j.tice.2026.103938)'
   focal_point: ""
   preview_only: false
 
@@ -69,6 +74,7 @@ slides: ""
 ---
 
 > [!Abstract]
-> **Background/Objectives:** Betanin (BET), a prominent phytochemical mainly derived from Beta vulgaris, exhibits strong anti-inflammatory and antioxidant activities owing to its distinctive chemical structure. Nevertheless, its potential analgesic effect in the context of inflammatory pain remains insufficiently explored. Accordingly, this study investigated the analgesic effects of BET in a complete Freund’s adjuvant (CFA)-induced rat model of inflammatory pain. **Methods:** Rats received a single subcutaneous injection of 100 µL CFA to induce inflammatory pain, followed by oral administration of BET at doses of 40 or 80 mg/kg/day for 14 days. **Results:** BET treatment significantly reduced paw edema and improved HPL (hot plate latency) in CFA-injected rats. Biochemically, in the ipsilateral spinal cord of rats, BET at both 40 and 80 mg/kg significantly increased IL-4, and only the 80 mg/kg dose significantly reduced oxidative stress (MDA) and IL-1β. TNF-α levels were slightly reduced at both doses and did not reach statistical significance versus CFA. At the molecular level, miR-107 was significantly downregulated by BET at 80 mg/kg (but not 40 mg/kg), while miR-145 was significantly upregulated by both 40 mg/kg and 80 mg/kg compared to CFA. Pearson’s correlation indicated that miR-107 was positively correlated with MDA, IL-1β and TNF-α but negatively with IL-4, whereas miR-145 was positively correlated with IL-4 but negatively with IL-1β. PCA biplot analysis corroborated these findings, showing simultaneous presence of MDA, IL-1β, TNF-α, and miR-107 with CFA, and IL-4 and miR-145 were only related to control and CFA+BET80 groups. In addition, using transmission electron microscopy imaging, we found that BET alleviated neuronal damage in CFA-treated rats. Furthermore, molecular docking analysis predicted that BET may exhibit stable binding interactions with several inflammation- and apoptosis-related targets, including AKT1, mTOR, IKKβ, TNF-α, IL-1β, COX-2, caspase-3, caspase-7, and caspase-8, supporting its multi-target anti-inflammatory and antiapoptotic effects. **Conclusions:** Overall, our data suggest that BET can possibly exert analgesic effects in CFA-induced inflammatory pain by modulating oxidative stress and favoring a shift toward an anti-inflammatory status. These effects coincided with downregulation of miR-107, overexpression of miR-145, and improvements in inflammatory pain behaviors. Further investigations are required to validate the involvement of specific miRNA- and pathway-mediated effects. Nevertheless, our findings highlight BET as a promising natural candidate for future development of anti-inflammatory and analgesic strategies.
+> Myelin sheath impairment is linked to several neurological disorders; however, effectively counteracting its pathological consequences remains a formidable challenge. Herein, we investigate the neuroprotective potential of Moringa oleifera leaf extract (MOLE) against cuprizone (CPZ)-instigated demyelination in the corpus callosum (CC) of rats. Phytochemical profiling of MOLE was analyzed using gas chromatography-mass spectrometry (GC-MS). For in vivo investigations, adult male Wistar albino rats were assigned into four groups: Group I (control) received corn oil 0.5 mL and distilled water (1 mL) daily by oral gavage for three weeks; Group II (MOLE) received MOLE (300 mg/kg/day) in 1 mL distilled water orally for three weeks; Group III (CPZ) received CPZ (600 mg/kg/day) in 0.5 mL corn oil for one week, followed by 200 mg/kg/day for the next two weeks; Group IV (CPZ + MOLE) received both CPZ and MOLE according to the regimens described for Groups II and III. Neurobehavioral assessments using the rotarod and inverted screen tests revealed notable aberrations in CPZ-treated rats compared to control rats, whereas MOLE administration markedly ameliorated these deficits. Biochemically, CPZ treatment markedly deregulated oxidative stress markers in the CC, increasing malondialdehyde (MDA) and nitric oxide (NO), while reducing reduced glutathione (GSH), superoxide dismutase (SOD), and catalase (CAT) activities. Consistently, it elevated inflammatory biomarkers, including tumor necrosis factor-α (TNF-α), interleukin-1β (IL-1β), interleukin-6 (IL-6), and nuclear factor kappa B (NF-κB), accompanied by histological and ultrastructural anomalies compared with controls and those treated only with MOLE, suggesting its safety profile. Interestingly, co-administration of MOLE normalized oxidative stress and inflammatory markers, potentially through NF-κB orchestration, and correlated with histopathological and ultrastructural improvements. Molecular docking investigations further showed robust binding of bioactive compounds in MOLE within TNF-α and NF-κB active sites, substantiating in vivo findings. Collectively, our findings accentuate the potential prophylactic potency of MOLE against CPZ-induced demyelination.
 
-**Cite this article:** ***Massoud, A.**, Essawy, A. E., Alfredan, M. A., Abdel-Moneim, A. M., Gomaa, R. A., & Abdel Salam, S. (2026). Betanin from Beta vulgaris Attenuates Complete Freund’s Adjuvant-Induced Inflammatory Pain: Integrated Preclinical and In Silico Insights. Biomedicines, 14(6), 1202. https://doi.org/10.3390/biomedicines14061202*
+**Cite this article:** *Essawy, A. E., Fahmy, R. I., Gomaa, R. A., Fetouh, H. A., Helal, M., **Massoud, A.**, Hassan, M. A. & Abdel-Wahab, W. M. Neuroprotective effects of Moringa oleifera leaf extract via potential NF-κB modulation in cuprizone-induced demyelination in rats: Integrated in vivo and in silico evidence. Tissue & Cell (2026). https://doi.org/10.1016/j.tice.2026.103938*
+

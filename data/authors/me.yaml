@@ -13,8 +13,8 @@ postnominals:
   - "MSc"
 status:
   icon: ""
-role: "Teaching Assistant | Researcher | Bio-Scientific Designer"
-bio: "Ahmed Massoud is a molecular biology graduate, ranked first in his major, and currently a full-time Teaching Assistant at the Faculty of Science, Alamein International University. He is also an ASRT MSc Research Scholar under the Scientists for Next Generation (SNG) Program.  Alongside his academic background, he has a strong passion for bio-scientific illustration and visual science communication, aiming to simplify complex biological concepts through clear, accurate, and publication-ready figures.\n"
+role: "Assistant Lecturer | Researcher | Bio-Scientific Designer"
+bio: "Ahmed Massoud is a molecular biology graduate, ranked first in his major, and currently a full-time Assistant Lecturer at the Faculty of Science, Alamein International University. He is also an ASRT MSc Research Scholar under the Scientists for Next Generation (SNG) Program.  Alongside his academic background, he has a strong passion for bio-scientific illustration and visual science communication, aiming to simplify complex biological concepts through clear, accurate, and publication-ready figures.\n"
 affiliations:
   - name: "Alamein International University"
     url: "https://aiu.edu.eg/profile/ahmed-elsayed-massoud/"
@@ -70,9 +70,22 @@ education:
     end: "2019-08-31"
     summary: "Ranked first in my class with an excellent grade - GPA: 3.69 out of 4.\n"
 experience:
+  - role: "Full-time Assistant Lecturer"
+    org: "Alamein International University"
+    start: "2026-10-01"
+    summary: "- I have been responsible for teaching practical basic biology, and advanced molecular biotechnology courses, including Biology I (Anatomy and Cell Biology), Vertebrates, Molecular Biology I, Biology II (Histology and Physiology), Cellular Structure & Cell Communication, Molecular Biology II, Introduction to Biotechnology, Bioinformatics, Cell & Molecular Biology (for the Biomedical Engineering Program, Faculty of Engineering), and Cell Culture Principles & Techniques.
+
+      -\ 
+
+      - Also, I am acting as a coordinator of academic and administrative affairs, with full responsibility for tasks, including registration, student support, academic advising, and faculty logistics, among others, as a member of the “Academic Advising”, “Quality Assurance & Accreditation”, “Devices & Labs Preparation”, “Exams Supervision & Control”, “Reporting & Events Documentation”, and “Coursera” committees.\n"
+    button:
+      text: "View university profile!"
+      url: "https://aiu.edu.eg/profile/ahmed-elsayed-massoud"
+      icon: null
   - role: "Full-time Teaching Assistant"
     org: "Alamein International University"
     start: "2023-10-01"
+    end: "2026-09-30"
     summary: "- I have been responsible for teaching practical basic biology, and advanced molecular biotechnology courses, including Biology I (Anatomy and Cell Biology), Vertebrates, Molecular Biology I, Biology II (Histology and Physiology), Cellular Structure & Cell Communication, Molecular Biology II, Introduction to Biotechnology, Bioinformatics, Cell & Molecular Biology (for the Biomedical Engineering Program, Faculty of Engineering), and Cell Culture Principles & Techniques.
 
       -\ 
